@@ -1,53 +1,26 @@
+async function loadCSV() {
+    const response = await fetch('ztc_live.csv');
+    const data = await response.text();
+    const rows = data.trim().split('\n').map(r => r.split(','));
 
-// URL to your Google Sheet published as CSV
-// Replace with your own after publishing your Google Sheet to the web.
-// const googleSheetCSV = "https://docs.google.com/spreadsheets/d/e/XXXXXX/pub?output=csv";
+    const tableBody = document.querySelector('#courseTable tbody');
+    tableBody.innerHTML = '';
 
-// Fallback local CSV (in case Google Sheets is unavailable)
-const localCSV = "ztc_live.csv";
-
-// Main function to load data
-async function loadZTCData() {
-    let csvData;
-    try {
-        // Try loading from Google Sheets first
-        const response = await fetch(googleSheetCSV);
-        if (!response.ok) throw new Error("Google Sheets fetch failed");
-        csvData = await response.text();
-        console.log("Loaded ZTC data from Google Sheets");
-    } catch (err) {
-        // Fallback to local CSV
-        console.warn("Falling back to local CSV:", err);
-        const response = await fetch(localCSV);
-        csvData = await response.text();
-    }
-
-    // Parse and display the CSV
-    const parsedData = Papa.parse(csvData, { header: true });
-    displayCourses(parsedData.data);
-}
-
-// Function to display courses in a table
-function displayCourses(data) {
-    const tableBody = document.querySelector("#ztcTable tbody");
-    tableBody.innerHTML = "";
-
-    data.forEach(row => {
-        if (!row.Course) return; // Skip empty rows
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-            <td>${row.Course || ""}</td>
-            <td>${row.Term || ""}</td>
-            <td>${row.Section || ""}</td>
-            <td>${row.Instructor || ""}</td>
-            <td>${row.Units || ""}</td>
-            <td>${row.Days || ""}</td>
-            <td>${row.Time || ""}</td>
-            <td>${row.Location || ""}</td>
-        `;
+    rows.slice(1).forEach(row => {
+        const tr = document.createElement('tr');
+        row.forEach(cell => {
+            const td = document.createElement('td');
+            td.textContent = cell;
+            tr.appendChild(td);
+        });
         tableBody.appendChild(tr);
     });
-}
 
-// Run when page loads
-document.addEventListener("DOMContentLoaded", loadZTCData);
+    document.querySelector('#search').addEventListener('input', function() {
+        const query = this.value.toLowerCase();
+        document.querySelectorAll('#courseTable tbody tr').forEach(tr => {
+            tr.style.display = tr.textContent.toLowerCase().includes(query) ? '' : 'none';
+        });
+    });
+}
+loadCSV();
