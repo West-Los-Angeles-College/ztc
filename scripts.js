@@ -37,6 +37,7 @@ function displayCourses(data) {
         const tr = document.createElement("tr");
         tr.innerHTML = `
             <td>${row.Course || ""}</td>
+            <td>${row.Term || ""}</td>
             <td>${row.Section || ""}</td>
             <td>${row.Instructor || ""}</td>
             <td>${row.Units || ""}</td>
