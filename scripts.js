@@ -1,7 +1,7 @@
 
 // URL to your Google Sheet published as CSV
 // Replace with your own after publishing your Google Sheet to the web.
-const googleSheetCSV = "https://docs.google.com/spreadsheets/d/e/XXXXXX/pub?output=csv";
+// const googleSheetCSV = "https://docs.google.com/spreadsheets/d/e/XXXXXX/pub?output=csv";
 
 // Fallback local CSV (in case Google Sheets is unavailable)
 const localCSV = "ztc_live.csv";
