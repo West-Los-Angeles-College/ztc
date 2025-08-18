@@ -1,268 +1,247 @@
-/* scripts.js — WLAC ZTC search table + cart wiring (with Term auto-filter)
-   - Loads ztc_live.csv and renders a table (#ztcTable or #courseTable)
-   - Adds an “Add” button per row that saves to a shared cart (localStorage)
-   - Shows a small Term pill next to each Add button
-   - Injects the currently selected Term (from #termSelect) into every added item
-   - NEW: Automatically filters the table to the selected Term on load and when Term changes
+/* scripts.js — WLAC ZTC Search + Cart wiring
+   - Loads ztc_live.csv and renders the course table
+   - Adds an “Add” button per row and writes full details to localStorage
+   - Shows a Term pill under the Add button and injects the selected Term
+   - Auto-filters rows by the selected Term (if a #termSelect exists)
 */
-
 (function(){
   const STORAGE_KEY = 'wlacZtcCartV1';
-  const $ = (s, c=document)=>c.querySelector(s);
+  const $  = (s, c=document)=>c.querySelector(s);
   const $$ = (s, c=document)=>Array.from(c.querySelectorAll(s));
 
-  // ---- Cart primitives -----------------------------------------------------
-  function loadCart(){
-    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
-    catch { return []; }
-  }
+  // ----------------- Cart primitives -----------------
+  function loadCart(){ try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } }
   function saveCart(items){ localStorage.setItem(STORAGE_KEY, JSON.stringify(items)); }
-  function addToCart(item){
-    const items = loadCart();
-    items.push(item);
-    saveCart(items);
-  }
-  function inCart(course, section){
-    return loadCart().some(i => (i.course===course && i.section===section));
-  }
+  function inCart(course, section){ return loadCart().some(i => i.course===course && i.section===section); }
 
-  // Expose a minimal API if one is not defined (so index.html can patch it)
+  // Expose a minimal API other pages can use if needed
   if (!window.WLAC_ZTC_CART){
     window.WLAC_ZTC_CART = {
-      add: (item)=> addToCart(item),
+      add: (item)=>{ const arr=loadCart(); arr.push(item); saveCart(arr); },
       list: ()=> loadCart(),
       clear: ()=> saveCart([])
     };
   }
 
-  // ---- Term helpers --------------------------------------------------------
-  const termSelect = $('#termSelect');
+  // ----------------- Term helpers -----------------
   function currentTerm(){
-    return termSelect && termSelect.value ? termSelect.value : '';
+    const el = document.getElementById('termSelect');
+    return el && el.value ? el.value : '';
   }
   function makeTermBadge(){
     const b = document.createElement('small');
     b.className = 'term-badge';
-    b.textContent = currentTerm() || 'Term not set';
+    b.textContent = currentTerm() || '';
     return b;
   }
+  function applyTermFilter(){
+    const selTerm = currentTerm();
+    if (!selTerm) { // Show all if none selected
+      $$('#ztcTable tbody tr, #courseTable tbody tr').forEach(tr => tr.style.display = '');
+      return;
+    }
+    $$('#ztcTable tbody tr, #courseTable tbody tr').forEach(tr => {
+      const rowTerm = (tr.getAttribute('data-term')||'').toLowerCase();
+      tr.style.display = rowTerm === selTerm.toLowerCase() ? '' : 'none';
+    });
+  }
 
-  // ---- CSV loader / parser -------------------------------------------------
-  async function loadCSV(path){
+  // ----------------- CSV loader -----------------
+  async function fetchCSV(path){
     const res = await fetch(path, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`);
+    if(!res.ok) throw new Error('CSV fetch failed: '+res.status);
     const text = await res.text();
     return parseCSV(text);
   }
-
   function parseCSV(text){
-    // Simple CSV parser supporting quoted values
-    const rows = [];
+    const out = [];
     const lines = text.split(/\r?\n/).filter(l => l.trim().length);
     for (const line of lines){
-      const out = [];
-      let cur = '', q = false;
-      for (let i=0; i<line.length; i++){
-        const ch = line[i], nxt = line[i+1];
-        if (ch === '"'){
-          if (q && nxt === '"'){ cur += '"'; i++; }
-          else { q = !q; }
-        } else if (ch === ',' && !q){
-          out.push(cur); cur = '';
-        } else {
-          cur += ch;
-        }
+      let cur = '', q = false; const row = [];
+      for (let i=0;i<line.length;i++){
+        const ch=line[i], nx=line[i+1];
+        if(ch==='"'){ if(q && nx==='"'){ cur+='"'; i++; } else { q=!q; } }
+        else if(ch===',' && !q){ row.push(cur); cur=''; }
+        else { cur+=ch; }
       }
-      out.push(cur);
-      rows.push(out.map(s=>s.trim()));
+      row.push(cur);
+      out.push(row.map(s=>s.trim()));
     }
-    return rows;
+    return out;
   }
 
-  // ---- Build table from CSV -----------------------------------------------
-  const table = $('#courseTable, #ztcTable'); // support either id
+  // ----------------- Build table -----------------
+  const table = $('#ztcTable') || $('#courseTable');
   const tbody = table ? (table.tBodies[0] || table.createTBody()) : null;
 
-  function rowToObject(headers, row){
-    const obj = {};
-    headers.forEach((h,i)=> obj[h] = (row[i] ?? '').trim());
-    return obj;
+  function rowObj(headers, row){
+    const o={}; headers.forEach((h,i)=> o[h]= (row[i]??'').trim()); return o;
   }
 
   function buildTable(headers, rows){
-    // Normalize headers to Title Case. Expect: Course, Term, Section, Instructor, Units, Days, Time, Location
-    const norm = headers.map(h => (h || '').trim().replace(/\s+/g,' '));
-    const H = norm;
+    // Normalize header casing
+    headers = headers.map(h=>h.trim());
+    // Expected header titles
+    const expected = ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
 
-    // Build thead + Add column
-    const thead = table.tHead || table.createTHead();
-    thead.innerHTML = '';
-    const trh = document.createElement('tr');
-    H.forEach(h=>{
-      const th = document.createElement('th');
-      th.textContent = h;
-      trh.appendChild(th);
+    // If headers differ (e.g., uppercase), map to expected slots by best-effort matching
+    const mapIdx = {};
+    expected.forEach(exp=>{
+      const i = headers.findIndex(h => h.toLowerCase() === exp.toLowerCase());
+      mapIdx[exp] = i >= 0 ? i : -1;
     });
-    const thAdd = document.createElement('th'); thAdd.textContent = 'Add';
-    trh.appendChild(thAdd);
-    thead.appendChild(trh);
 
-    // Build body
-    tbody.innerHTML = '';
-    for (const row of rows){
-      const obj = rowToObject(H, row);
+    // Build thead with Add column if missing
+    let thead = table.tHead || table.createTHead();
+    thead.innerHTML = '';
+    const thr = document.createElement('tr');
+    expected.forEach(h=>{
+      const th=document.createElement('th'); th.textContent=h; thr.appendChild(th);
+    });
+    const thAdd = document.createElement('th'); thAdd.textContent = 'Add'; thr.appendChild(thAdd);
+    thead.appendChild(thr);
+
+    // Body
+    tbody.innerHTML='';
+    rows.forEach(r=>{
+      const obj = {};
+      expected.forEach(h=>{
+        const idx = mapIdx[h];
+        obj[h] = idx>=0 ? r[idx] : '';
+      });
+
       const tr = document.createElement('tr');
-      tr.dataset.term = obj.Term || ''; // store term for filtering
+      tr.setAttribute('data-term', obj.Term || '');
 
-      H.forEach(h=>{
+      expected.forEach(h=>{
         const td = document.createElement('td');
         td.textContent = obj[h] || '';
         tr.appendChild(td);
       });
 
-      // Add button + Term badge
       const tdBtn = document.createElement('td');
       tdBtn.className = 'add-cell';
-
       const btn = document.createElement('button');
-      btn.type = 'button';
+      btn.type='button';
       btn.textContent = inCart(obj.Course, obj.Section) ? 'Added' : 'Add';
       btn.disabled = inCart(obj.Course, obj.Section);
       btn.addEventListener('click', ()=>{
         const payload = {
-          course: obj.Course || '',
-          section: obj.Section || '',
+          course:     obj.Course || '',
+          term:       (currentTerm() || obj.Term || ''),
+          section:    obj.Section || '',
           instructor: obj.Instructor || '',
-          units: obj.Units || '',
-          days: obj.Days || '',
-          time: obj.Time || '',
-          location: obj.Location || '',
-          term: currentTerm() || obj.Term || ''
+          units:      obj.Units || '',
+          days:       obj.Days || '',
+          time:       obj.Time || '',
+          location:   obj.Location || ''
         };
-        if (window.WLAC_ZTC_CART && typeof window.WLAC_ZTC_CART.add === 'function'){
-          window.WLAC_ZTC_CART.add(payload);
+        if (window.WLAC_ZTC_CART && typeof WLAC_ZTC_CART.add==='function'){
+          WLAC_ZTC_CART.add(payload);
         } else {
-          addToCart(payload);
+          const arr = loadCart(); arr.push(payload); saveCart(arr);
         }
-        btn.textContent = 'Added';
-        btn.disabled = true;
-        try { document.dispatchEvent(new Event('wlac-cart-updated')); } catch(_) {}
+        btn.textContent='Added'; btn.disabled=true;
+        document.dispatchEvent(new Event('wlac-cart-updated'));
       });
-
       tdBtn.appendChild(btn);
-      tdBtn.appendChild(makeTermBadge());
-      tr.appendChild(tdBtn);
 
+      // Term badge
+      const badge = makeTermBadge();
+      tdBtn.appendChild(badge);
+
+      tr.appendChild(tdBtn);
       tbody.appendChild(tr);
-    }
+    });
+
+    applyTermFilter();
   }
 
-  // ---- Hydrate existing server-rendered table ------------------------------
   function hydrateExisting(){
-    const headCells = $$('#courseTable thead th, #ztcTable thead th').map(th=>th.textContent.trim());
-    const headers = headCells.length ? headCells.slice(0, -1) : ['Course','Term','Section','Instructor','Units','Days','Time','Location']; // assume last is Add
-    const theadRow = $('#courseTable thead tr, #ztcTable thead tr');
-    if (theadRow){
-      const lastText = theadRow.lastElementChild?.textContent?.trim();
-      if (lastText !== 'Add'){
-        const th = document.createElement('th'); th.textContent = 'Add';
-        theadRow.appendChild(th);
-      }
+    // If table already present in DOM, just add Add buttons
+    const head = $$('#ztcTable thead th, #courseTable thead th').map(th=>th.textContent.trim());
+    const expected = ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
+    const headers = head.length ? head.slice(0, expected.length) : expected;
+
+    // Ensure Add header
+    const thr = $('#ztcTable thead tr, #courseTable thead tr');
+    if (thr && (!thr.lastElementChild || thr.lastElementChild.textContent.trim()!=='Add')){
+      const th=document.createElement('th'); th.textContent='Add'; thr.appendChild(th);
     }
 
-    $$('#courseTable tbody tr, #ztcTable tbody tr').forEach(tr=>{
+    $$('#ztcTable tbody tr, #courseTable tbody tr').forEach(tr=>{
       const cells = $$('td', tr).map(td=>td.textContent.trim());
-      // Map headers to values
-      const obj = rowToObject(headers, cells);
-      tr.dataset.term = obj.Term || tr.dataset.term || '';
+      const obj = rowObj(headers, cells);
+      tr.setAttribute('data-term', obj.Term || '');
 
       const tdBtn = document.createElement('td');
-      tdBtn.className = 'add-cell';
+      tdBtn.className='add-cell';
 
       const btn = document.createElement('button');
-      btn.type = 'button';
+      btn.type='button';
       btn.textContent = inCart(obj.Course, obj.Section) ? 'Added' : 'Add';
       btn.disabled = inCart(obj.Course, obj.Section);
       btn.addEventListener('click', ()=>{
         const payload = {
-          course: obj.Course || '',
-          section: obj.Section || '',
+          course:     obj.Course || '',
+          term:       (currentTerm() || obj.Term || ''),
+          section:    obj.Section || '',
           instructor: obj.Instructor || '',
-          units: obj.Units || '',
-          days: obj.Days || '',
-          time: obj.Time || '',
-          location: obj.Location || '',
-          term: currentTerm() || obj.Term || ''
+          units:      obj.Units || '',
+          days:       obj.Days || '',
+          time:       obj.Time || '',
+          location:   obj.Location || ''
         };
-        if (window.WLAC_ZTC_CART && typeof window.WLAC_ZTC_CART.add === 'function'){
-          window.WLAC_ZTC_CART.add(payload);
+        if (window.WLAC_ZTC_CART && typeof WLAC_ZTC_CART.add==='function'){
+          WLAC_ZTC_CART.add(payload);
         } else {
-          addToCart(payload);
+          const arr = loadCart(); arr.push(payload); saveCart(arr);
         }
-        btn.textContent = 'Added';
-        btn.disabled = true;
-        try { document.dispatchEvent(new Event('wlac-cart-updated')); } catch(_) {}
+        btn.textContent='Added'; btn.disabled=true;
+        document.dispatchEvent(new Event('wlac-cart-updated'));
       });
 
       tdBtn.appendChild(btn);
       tdBtn.appendChild(makeTermBadge());
       tr.appendChild(tdBtn);
     });
+
+    applyTermFilter();
   }
 
-  // ---- Filtering -----------------------------------------------------------
-  function filterToSelectedTerm(){
-    const term = (currentTerm() || '').toLowerCase();
-    $$('#courseTable tbody tr, #ztcTable tbody tr').forEach(tr=>{
-      const t = (tr.dataset.term || '').toLowerCase();
-      tr.style.display = (!term || !t) ? '' : (t === term ? '' : 'none');
-    });
-  }
-
-  // Search box text filter (works in addition to Term filter)
+  // ----------------- Search filter -----------------
   const searchInput = $('#search');
-  function applyTextFilter(){
-    const text = (searchInput && searchInput.value || '').toLowerCase();
-    $$('#courseTable tbody tr, #ztcTable tbody tr').forEach(tr=>{
-      const visibleNow = tr.style.display !== 'none';
-      if (!visibleNow) return; // keep hidden if term filter hid it
-      const show = tr.textContent.toLowerCase().includes(text);
-      tr.style.display = show ? '' : 'none';
-    });
-  }
   if (searchInput){
-    searchInput.addEventListener('input', ()=>{
-      filterToSelectedTerm();
-      applyTextFilter();
+    searchInput.addEventListener('input', e=>{
+      const q = (e.target.value || '').toLowerCase();
+      $$('#ztcTable tbody tr, #courseTable tbody tr').forEach(tr=>{
+        tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
+      });
+      // re-apply term filter on top of text filter
+      applyTermFilter();
     });
   }
 
-  // ---- Initialize from CSV (with graceful fallback) ------------------------
+  // ----------------- Init -----------------
   if (table && tbody){
-    loadCSV('ztc_live.csv')
-      .then(rows=>{
-        if (!rows || !rows.length) throw new Error('Empty CSV');
+    fetchCSV('ztc_live.csv')
+      .then(rows => {
+        if (!rows.length) throw new Error('Empty CSV');
         const [headers, ...data] = rows;
         buildTable(headers, data);
-        // Auto-filter by selected Term after building
-        filterToSelectedTerm();
-        applyTextFilter();
       })
-      .catch(err=>{
-        console.warn('CSV load failed or not found. Falling back to existing table. Reason:', err);
+      .catch(()=>{
+        // Fallback to hydrating existing DOM table
         hydrateExisting();
-        filterToSelectedTerm();
-        applyTextFilter();
       });
   }
 
-  // Re-filter whenever Term changes
+  const termSelect = document.getElementById('termSelect');
   if (termSelect){
     termSelect.addEventListener('change', ()=>{
-      // Update all visible badges
-      document.querySelectorAll('.term-badge').forEach(el => el.textContent = currentTerm() || 'Term not set');
-      filterToSelectedTerm();
-      applyTextFilter();
+      // update all term badges
+      document.querySelectorAll('.term-badge').forEach(el => el.textContent = currentTerm() || '');
+      applyTermFilter();
     });
   }
 })();
