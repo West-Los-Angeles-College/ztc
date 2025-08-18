@@ -3,89 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WLAC ZTC Cart</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { color: #002147; }
-    .btn { display:inline-block; margin:8px 0; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:bold; }
-    .btn.back { background:#f1f1f1; color:#002147; }
-    table { width:100%; border-collapse: collapse; margin-top:16px; }
-    th, td { border:1px solid #ddd; padding:8px; text-align:left; }
-    thead th { background:#002147; color:#fff; }
-  </style>
+  <title>Your ZTC Cart</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
 </head>
 <body>
-  <a href="index.html" class="btn back">← Back to Search</a>
-  <h1>Your ZTC Cart</h1>
-  <table id="cartTable">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Course</th>
-        <th>Term</th>
-        <th>Section</th>
-        <th>Instructor</th>
-        <th>Units</th>
-        <th>Days</th>
-        <th>Time</th>
-        <th>Location</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <header>
+    <h1>Your ZTC Cart</h1>
+    <button onclick="window.location.href='index.html'">Back to Search</button>
+  </header>
 
-  <div style="margin-top:20px;">
-    <button id="saveCsv">Save CSV</button>
-    <button id="printCart">Print / Save PDF</button>
-  </div>
+  <main>
+    <table id="cartTable" border="1">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Term</th>
+          <th>Section</th>
+          <th>Instructor</th>
+          <th>Units</th>
+          <th>Days</th>
+          <th>Time</th>
+          <th>Location</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-  <a href="index.html" class="btn back">← Back to Search</a>
+    <div class="actions">
+      <button onclick="saveCart()">Save Cart</button>
+      <button onclick="printCart()">Print Cart</button>
+    </div>
+  </main>
 
-  <script>
-    (function(){
-      const STORAGE_KEY = 'wlacZtcCartV1';
-      const load = () => { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } };
-      const tableBody = document.querySelector('#cartTable tbody');
-
-      const render = () => {
-        const items = load();
-        tableBody.innerHTML = '';
-        items.forEach((i, idx) => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${idx+1}</td>
-            <td>${i.course||''}</td>
-            <td>${i.term||''}</td>
-            <td>${i.section||''}</td>
-            <td>${i.instructor||''}</td>
-            <td>${i.units||''}</td>
-            <td>${i.days||''}</td>
-            <td>${i.time||''}</td>
-            <td>${i.location||''}</td>
-          `;
-          tableBody.appendChild(tr);
-        });
-      };
-
-      // Save CSV
-      document.getElementById('saveCsv').addEventListener('click', () => {
-        const items = load();
-        const header = ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
-        const rows = items.map(i => [i.course,i.term,i.section,i.instructor,i.units,i.days,i.time,i.location]);
-        const csv = [header, ...rows].map(r => r.map(v => `"${(v||'').replaceAll('"','""')}"`).join(',')).join('\n');
-        const blob = new Blob([csv], {type:'text/csv'});
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a'); a.href = url; a.download = 'wlac-ztc-cart.csv'; a.click();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
-      });
-
-      // Print
-      document.getElementById('printCart').addEventListener('click', () => {
-        window.print();
-      });
-
-      render();
-    })();
-  </script>
+  <footer>
+    <button onclick="window.location.href='index.html'">Back to Search</button>
+  </footer>
 </body>
 </html>
