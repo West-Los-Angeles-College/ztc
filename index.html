@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WLAC Zero Textbook Cost Courses</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WLAC Zero Textbook Cost (ZTC) — Course Search</title>
+  <style>
+    :root{ --wlac-navy:#002147; --wlac-gold:#fdb813; --wlac-gray-100:#f7f7f8; --wlac-gray-200:#eeeeef; --wlac-gray-400:#cccccf; --text:#0f172a; }
+    html,body{ background:#fff; color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; }
+    header{ text-align:center; padding:20px 12px; }
+    header h1{ color:var(--wlac-navy); margin:.3rem 0; font-size:clamp(1.3rem, 2vw + 1rem, 2rem); }
+    .top-actions{ margin-top:8px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap; align-items:center; }
+    .btn{ background:var(--wlac-gold); color:#000; border:1px solid transparent; border-radius:10px; padding:10px 12px; font-weight:700; text-decoration:none; display:inline-block; }
+    .btn:hover{ filter:brightness(1.05); }
+    .btn-secondary{ background:#f1f1f1; color:#000; }
+    .badge{ display:inline-flex; align-items:center; gap:6px; padding:8px 10px; border:1px solid var(--wlac-gray-200); border-radius:999px; font-weight:700; color:var(--wlac-navy); background:#fff; }
+    main{ max-width:1100px; margin:0 auto; padding:20px; }
+    #search{ width:100%; max-width:520px; padding:10px 12px; border:1px solid var(--wlac-gray-400); border-radius:10px; margin:10px 0 6px; }
+    #search:focus{ border-color:var(--wlac-navy); outline:none; box-shadow:0 0 0 3px color-mix(in srgb, var(--wlac-navy) 20%, transparent); }
+    .helper{ margin:0 0 16px; color:#475569; font-size:.95rem; }
+    #courseTable{ width:100%; border-collapse:separate; border-spacing:0; background:#fff; border:1px solid var(--wlac-gray-200); border-radius:14px; overflow:hidden; }
+    #courseTable thead th{ position:sticky; top:0; background:var(--wlac-navy); color:#fff; text-align:left; padding:12px 10px; font-weight:700; letter-spacing:.2px; }
+    #courseTable tbody td{ padding:10px; border-top:1px solid var(--wlac-gray-200); vertical-align:top; }
+    #courseTable tbody tr:nth-child(odd){ background:var(--wlac-gray-100); }
+    #courseTable tbody tr:hover{ background:color-mix(in srgb, var(--wlac-gold) 12%, white); }
+    #courseTable td:last-child{ width:90px; }
+    #courseTable button{ background:var(--wlac-gold); color:#000; border-radius:8px; padding:8px 10px; border:0; width:100%; font-weight:700; cursor:pointer; }
+    #courseTable button:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.08); }
+    #courseTable button[disabled]{ opacity:.6; cursor:not-allowed; }
+    @media (max-width: 640px){ #courseTable thead{ display:none; } #courseTable tr{ display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:10px; } #courseTable td{ border:0; padding:4px 0; } #courseTable td:last-child{ grid-column:1 / -1; } }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>West Los Angeles College - Zero Textbook Cost (ZTC) Courses</h1>
-    </header>
-    <main>
-        <input type="text" id="search" placeholder="Search courses...">
-        <table id="courseTable">
-            <thead>
-                <tr>
-                    <th>Course</th>
-					<th>Term</th>
-                    <th>Section</th>
-                    <th>Instructor</th>
-                    <th>Units</th>
-                    <th>Days</th>
-                    <th>Time</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </main>
-    <script src="scripts.js"></script>
+  <header>
+    <h1>West Los Angeles College — Zero Textbook Cost (ZTC) Course Search</h1>
+    <div class="top-actions">
+      <span class="badge">🛒 Cart: <span id="cartBadge">0</span></span>
+      <a class="btn" href="ztc_index.html" target="_blank" rel="noopener">View Cart</a>
+      <a class="btn" href="ztc_index.html" target="_blank" rel="noopener">Print / Save PDF</a>
+      <button class="btn btn-secondary" id="clearCartTop" type="button">Clear Cart</button>
+    </div>
+  </header>
+  <main>
+    <input type="text" id="search" placeholder="Search courses, sections, or instructors…" />
+    <p class="helper">This page lists <strong>Zero Textbook Cost (ZTC)</strong> sections. Add courses to your cart, then open the cart to print or save your list.</p>
+    <table id="courseTable">
+      <thead>
+        <tr>
+          <th>Course</th>
+		  <th>Term</th>
+          <th>Section</th>
+          <th>Instructor</th>
+          <th>Units</th>
+          <th>Days</th>
+          <th>Time</th>
+          <th>Location</th>
+          <th>Add</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+  <script src="scripts.js"></script>
+  <script>
+    (function(){
+      const KEY = 'wlacZtcCartV1';
+      const badge = document.getElementById('cartBadge');
+      const clearBtn = document.getElementById('clearCartTop');
+      const load = ()=>{ try{return JSON.parse(localStorage.getItem(KEY))||[]}catch{return[]} };
+      const render = ()=>{ badge.textContent = load().length; };
+      render();
+      window.addEventListener('DOMContentLoaded', ()=>{
+        if(window.WLAC_ZTC_CART){
+          const origAdd = window.WLAC_ZTC_CART.add;
+          const origClear = window.WLAC_ZTC_CART.clear;
+          window.WLAC_ZTC_CART.add = function(){ origAdd.apply(this, arguments); render(); };
+          window.WLAC_ZTC_CART.clear = function(){ origClear.apply(this, arguments); render(); };
+        }
+      });
+      setInterval(render, 1000);
+      clearBtn.addEventListener('click', ()=>{
+        if(confirm('Clear all items from your cart?')){ localStorage.setItem(KEY, '[]'); render(); }
+      });
+      window.addEventListener('storage', (e)=>{ if(e.key===KEY) render(); });
+    })();
+  </script>
 </body>
 </html>
