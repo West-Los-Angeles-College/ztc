@@ -1,219 +1,32 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>WLAC Zero Textbook Cost (ZTC) — Course Search</title>
-<style>
-    :root{ --wlac-navy:#002147; --wlac-gold:#fdb813; --wlac-gray-100:#f7f7f8; --wlac-gray-200:#eeeeef; --wlac-gray-400:#cccccf; --text:#0f172a; }
-    html,body{ background:#fff; color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; }
-    header{ text-align:center; padding:20px 12px; }
-    header h1{ color:var(--wlac-navy); margin:.3rem 0; font-size:clamp(1.3rem, 2vw + 1rem, 2rem); }
-    .top-actions{ margin-top:8px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap; align-items:center; }
-    .btn{ background:var(--wlac-gold); color:#000; border:1px solid transparent; border-radius:10px; padding:10px 12px; font-weight:700; text-decoration:none; display:inline-block; }
-    .btn:hover{ filter:brightness(1.05); }
-    .btn-secondary{ background:#f1f1f1; color:#000; }
-    .badge{ display:inline-flex; align-items:center; gap:6px; padding:8px 10px; border:1px solid var(--wlac-gray-200); border-radius:999px; font-weight:700; color:var(--wlac-navy); background:#fff; }
-    main{ max-width:1100px; margin:0 auto; padding:20px; }
-    #search{ width:100%; max-width:520px; padding:10px 12px; border:1px solid var(--wlac-gray-400); border-radius:10px; margin:10px 0 6px; }
-    #search:focus{ border-color:var(--wlac-navy); outline:none; box-shadow:0 0 0 3px color-mix(in srgb, var(--wlac-navy) 20%, transparent); }
-    .helper{ margin:0 0 16px; color:#475569; font-size:.95rem; }
-    #courseTable{ width:100%; border-collapse:separate; border-spacing:0; background:#fff; border:1px solid var(--wlac-gray-200); border-radius:14px; overflow:hidden; }
-    #courseTable thead th{ position:sticky; top:0; background:var(--wlac-navy); color:#fff; text-align:left; padding:12px 10px; font-weight:700; letter-spacing:.2px; }
-    #courseTable tbody td{ padding:10px; border-top:1px solid var(--wlac-gray-200); vertical-align:top; }
-    #courseTable tbody tr:nth-child(odd){ background:var(--wlac-gray-100); }
-    #courseTable tbody tr:hover{ background:color-mix(in srgb, var(--wlac-gold) 12%, white); }
-    #courseTable td:last-child{ width:90px; }
-    #courseTable button{ background:var(--wlac-gold); color:#000; border-radius:8px; padding:8px 10px; border:0; width:100%; font-weight:700; cursor:pointer; }
-    #courseTable button:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.08); }
-    #courseTable button[disabled]{ opacity:.6; cursor:not-allowed; }
-    @media (max-width: 640px){ #courseTable thead{ display:none; } #courseTable tr{ display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:10px; } #courseTable td{ border:0; padding:4px 0; } #courseTable td:last-child{ grid-column:1 / -1; } }
-  
-    /* Cart UI for index.html */
-    #cartToggle{
-      position: fixed; right: 16px; bottom: 16px; z-index: 50;
-      border: 0; border-radius: 999px; padding: 12px 14px; font-size: 16px; cursor: pointer;
-      background:var(--wlac-gold); color:#000; box-shadow: 0 6px 16px rgba(0,0,0,.2);
-    }
-    #cartToggle #cartCount{ font-weight:700; padding-left:6px; }
-    #cartDrawer{ position: fixed; top:0; right:-440px; width:440px; max-width:100%; height:100vh; background:#fff; box-shadow:-6px 0 24px rgba(0,0,0,.15); transition:right .25s ease; z-index:60; display:flex; flex-direction:column; }
-    #cartDrawer.open{ right:0; }
-    .cart-header{ display:flex; align-items:center; justify-content:space-between; padding:16px 18px; border-bottom:1px solid var(--wlac-gray-200); }
-    .cart-header h2{ margin:0; font-size:1.25rem; color:var(--wlac-navy); }
-    .cart-content{ padding:16px 18px; overflow:auto; }
-    .cart-items{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
-    .cart-item{ border:1px solid var(--wlac-gray-200); border-radius:12px; padding:10px 12px; }
-    .item-top{ display:flex; justify-content:space-between; gap:8px; flex-wrap: wrap; }
-    .item-title{ font-weight:700; color:var(--wlac-navy); }
-    .item-meta{ font-size:.92rem; color:#333; }
-    .remove{ background:transparent; border:0; color:#b30000; cursor:pointer; font-weight:700; }
-    .cart-actions{ padding:12px 18px; border-top:1px solid var(--wlac-gray-200); display:flex; gap:10px; }
-    .cart-actions button{ flex:1; border:0; border-radius:10px; padding:10px 12px; cursor:pointer; font-weight:700; }
-    #copyList{ background:#f1f1f1; }
-    #saveCsv{ background:var(--wlac-gold); }
-    #clearCart{ background:#ffe9e9; color:#b30000; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WLAC Zero Textbook Cost Courses</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<h1>West Los Angeles College — Zero Textbook Cost (ZTC) Course Search</h1>
-<div class="top-actions">
-<span class="badge">🛒 Cart: <span id="cartBadge">0</span></span>
-<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">View Cart</a>
-<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">Print / Save PDF</a>
-<button class="btn btn-secondary" id="clearCartTop" type="button">Clear Cart</button>
-</div>
-</header>
-<main>
-<input id="search" placeholder="Search courses, sections, or instructors…" type="text"/>
-<p class="helper">This page lists <strong>Zero Textbook Cost (ZTC)</strong> sections. Add courses to your cart, then open the cart to print or save your list.</p>
-<table id="courseTable">
-<thead>
-<tr>
-<th>Course</th>
-<th>Term</th>
-<th>Section</th>
-<th>Instructor</th>
-<th>Units</th>
-<th>Days</th>
-<th>Time</th>
-<th>Location</th>
-<th>Add</th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-</main>
-<script src="scripts.js"></script>
-<script>
-    (function(){
-      const KEY = 'wlacZtcCartV1';
-      const badge = document.getElementById('cartBadge');
-      const clearBtn = document.getElementById('clearCartTop');
-      const load = ()=>{ try{return JSON.parse(localStorage.getItem(KEY))||[]}catch{return[]} };
-      const render = ()=>{ badge.textContent = load().length; };
-      render();
-      window.addEventListener('DOMContentLoaded', ()=>{
-        if(window.WLAC_ZTC_CART){
-          const origAdd = window.WLAC_ZTC_CART.add;
-          const origClear = window.WLAC_ZTC_CART.clear;
-          window.WLAC_ZTC_CART.add = function(){ origAdd.apply(this, arguments); render(); };
-          window.WLAC_ZTC_CART.clear = function(){ origClear.apply(this, arguments); render(); };
-        }
-      });
-      setInterval(render, 1000);
-      clearBtn.addEventListener('click', ()=>{
-        if(confirm('Clear all items from your cart?')){ localStorage.setItem(KEY, '[]'); render(); }
-      });
-      window.addEventListener('storage', (e)=>{ if(e.key===KEY) render(); });
-    })();
-  </script>
-
-<!-- Floating Cart Button -->
-<button aria-label="Open cart" id="cartToggle" title="Open cart">🛒 <span id="cartCount">0</span></button>
-<!-- Cart Drawer -->
-<aside aria-hidden="true" id="cartDrawer">
-<div class="cart-header">
-<h2>Your ZTC Cart</h2>
-<button aria-label="Close cart" class="no-print" id="cartClose">✕</button>
-</div>
-<div class="cart-content">
-<ul class="cart-items" id="cartItems"></ul>
-</div>
-<div class="cart-actions no-print">
-<button id="copyList">Copy All</button>
-<button id="saveCsv">Save CSV</button>
-<button class="danger" id="clearCart">Clear Cart</button>
-</div>
-</aside>
-
-<script>
-  (function(){
-    const STORAGE_KEY = 'wlacZtcCartV1';
-    const $ = (sel, ctx=document)=>ctx.querySelector(sel);
-    const cartToggle = $('#cartToggle');
-    const cartDrawer = $('#cartDrawer');
-    const cartClose  = $('#cartClose');
-    const cartItemsEl = $('#cartItems');
-    const cartCount = $('#cartCount');
-
-    const load = () => { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } };
-    const save = (items) => localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-
-    const format = (it)=>{
-      const p = [it.course, it.section && ('Sec ' + it.section)].filter(Boolean).join(' • ');
-      const meta = [it.term, it.instructor, it.units && (it.units+ ' units'), it.days, it.time, it.location]
-        .filter(Boolean).join(' | ');
-      return {title:p, meta};
-    };
-
-    const render = () => {
-      const items = load();
-      if(cartCount) cartCount.textContent = items.length;
-      if(!cartItemsEl) return;
-      cartItemsEl.innerHTML = '';
-      items.forEach((it, idx)=>{
-        const {title, meta} = format(it);
-        const li = document.createElement('li');
-        li.className = 'cart-item';
-        li.innerHTML = `
-          <div class="item-top">
-            <div class="item-title">${title}</div>
-            <button class="remove no-print" data-idx="${idx}">Remove</button>
-          </div>
-          <div class="item-meta">${meta || ''}</div>
-        `;
-        cartItemsEl.appendChild(li);
-      });
-    };
-
-    if(cartToggle) cartToggle.addEventListener('click', ()=>{ cartDrawer.classList.add('open'); cartDrawer.setAttribute('aria-hidden','false'); });
-    if(cartClose) cartClose.addEventListener('click', ()=>{ cartDrawer.classList.remove('open'); cartDrawer.setAttribute('aria-hidden','true'); });
-
-    if(cartItemsEl){
-      cartItemsEl.addEventListener('click', (e)=>{
-        if(e.target.matches('.remove')){
-          const idx = +e.target.getAttribute('data-idx');
-          const items = load(); items.splice(idx,1); save(items); render();
-        }
-      });
-    }
-
-    // Copy & Save CSV & Clear
-    const copyBtn = $('#copyList');
-    const saveBtn = $('#saveCsv');
-    const clearBtn = $('#clearCart');
-    if(copyBtn) copyBtn.addEventListener('click', ()=>{
-      const items = load();
-      const text = items.map(i=>`${i.course} | Sec ${i.section} | ${[i.term,i.instructor,i.units && (i.units+' units'), i.days, i.time, i.location].filter(Boolean).join(' | ')}`).join('\n');
-      navigator.clipboard.writeText(text).then(()=> alert('Cart copied to clipboard'));
-    });
-    if(saveBtn) saveBtn.addEventListener('click', ()=>{
-      const items = load();
-      const header = ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
-      const rows = items.map(i=>[i.course,i.term,i.section,i.instructor,i.units,i.days,i.time,i.location]);
-      const csv = [header, ...rows].map(r=>r.map(v=>`"${(v||'').replaceAll('"','""')}"`).join(',')).join('\n');
-      const blob = new Blob([csv], {type:'text/csv'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url; a.download = 'wlac-ztc-cart.csv'; a.click();
-      setTimeout(()=>URL.revokeObjectURL(url), 1000);
-    });
-    if(clearBtn) clearBtn.addEventListener('click', ()=>{
-      if(confirm('Clear all items from your cart?')){ localStorage.setItem(STORAGE_KEY, '[]'); render(); }
-    });
-
-    // Auto-open cart if query string contains viewCart=1
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('viewCart') === '1') {
-      if(cartDrawer){ cartDrawer.classList.add('open'); cartDrawer.setAttribute('aria-hidden','false'); }
-    }
-
-    render();
-    // update badge (if exists elsewhere)
-    document.addEventListener('wlac-cart-updated', render);
-    window.addEventListener('storage', (e)=>{ if(e.key===STORAGE_KEY) render(); });
-  })();
-  </script>
+    <header>
+        <h1>West Los Angeles College - Zero Textbook Cost (ZTC) Courses</h1>
+    </header>
+    <main>
+        <input type="text" id="search" placeholder="Search courses...">
+        <table id="courseTable">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Section</th>
+                    <th>Instructor</th>
+                    <th>Units</th>
+                    <th>Days</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
