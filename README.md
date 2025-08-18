@@ -1,25 +1,72 @@
-# WLAC ZTC Website Package (with Save & Print)
+# WLAC Zero Textbook Cost (ZTC) – Web Package
 
-This bundle contains the Zero Textbook Cost (ZTC) search + cart site for West Los Angeles College.
-It includes Save (JSON), Print, Print/Save PDF, and CSV export actions.
+This bundle contains a student-friendly ZTC search page with a shared shopping cart.
+It’s WLAC-branded (navy & gold), mobile-responsive, and requires **no backend**.
 
 ## Files
-- `index.html` — ZTC **Search** page. Loads `ztc_live.csv`, shows a table with **Add** buttons, a live cart badge, a Term selector, and auto-filter by Term.
-- `ztc_index.html` — ZTC **Overview** page with the slide-out cart drawer and actions (**Copy**, **Save CSV**, **Save (JSON)**, **Print**, **Print / Save PDF**, **Clear**).
-- `scripts.js` — Renders the table from `ztc_live.csv`, adds “Add” buttons, injects the selected **Term** into cart items, shows Term badges, and auto-filters by Term.
-- `styles.css` — WLAC-branded styling (navy/gold) for tables, buttons, and cart UI.
-- `ztc_live.csv` — Your current ZTC section list. Expected header order: `Course,Term,Section,Instructor,Units,Days,Time,Location`.
-- `ztc_live_normalized.csv` — Same content with Title Case headers (for reference/testing).
+
+- **index.html** — ZTC **Search** page. Loads `ztc_live.csv`, renders a course table, and adds an **Add** button per row.
+  - Header shows a live **Cart** badge, **Term** selector, quick links to **View Cart / Print**.
+  - Uses the global cart (`localStorage` key: `wlacZtcCartV1`).
+
+- **scripts.js** — Logic to:
+  - Load `ztc_live.csv` (no-cache) and build the table
+  - Provide **Add** buttons + Term badges
+  - Inject the **selected Term** from the header into each cart item
+  - Gracefully hydrate an already-rendered table if CSV is missing
+
+- **styles.css** — Optional shared styles (if you prefer a separate stylesheet). Inline CSS already exists in `index.html`.
+
+- **ztc_live.csv** — Your **current** live CSV of ZTC sections.
+- **ztc_live_normalized.csv** — A copy with **Title Case headers** for convenience.
+
+## CSV Format
+
+Expected header order (Title Case recommended):
+```
+Course, Term, Section, Instructor, Units, Days, Time, Location
+```
+- The app is tolerant of UPPERCASE headers; values are trimmed client‑side.
+- Add or remove rows at any time; refresh the page to see changes.
+
+## Term Handling
+
+- The **Term selector** in `index.html` (e.g., *Fall 2025*, *Spring 2026*) is attached to each item you add to the cart.
+- Term appears **next to Course** in Print / Save PDF and is exported **after Course** in CSV.
+
+## Cart Features (shared across pages)
+
+- **Persisted** via `localStorage` (`wlacZtcCartV1`)
+- **Copy All**, **Save CSV**, **Print / Save PDF**, **Clear Cart**
+- Items added on the Search page will appear in the cart view (if you also use a cart drawer page).
 
 ## How to Run Locally
-1. Put all files in the same folder.
-2. Open `index.html` in a browser. (If CSV loading is blocked by your browser’s file security, run a local web server.)
-   - Python 3: `python -m http.server 8000` then go to http://localhost:8000/
-3. Use the Term selector, search, and **Add** buttons to build your cart.
-4. Click **View Cart** (or open `ztc_index.html`) to **Save**, **Print**, **Print/Save PDF**, **Save CSV**, or **Copy**.
 
-## Notes
-- The cart is saved in `localStorage` under the key `wlacZtcCartV1` so it persists between pages.
-- The **View Cart** button links to `index.html?viewCart=1`, which auto-opens the cart drawer.
-- The **Term** column appears right after **Course** in both CSV and Print outputs.
-- You can replace `ztc_live.csv` with your official export as long as headers match the expected order above.
+1. Place all files in the same folder.
+2. Open `index.html` in a web browser.
+   - If your browser blocks `fetch()` of local files, use a lightweight server:
+     ```bash
+     # Python 3
+     python3 -m http.server 8080
+     # Then visit http://localhost:8080
+     ```
+
+## Deployment
+
+- Upload the folder to your web host as-is.
+- Keep `ztc_live.csv` in the **same directory** as `index.html` so the loader can fetch it.
+
+## Customization Tips
+
+- **Branding:** adjust colors in `:root` variables in the CSS.
+- **Term options:** edit the `<select id="termSelect">` in `index.html`.
+- **Analytics:** add GA4 events to button clicks in `scripts.js` (e.g., Add, Print, Save CSV).
+
+## Accessibility Notes
+
+- Buttons have clear labels and keyboard focus states.
+- Table has proper `<thead>`/`<tbody>` sections; on small screens it becomes a stacked layout.
+
+---
+
+GO WEST. GO FAR. — West Los Angeles College
