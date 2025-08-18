@@ -1,81 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WLAC Zero Textbook Cost Courses</title>
-  <!-- Replaced external CSS with WLAC-branded inline styles -->
-  <style>
-    :root{
-      --wlac-navy:#002147;
-      --wlac-gold:#fdb813;
-      --wlac-gray-100:#f7f7f8;
-      --wlac-gray-200:#eeeeef;
-      --wlac-gray-400:#cccccf;
-      --text:#0f172a;
-    }
-
-    html,body{ background:#fff; color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; }
-
-    header{ text-align:center; padding:20px 12px; }
-    header h1{ color:var(--wlac-navy); margin:.3rem 0; font-size:clamp(1.3rem, 2vw + 1rem, 2rem); }
-
-    main{ max-width:1100px; margin:0 auto; padding:20px; }
-
-    /* Search input */
-    #search{ width:100%; max-width:520px; padding:10px 12px; border:1px solid var(--wlac-gray-400); border-radius:10px; margin:10px 0 16px; }
-    #search:focus{ border-color:var(--wlac-navy); outline:none; box-shadow:0 0 0 3px color-mix(in srgb, var(--wlac-navy) 20%, transparent); }
-
-    /* Course search table */
-    #courseTable{ width:100%; border-collapse:separate; border-spacing:0; background:#fff; border:1px solid var(--wlac-gray-200); border-radius:14px; overflow:hidden; }
-    #courseTable thead th{
-      position:sticky; top:0; background:var(--wlac-navy); color:#fff; text-align:left; padding:12px 10px; font-weight:700; letter-spacing:.2px;
-    }
-    #courseTable tbody td{ padding:10px; border-top:1px solid var(--wlac-gray-200); vertical-align:top; }
-    #courseTable tbody tr:nth-child(odd){ background:var(--wlac-gray-100); }
-    #courseTable tbody tr:hover{ background:color-mix(in srgb, var(--wlac-gold) 12%, white); }
-
-    /* Add button inside table */
-    #courseTable td:last-child{ width:90px; }
-    #courseTable button{
-      background:var(--wlac-gold); color:#000; border-radius:8px; padding:8px 10px; border:0; width:100%; font-weight:700; cursor:pointer;
-    }
-    #courseTable button:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.08); }
-    #courseTable button[disabled]{ opacity:.6; cursor:not-allowed; }
-
-    /* Responsive */
-    @media (max-width: 640px){
-      #courseTable thead{ display:none; }
-      #courseTable tr{ display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:10px; }
-      #courseTable td{ border:0; padding:4px 0; }
-      #courseTable td:last-child{ grid-column:1 / -1; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WLAC Zero Textbook Cost Courses</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>West Los Angeles College — Zero Textbook Cost (ZTC) Courses</h1>
-  </header>
-
-  <main>
-    <input type="text" id="search" placeholder="Search courses..." />
-
-    <table id="courseTable">
-      <thead>
-        <tr>
-          <th>Course</th>
-          <th>Section</th>
-          <th>Instructor</th>
-          <th>Units</th>
-          <th>Days</th>
-          <th>Time</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </main>
-
-  <script src="scripts.js"></script>
+    <header>
+        <h1>West Los Angeles College - Zero Textbook Cost (ZTC) Courses</h1>
+    </header>
+    <main>
+        <input type="text" id="search" placeholder="Search courses...">
+        <table id="courseTable">
+            <thead>
+                <tr>
+                    <th>Course</th>
+					<th>Term</th>
+                    <th>Section</th>
+                    <th>Instructor</th>
+                    <th>Units</th>
+                    <th>Days</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
