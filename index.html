@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WLAC Zero Textbook Cost (ZTC) — Course Search</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>WLAC Zero Textbook Cost (ZTC) — Course Search</title>
+<style>
     :root{ --wlac-navy:#002147; --wlac-gold:#fdb813; --wlac-gray-100:#f7f7f8; --wlac-gray-200:#eeeeef; --wlac-gray-400:#cccccf; --text:#0f172a; }
     html,body{ background:#fff; color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; }
     header{ text-align:center; padding:20px 12px; }
@@ -31,37 +32,37 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>West Los Angeles College — Zero Textbook Cost (ZTC) Course Search</h1>
-    <div class="top-actions">
-      <span class="badge">🛒 Cart: <span id="cartBadge">0</span></span>
-      <a class="btn" href="ztc_index.html" target="_blank" rel="noopener">View Cart</a>
-      <a class="btn" href="ztc_index.html" target="_blank" rel="noopener">Print / Save PDF</a>
-      <button class="btn btn-secondary" id="clearCartTop" type="button">Clear Cart</button>
-    </div>
-  </header>
-  <main>
-    <input type="text" id="search" placeholder="Search courses, sections, or instructors…" />
-    <p class="helper">This page lists <strong>Zero Textbook Cost (ZTC)</strong> sections. Add courses to your cart, then open the cart to print or save your list.</p>
-    <table id="courseTable">
-      <thead>
-        <tr>
-          <th>Course</th>
-		  <th>Term</th>
-          <th>Section</th>
-          <th>Instructor</th>
-          <th>Units</th>
-          <th>Days</th>
-          <th>Time</th>
-          <th>Location</th>
-          <th>Add</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </main>
-  <script src="scripts.js"></script>
-  <script>
+<header>
+<h1>West Los Angeles College — Zero Textbook Cost (ZTC) Course Search</h1>
+<div class="top-actions">
+<span class="badge">🛒 Cart: <span id="cartBadge">0</span></span>
+<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">View Cart</a>
+<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">Print / Save PDF</a>
+<button class="btn btn-secondary" id="clearCartTop" type="button">Clear Cart</button>
+</div>
+</header>
+<main>
+<input id="search" placeholder="Search courses, sections, or instructors…" type="text"/>
+<p class="helper">This page lists <strong>Zero Textbook Cost (ZTC)</strong> sections. Add courses to your cart, then open the cart to print or save your list.</p>
+<table id="courseTable">
+<thead>
+<tr>
+<th>Course</th>
+<th>Term</th>
+<th>Section</th>
+<th>Instructor</th>
+<th>Units</th>
+<th>Days</th>
+<th>Time</th>
+<th>Location</th>
+<th>Add</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</main>
+<script src="scripts.js"></script>
+<script>
     (function(){
       const KEY = 'wlacZtcCartV1';
       const badge = document.getElementById('cartBadge');
