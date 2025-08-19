@@ -59,7 +59,7 @@
       }
       for (const item of cart) {
         const tr = document.createElement('tr');
-        ["course", "section", "instructor", "units", "days", "time", "location"].forEach(k => {
+        ["course", "section", "term", "instructor", "units", "days", "time", "location"].forEach(k => {
           const td = document.createElement('td');
           td.textContent = item[k] || '';
           tr.appendChild(td);
@@ -75,7 +75,7 @@
     function downloadCSV() {
       const cart = loadCart();
       if (!cart.length) return;
-      const headers = ["Course", "Section", "Instructor", "Units", "Days", "Time", "Location"];
+      const headers = ["Course", "Term", "Section", "Instructor", "Units", "Days", "Time", "Location"];
       const rows = cart.map(item => headers.map(h => item[h.toLowerCase()] || ''));
       const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
