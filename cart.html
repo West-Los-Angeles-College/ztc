@@ -60,7 +60,7 @@
       }
       for (const item of cart) {
         const tr = document.createElement('tr');
-        ["course", "section", "term", "instructor", "units", "days", "time", "location"].forEach(k => {
+        ["course", "term", "section", "instructor", "units", "days", "time", "location"].forEach(k => {
           const td = document.createElement('td');
           td.textContent = item[k] || '';
           tr.appendChild(td);
