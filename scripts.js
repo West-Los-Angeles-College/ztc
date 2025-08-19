@@ -69,10 +69,6 @@
     const t = (term||'').toLowerCase();
     $$('#courseTable tbody tr').forEach(tr=>{ tr.style.display = tr.textContent.toLowerCase().includes(t) ? '' : 'none'; });
   }
-  function openCart() {
-  // Force refresh of cart.html so saved items always reload
-  window.location.href = 'cart.html?refresh=' + new Date().getTime();
-}
 
   if(searchInput){ searchInput.addEventListener('input', e=> applyFilter(e.target.value)); }
 
