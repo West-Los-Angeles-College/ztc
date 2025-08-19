@@ -60,7 +60,8 @@
 <h1>West Los Angeles College — Zero Textbook Cost (ZTC) Course Search</h1>
 <div class="top-actions">
 <span class="badge">🛒 Cart: <span id="cartBadge">0</span></span>
-<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">View Cart</a>
+<a class="btn" href="cart.html" rel="noopener">View Cart</a>
+<a class="btn" href="ztc_index.html" rel="noopener" target="_blank">Print / Save PDF</a>
 <button class="btn btn-secondary" id="clearCartTop" type="button">Clear Cart</button>
 </div>
 </header>
@@ -108,7 +109,6 @@
       window.addEventListener('storage', (e)=>{ if(e.key===KEY) render(); });
     })();
   </script>
-
 <!-- Floating Cart Button -->
 <button aria-label="Open cart" id="cartToggle" title="Open cart">🛒 <span id="cartCount">0</span></button>
 <!-- Cart Drawer -->
@@ -126,7 +126,6 @@
 <button class="danger" id="clearCart">Clear Cart</button>
 </div>
 </aside>
-
 <script>
   (function(){
     const STORAGE_KEY = 'wlacZtcCartV1';
