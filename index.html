@@ -184,7 +184,7 @@
     const clearBtn = $('#clearCart');
     if(copyBtn) copyBtn.addEventListener('click', ()=>{
       const items = load();
-      const text = items.map(i=>`${i.course} | Sec ${i.section} | ${[i.term,i.instructor,i.units && (i.units+' units'), i.days, i.time, i.location].filter(Boolean).join(' | ')}`).join('\n');
+      const text = items.map(i=>`${i.course} | ${[i.term, | Sec ${i.section} | i.instructor,i.units && (i.units+' units'), i.days, i.time, i.location].filter(Boolean).join(' | ')}`).join('\n');
       navigator.clipboard.writeText(text).then(()=> alert('Cart copied to clipboard'));
     });
     if(saveBtn) saveBtn.addEventListener('click', ()=>{
