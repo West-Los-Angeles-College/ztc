@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your ZTC Cart</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My ZTC Course Cart | WLAC</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #fff; color: #0f172a; padding: 20px; }
+    h1 { color: #002147; }
+    .btn { background: #fdb813; color: #000; border: none; padding: 10px 14px; margin: 6px; border-radius: 8px; cursor: pointer; font-weight: bold; text-decoration: none; }
+    .btn:hover { filter: brightness(1.1); }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background: #002147; color: #fff; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Your ZTC Cart</h1>
-    <nav>
-      <button onclick="window.location.href='index.html'">Back to Search</button>
-    </nav>
-  </header>
-
-  <main>
-    <table id="cartTable" border="1" cellspacing="0" cellpadding="5">
-      <thead>
-        <tr>
-          <th>Course</th>
-          <th>Term</th>
-          <th>Section</th>
-          <th>Instructor</th>
-          <th>Units</th>
-          <th>Days</th>
-          <th>Time</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody id="cartBody">
-        <!-- Cart items will load here -->
-      </tbody>
-    </table>
-
-    <div class="cart-actions">
-      <button onclick="saveCart()">Save Cart</button>
-      <button onclick="window.print()">Print Cart</button>
-    </div>
-
-    <nav>
-      <button onclick="window.location.href='index.html'">Back to Search</button>
-    </nav>
-  </main>
+  <h1>My Saved Courses</h1>
+  <div>
+    <button class="btn" onclick="printCart()">Print</button>
+    <button class="btn" onclick="downloadCSV()">Save as CSV</button>
+    <button class="btn" onclick="clearCart()">Clear Cart</button>
+    <a class="btn" href="index.html">Back to Search</a>
+    <a class="btn" href="cart.html">View Cart</a>
+  </div>
+  <table id="cartTable">
+    <thead>
+      <tr>
+        <th>Course</th>
+        <th>Section</th>
+        <th>Instructor</th>
+        <th>Units</th>
+        <th>Days</th>
+        <th>Time</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
   <script>
-    // Load cart data from localStorage
-    function loadCart() {
-      const cart = JSON.parse(localStorage.getItem("ztcCart")) || [];
-      const cartBody = document.getElementById("cartBody");
-      cartBody.innerHTML = "";
+    const STORAGE_KEY = 'wlacZtcCartV1';
+    const tbody = document.querySelector('#cartTable tbody');
 
-      cart.forEach((i) => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td>${i.course || ''}</td>
-          <td>${i.term || ''}</td>
-          <td>${i.section || ''}</td>
-          <td>${i.instructor || ''}</td>
-          <td>${i.units || ''}</td>
-          <td>${i.days || ''}</td>
-          <td>${i.time || ''}</td>
-          <td>${i.location || ''}</td>
-        `;
-        cartBody.appendChild(row);
-      });
+    function loadCart() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      } catch {
+        return [];
+      }
     }
 
-    // Save cart to file (JSON for now)
-    function saveCart() {
-      const cart = JSON.parse(localStorage.getItem("ztcCart")) || [];
-      const blob = new Blob([JSON.stringify(cart, null, 2)], { type: "application/json" });
+    function renderCart() {
+      const cart = loadCart();
+      tbody.innerHTML = '';
+      if (!cart.length) {
+        tbody.innerHTML = '<tr><td colspan="7">Your cart is empty.</td></tr>';
+        return;
+      }
+      for (const item of cart) {
+        const tr = document.createElement('tr');
+        ["course", "section", "instructor", "units", "days", "time", "location"].forEach(k => {
+          const td = document.createElement('td');
+          td.textContent = item[k] || '';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      }
+    }
+
+    function printCart() {
+      window.print();
+    }
+
+    function downloadCSV() {
+      const cart = loadCart();
+      if (!cart.length) return;
+      const headers = ["Course", "Section", "Instructor", "Units", "Days", "Time", "Location"];
+      const rows = cart.map(item => headers.map(h => item[h.toLowerCase()] || ''));
+      const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
+      const a = document.createElement('a');
       a.href = url;
-      a.download = "ztc_cart.json";
+      a.download = 'my_ztc_courses.csv';
       a.click();
       URL.revokeObjectURL(url);
     }
 
-    // Initialize cart display
-    document.addEventListener("DOMContentLoaded", loadCart);
+    function clearCart() {
+      localStorage.removeItem(STORAGE_KEY);
+      renderCart();
+    }
+
+    renderCart();
   </script>
 </body>
 </html>
