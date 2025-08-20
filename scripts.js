@@ -58,7 +58,7 @@
       const wasAdded = inCart(obj.Course, obj.Section);
       btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
-        addToCart({ course: obj.Course||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
+        addToCart({ course: obj.Course||'', term: obj.Term||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn); tbody.appendChild(tr);
@@ -87,7 +87,7 @@
       const wasAdded = inCart(obj.Course, obj.Section);
       btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
-        addToCart({ course: obj.Course||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
+        addToCart({ course: obj.Course||'', term: obj.Term||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn);
