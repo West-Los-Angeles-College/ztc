@@ -43,7 +43,7 @@
   }
 
   function buildTable(headers, rows){
-    if (!headers || headers.length < 1){ headers = ['Course','Section','Instructor','Units','Days','Time','Location']; }
+    if (!headers || headers.length < 1){ headers = ['Course', 'Term','Section','Instructor','Units','Days','Time','Location']; }
     const thead = table.tHead || table.createTHead(); thead.innerHTML = '';
     const trh = document.createElement('tr');
     headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h; trh.appendChild(th); });
@@ -58,7 +58,7 @@
       const wasAdded = inCart(obj.Course, obj.Section);
       btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
-        addToCart({ course: obj.Course||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
+        addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn); tbody.appendChild(tr);
@@ -76,7 +76,7 @@
   }).catch(err=>{
     console.warn('CSV load failed; hydrating existing table. Reason:', err);
     const headCells = $$('#courseTable thead th').map(th=>th.textContent.trim());
-    const headers = headCells.length ? headCells : ['Course','Section','Instructor','Units','Days','Time','Location'];
+    const headers = headCells.length ? headCells : ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
     const theadRow = $('#courseTable thead tr');
     if (theadRow && (headCells[headCells.length-1] !== 'Add')){ const th = document.createElement('th'); th.textContent='Add'; theadRow.appendChild(th); }
     $$('#courseTable tbody tr').forEach(tr=>{
@@ -86,7 +86,7 @@
       const wasAdded = inCart(obj.Course, obj.Section);
       btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
-        addToCart({ course: obj.Course||'', section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
+        addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn);
