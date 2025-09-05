@@ -1,4 +1,4 @@
-"COURSE","TERM","SECTION","INSTRUCTOR","UNITS","DAYS","TIME","LOCATION"
+"Course","Term","Section","Instructor","Units","Days","Time","Location"
 "ESLCVCS 012CE","Winter 2025",12508,"Lisa Saperston",0,"Fr","09:00 AM-11:35 AM","WONLINE"
 "ESL NC 023CE","Winter 2025",12559,"Lisa Saperston",0,"MTuWR","06:00 PM-08:35 PM","WONLINE"
 "ESL NC 009CE","Winter 2025",12553,"Natalie Peterkin",0,"MTuWR","06:00 PM-08:35 PM","WONLINE"
@@ -79,3 +79,4 @@
 "BSICSKL 104CE","Winter 2025",11937,"Gilbert Richards",0,"MTuWR","09:00 AM-09:50 AM","WCE222"
 "COOP ED 195","Winter 2025",12858,"Allison Tom Miura",1,"",,"WWORKSITE"
 "BSICSKL 034CE","Winter 2025",12501,"Ricardo Hooper",0,"MW","09:00 AM-12:20 PM","WONLINE"
+
