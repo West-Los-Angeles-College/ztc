@@ -1,832 +1,184 @@
 "COURSE","TERM","SECTION","INSTRUCTOR","UNITS","DAYS","TIME","LOCATION","OER"
-"CH DEV 038","Fall 2025",14260,"Monica Juarez",3,"",,"WONLINE",0
-"PSYC C1000","Fall 2025",14261,"Payal Jain",3,"",,"WONLINE",1
-"PSYCH 041","Fall 2025",14262,"Payal Jain",3,"",,"WONLINE",1
-"ACCTG 001","Fall 2025",11224,"Lorenzo Ybarra",5,"TuR","10:30 AM-11:55 AM","WTLC303",0
-"PSYCH 041","Fall 2025",13149,"Carley Zanders",3,"",,"WONLINE",1
-"REAL ES 005","Fall 2025",10471,"Chantal Grayson",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13167,"Rachelle Okawa",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13168,"Syreeta Lyons Burns",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13169,"Jennifer Ortiz",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13171,"Patricia Willenborg",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13172,"Katherine LaTourrette",3,"TuR","08:55 AM-10:20 AM","WTLC403",0
-"ENGL C1000","Fall 2025",13174,"Luis Cordova",3,"",,"WONLINE",0
-"PHILOS 001","Fall 2025",14276,"Rick Mayock",3,"",,"WONLINE",0
-"POLS C1000","Fall 2025",14277,"Arnedra Jordan",3,"",,"WONLINE",1
-"ANTHRO 101","Fall 2025",14282,"Mark Gordon",3,"",,"WONLINE",0
-"CINEMA 005","Fall 2025",14289,"Eric Nelson",3,"",,"WONLINE",0
-"ECON 001","Fall 2025",14291,"Luo Yilan",3,"TuR","01:15 PM-02:40 PM","WGC340",1
-"MARKET 001","Fall 2025",10801,"Jan Vanderpool",3,"",,"WONLINE",1
-"JAPAN 001","Fall 2025",10810,"Shana Brenish",5,"",,"WONLINE",0
-"ECON 001","Fall 2025",11547,"Bayavuge Sekiyoba",3,"",,"WONLINE",1
-"ECON 001","Fall 2025",11561,"Meric Keskinel",3,"",,"WONLINE",1
-"HISTORY 011","Fall 2025",12928,"David Smith",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13181,"Nuala Lincke",3,"MW","12:05 PM-01:30 PM","WTLC401",1
-"ENGL C1000","Fall 2025",13185,"Luis Cordova",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13186,"Joseph Pilaro",3,"",,"WONLINE",0
-"MICRO 020","Fall 2025",13470,"Kareen Martin",4,"TuR","08:55 AM-10:20 AM","WMSA204",0
-"GEOG 001","Fall 2025",10524,"Dominic Merkle",3,"",,"WONLINE",0
-"CH DEV 044","Fall 2025",10816,"Marini Smith",3,"",,"WONLINE",0
-"PHYSICS 006","Fall 2025",11261,"Mesfin Taye",4,"",,"WONLINE",0
-"CHEM 051","Fall 2025",11269,"Neil Quebbemann",5,"MW","08:55 AM-11:00 AM","WMSA005",0
-"SPANISH 001","Fall 2025",12656,"Sandra Ruiz",5,"",,"WONLINE",1
-"HISTORY 011","Fall 2025",12936,"J Olivas",3,"",,"WONLINE",0
-"ADM JUS 003","Fall 2025",13736,"Corey Flournoy-Williams",3,"",,"WONLINE",0
-"PSYCH 013","Fall 2025",14076,"Carrie Canales",3,"",,"WONLINE",0
-"REAL ES 010","Fall 2025",14078,"Chantal Grayson",3,"",,"WONLINE",0
-"A S L 001","Fall 2025",10229,"Sandra Ayoub-Mendez",4,"",,"WONLINE",1
-"PHYSICS 007","Fall 2025",11279,"Mesfin Taye",4,"",,"WONLINE",0
-"ADM JUS 067","Fall 2025",12115,"George Yan",3,"",,"WONLINE",0
-"PHRMCTK 023","Fall 2025",12377,"Pamela Moore",2,"M","12:00 PM-02:05 PM","WONLINELVE",0
-"PHRMCTK 029","Fall 2025",12378,"Pamela Moore",3,"W","09:00 AM-12:10 PM","WONLINELVE",0
-"SPANISH 001","Fall 2025",12660,"Elena Aviles",5,"M","10:30 AM-11:55 AM","WGC310",1
-"SPANISH 002","Fall 2025",12677,"Sandra Ruiz",5,"",,"WONLINE",1
-"HISTORY 012","Fall 2025",12981,"David Smith",3,"",,"WONLINE",0
-"ENGLISH 102","Fall 2025",13221,"Jennifer Ortiz",3,"",,"WONLINE",0
-"ENGLISH 102","Fall 2025",13222,"Nuala Lincke",3,"",,"WONLINE",1
-"PALEGAL 041","Fall 2025",13492,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
-"ACCTG 002","Fall 2025",13495,"Charles Daniel",5,"",,"WONLINE",0
-"ACCTG 002","Fall 2025",13496,"Lorenzo Ybarra",5,"",,"WONLINE",0
-"SOC 001","Fall 2025",13497,"Victor Corona",3,"",,"WONLINE",1
-"BUS 001","Fall 2025",13500,"Kevin Dungey",3,"",,"WONLINE",0
-"CH DEV 001","Fall 2025",13763,"Monica Juarez",3,"",,"WONLINE",0
-"PALEGAL 010","Fall 2025",11298,"Nikoo Nikki Jacobson",3,"R","06:45 PM-08:20 PM","WONLINELVE",0
-"PALEGAL 043","Fall 2025",11304,"Bianca Alcala-Ruiz",3,"",,"WONLINE",0
-"PALEGAL 044","Fall 2025",11306,"Francine Zexter",3,"",,"WONLINE",0
-"PALEGAL 011","Fall 2025",11308,"Francine Zexter",3,"",,"WONLINE",0
-"PALEGAL 044","Fall 2025",11310,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
-"PALEGAL 012","Fall 2025",11313,"Francine Zexter",3,"M","06:45 PM-08:20 PM","WONLINELVE",0
-"ECON 001","Fall 2025",11600,"Meric Keskinel",3,"",,"WONLINE",1
-"FIRETEK 203","Fall 2025",11620,"Antoine Mcknight",3,"",,"WONLINE",0
-"BUS 001","Fall 2025",11906,"Todd Matosic",3,"",,"WONLINE",0
-"PHRMCTK 030","Fall 2025",12382,"Pamela Moore",3,"W","09:00 AM-12:20 PM","WONLINELVE",0
-"PHRMCTK 031","Fall 2025",12384,"Pamela Moore",2,"WFr","01:00 PM-03:05 PM","WONLINELVE",0
-"PHRMCTK 031","Fall 2025",12384,"Christine Tannious",2,"WFr","01:00 PM-03:05 PM","WONLINELVE",0
-"KIN 251","Fall 2025",14090,"Jennifer Henderson",1,"",,"WONLINE",0
-"FIRETEK 204","Fall 2025",11625,"Antoine Mcknight",3,"",,"WONLINE",0
-"ADM JUS 075","Fall 2025",12141,"George Yan",3,"",,"WONLINE",0
-"HISTORY 043","Fall 2025",12996,"David Smith",3,"",,"WONLINE",0
-"HLTHOCC 054","Fall 2025",13005,"Yervant Boghos",4,"",,"WONLINE",0
-"HLTHOCC 054","Fall 2025",13005,"Yervant Boghos",4,"",,"WONLINE",0
-"COMM C1000","Fall 2025",13006,"Damon Hines",3,"TuR","08:55 AM-10:20 AM","WGC330",1
-"COMM C1000","Fall 2025",13008,"Linda Alexander",3,"",,"WONLINE",1
-"COMM C1000","Fall 2025",13010,"Linda Alexander",3,"",,"WONLINE",1
-"ENGL C1001","Fall 2025",13244,"Katherine LaTourrette",3,"MW","12:05 PM-01:30 PM","WGC150",0
-"ENGL C1001","Fall 2025",13245,"Jeanene Ames",3,"",,"WONLINE",1
-"ENGL C1001","Fall 2025",13246,"Nuala Lincke",3,"",,"WONLINE",1
-"ENGL C1001","Fall 2025",13247,"Nuala Lincke",3,"",,"WONLINE",1
-"COMM C1000","Fall 2025",13011,"Damon Hines",3,"TuR","10:30 AM-11:55 AM","WGC350",1
-"FLM PRD 911","Fall 2025",25701,"Imhotep Coleman",1,"",,"WWORKSITE",0
-"PSYC C1000","Fall 2025",13017,"Robert Irvin",3,"MW","10:30 AM-11:55 AM","WGC330",1
-"FLM PRD 911","Fall 2025",25702,"Imhotep Coleman",1,"",,"WWORKSITE",0
-"PSYC C1000","Fall 2025",13030,"Payal Jain",3,"",,"WONLINE",1
-"ADDICST 001","Fall 2025",13814,"Quincy Singleton",3,"Tu","07:05 PM-10:15 PM","WONLINELVE",0
-"ADDICST 004","Fall 2025",13815,"Marlene Garza",3,"R","07:05 PM-10:15 PM","WONLINELVE",0
-"ADDICST 010","Fall 2025",13816,"David Daniel",3,"W","07:05 PM-10:15 PM","WONLINELVE",0
-"HISTORY 011","Fall 2025",13817,"Neffetiti Austin",3,"",,"WONLINE",0
-"ANTHRO 102","Fall 2025",13832,"Aimee Preziosi",3,"",,"WONLINE",1
-"PALEGAL 014","Fall 2025",10029,"Francine Zexter",3,"",,"WONLINE",0
-"CH DEV 011","Fall 2025",10307,"Monica Juarez",3,"",,"WONLINE",0
-"ANTHRO 101","Fall 2025",10882,"Aimee Preziosi",3,"",,"WONLINE",1
-"ANTHRO 101","Fall 2025",10884,"Stephanie Meredith",3,"",,"WONLINE",1
-"ANTHRO 101","Fall 2025",10884,"Aimee Preziosi",3,"",,"WONLINE",1
-"SOC 001","Fall 2025",25993,"Tiffany Lanoix",3,"TuR","08:55 AM-10:20 AM","WTLC303",1
-"ADM JUS 001","Fall 2025",11937,"Corey Flournoy-Williams",3,"",,"WONLINE",0
-"POLS C1000","Fall 2025",12445,"Christopher Lee",3,"TuR","10:30 AM-11:55 AM","WGC230",1
-"POLS C1000","Fall 2025",12466,"Michael Graham",3,"",,"WONLINE",0
-"ENV SCI 001","Fall 2025",13277,"Dominic Merkle",3,"",,"WONLINE",1
-"PALEGAL 017","Fall 2025",10038,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
-"CH DEV 065","Fall 2025",10900,"Monica Juarez",2,"",,"WONLINE",0
-"ANTHRO 101","Fall 2025",10906,"Aimee Preziosi",3,"",,"WONLINE",1
-"MUSIC 111","Fall 2025",13852,"Philip Small",3,"",,"WONLINE",0
-"ANTHRO 101","Fall 2025",13855,"Jeffrey Snyder",3,"",,"WONLINE",1
-"BUS 005","Fall 2025",13858,"Todd Matosic",3,"TuR","01:15 PM-04:25 PM","WONLINELVE",0
-"COMM C1000","Fall 2025",14133,"Linda Alexander",3,"",,"WONLINE",1
-"DEN HY 323","Fall 2025",14135,"Aracely Aguiar",3,"",,"WONLINE",1
-"DEN HY 461","Fall 2025",14136,"Idalia Velasco",3,"",,"WONLINE",0
-"HUMAN 030","Fall 2025",10339,"Lloyd Noonan",3,"",,"WONLINE",0
-"AFRO AM 004","Fall 2025",10345,"Christian Green",3,"TuR","10:30 AM-11:55 AM","WGC130",0
-"COMM 151","Fall 2025",13059,"Francis Smith",3,"",,"WONLINE",1
-"PSYCH 002","Fall 2025",13063,"Amy Baldwin",3,"",,"WONLINE",1
-"STAT C1000","Fall 2025",13334,"Rex Perez",4,"MW","07:20 PM-09:25 PM","WONLINELVE",1
-"ASTRON 001","Fall 2025",13873,"Elizabeth Bell",3,"",,"WONLINE",1
-"HUMAN 031","Fall 2025",10376,"Anne Winter",3,"",,"WONLINE",0
-"POLS C1000","Fall 2025",12501,"Angela Cranon-Charles",3,"",,"WONLINE",1
-"HUMAN 060","Fall 2025",10383,"Suzanne Adelman",3,"",,"WONLINE",0
-"ECON 002","Fall 2025",11756,"Kofi Yankey",3,"",,"WONLINE",1
-"CH DEV 001","Fall 2025",12815,"Rosemary Most",3,"MW","08:00 AM-09:25 AM","WONLINELVE",0
-"MATH 260","Fall 2025",13363,"Tanshee Cheng",5,"TuR","07:20 PM-09:50 PM","WONLINELVE",0
-"PALEGAL 018","Fall 2025",14193,"Bianca Alcala-Ruiz",3,"Tu","06:45 PM-08:20 PM","WONLINELVE",0
-"SPANISH 002","Fall 2025",14200,"Marcela Redoles",5,"",,"WONLINE",1
-"ALD HTH 033","Fall 2025",10411,"Yervant Boghos",3,"",,"WONLINE",0
-"FAM &CS 021","Fall 2025",11170,"Marlene Shepherd",3,"",,"WONLINE",0
-"FAM &CS 021","Fall 2025",11175,"Marlene Shepherd",3,"",,"WONLINE",0
-"PSYCH 014","Fall 2025",13101,"Carrie Canales",3,"",,"WONLINE",1
-"REAL ES 001","Fall 2025",10419,"Chantal Grayson",3,"",,"WONLINE",0
-"ALD HTH 033","Fall 2025",10424,"Cynthia Chambers",3,"",,"WONLINE",0
-"ALD HTH 033","Fall 2025",10429,"Yervant Boghos",3,"",,"WONLINE",0
-"ENV SCI 002","Fall 2025",24782,"Vered Mirmovitch",3,"",,"WONLINE",0
-"POL SCI 007","Fall 2025",12580,"Christopher Lee",3,"",,"WONLINE",0
-"MATH 261","Fall 2025",13382,"Tanshee Cheng",5,"MW","04:30 PM-07:05 PM","WONLINELVE",0
-"MATH 262","Fall 2025",13391,"Zachary Brown",5,"MW","08:55 AM-11:25 AM","WMSA104",0
-"REAL ES 003","Fall 2025",10447,"Chantal Grayson",3,"",,"WONLINE",0
-"CH DEV 042","Fall 2025",10772,"Marini Smith",3,"",,"WONLINE",0
-"ANTHRO 102","Fall 2025",11198,"Aimee Preziosi",3,"",,"WONLINE",1
-"ANTHRO 102","Fall 2025",11202,"Aimee Preziosi",3,"",,"WONLINE",1
-"BUS 001","Fall 2025",11810,"Miryan Nogueira",3,"TuR","10:30 AM-11:55 AM","WTLC305",1
-"CIS 101","Fall 2025",14936,"Manish Patel",3,"MW","10:30 AM-11:55 AM","WTLC402",1
-"CIS 101","Fall 2025",14938,"Steven Gonsoski",3,"",,"WONLINE",1
-"CS 119","Fall 2025",14939,"Parvaneh Ghaforyfard",3,"",,"WONLINE",1
-"CS 118","Fall 2025",14941,"Ashok Patil",3,"",,"WONLINE",0
-"CS 131","Fall 2025",14944,"Yuen Yuen",3,"",,"WONLINE",0
-"CIS 214","Fall 2025",14946,"Bill Williams",3,"R","06:00 PM-07:30 PM","WONLINELVE",0
-"COMM C1000","Fall 2025",14697,"Kevin Coffee",3,"TuR","12:35 PM-02:00 PM","WLAPDARTC",1
-"CIS 211","Fall 2025",14947,"Anna Yeh Chiang",3,"",,"WONLINE",0
-"CIS 215","Fall 2025",14949,"Bill Williams",3,"",,"WONLINE",0
-"ENG GEN 101","Fall 2025",14951,"Parvaneh Ghaforyfard",2,"",,"WONLINE",1
-"STAT C1000E","Fall 2025",14953,"Manushak Movsisyan",4,"TuR","08:55 AM-10:20 AM","WONLINELVE",0
-"PALEGAL 046","Fall 2025",14955,"Nikoo Nikki Jacobson",3,"M","06:45 PM-09:55 PM","WONLINELVE",0
-"CS 101","Fall 2025",14957,"Ashok Patil",3,"",,"WONLINE",1
-"MATH 270","Fall 2025",25677,"Lan Xu",3,"MW","05:30 PM-06:55 PM","WONLINELVE",0
-"EDUC 001","Fall 2025",14718,"Marini Smith",3,"",,"WONLINE",0
-"COMM C1000","Fall 2025",14757,"Linda Alexander",3,"",,"WONLINE",1
-"ENGL C1000","Fall 2025",14758,"Stella Setka",3,"MW","10:30 AM-11:55 AM","WGC250",0
-"MATH 261","Fall 2025",14654,"Manushak Movsisyan",5,"MW","08:55 AM-11:25 AM","WMSA109",0
-"STAT C1000","Fall 2025",14656,"Manushak Movsisyan",4,"TuR","07:20 AM-08:45 AM","WONLINELVE",0
-"SOC 001","Fall 2025",14767,"Victor Corona",3,"",,"WONLINE",1
-"DEN HY 460","Fall 2025",14802,"Carmen Dones",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",14855,"Jeanene Ames",3,"",,"WONLINE",1
-"SPANISH 001","Fall 2025",14897,"Elena Aviles",5,"",,"WONLINE",1
-"SOC 011","Fall 2025",14901,"Rasean Jones",3,"",,"WONLINE",1
-"ECON 001","Fall 2025",14919,"Meric Keskinel",3,"",,"WONLINE",1
-"ADM JUS 001","Fall 2025",14927,"Corey Flournoy-Williams",3,"",,"WONLINE",0
-"ECON 001","Fall 2025",14928,"Kaycea Campbell",3,"",,"WONLINE",1
-"SOC 002","Fall 2025",14929,"Nori Henk",3,"",,"WONLINE",1
-"CIS 192","Fall 2025",14932,"Bill Williams",3,"",,"WONLINE",1
-"CIS 150","Fall 2025",28101,"Manish Patel",3,"",,"WONLINE",0
-"CS 159","Fall 2025",27797,"Kaleab Gorfu",3,"",,"WONLINE",1
-"CH DEV 001","Fall 2025",26940,"Edilma Serna",3,"W","02:00 PM-04:30 PM","WONLINELVE",0
-"PHYSICS 006","Fall 2025",26394,"Mesfin Taye",4,"",,"WONLINE",0
-"ENGLISH 101Y","Fall 2025",28257,"WLAC STAFF",3.5,"",,"WONLINE",0
-"BSICSKL 023CE","Fall 2025",26538,"Alfa Lopez",0,"MW","06:00 PM-08:35 PM","WONLINE",1
-"VOC ED 096CE","Fall 2025",26551,"Lisa Glionna",0,"",,"WONLINE",1
-"CH DEV 001","Fall 2025",27088,"Katy Kelley",3,"TuR","09:00 AM-12:10 PM","WONLINELVE",0
-"ENGL C1000","Fall 2025",27803,"Robert Sprague",3,"",,"WONLINE",0
-"COOP ED 195","Fall 2025",27900,"Sonya DeRose",1,"",,"WWORKSITE",0
-"CH DEV 030","Fall 2025",26913,"WLAC STAFF",3,"W","02:00 PM-04:30 PM","WONLINELVE",0
-"STAT C1000","Fall 2025",26752,"Jaime Vallejo",4,"TuR","07:20 PM-09:25 PM","WONLINELVE",0
-"BSICSKL 023CE","Fall 2025",27354,"Erol Cilengir",0,"W","05:30 PM-07:00 PM","WONLINELVE",1
-"ENGLISH 410","Fall 2025",27198,"Stella Setka",3,"TuR","09:45 AM-11:55 AM","WATA210",0
-"CH DEV 031","Fall 2025",27157,"Dolores Gallegos",3,"W","06:30 PM-09:05 PM","WONLINELVE",0
-"BSICSKL 034CE","Fall 2025",27554,"Gregory Larson",0,"TuR","09:00 AM-12:30 PM","WONLINELVE",1
-"VOC ED 406CE","Fall 2025",27602,"Raquel Medina",0,"",,"WMSA103",1
-"A S L 001","Fall 2025",27800,"Jared Perez-Debusk",4,"",,"WONLINE",0
-"BSICSKL 102CE","Fall 2025",27919,"Sara Garcia",0,"MTuWR","10:30 AM-11:50 AM","WGC420",1
-"STAT C1000","Fall 2025",27808,"Nancy Foreman",4,"TuR","05:30 PM-08:00 PM","WONLINELVE",0
-"BSICSKL 005CE","Fall 2025",27960,"Stefani Aguallo",0,"",,"WONLINE",1
-"VOC ED 822CE","Fall 2025",26536,"Megan Pena",0,"Fr","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 122CE","Fall 2025",26534,"Megan Pena",0,"Fr","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 403CE","Fall 2025",26535,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 401CE","Fall 2025",26533,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 400CE","Fall 2025",26532,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"EARTH 001","Fall 2025",26190,"Jennifer Cole",3,"",,"WONLINE",1
-"ENGLISH 101Y","Fall 2025",26370,"Leslie Tejada",3.5,"MW","10:30 AM-11:55 AM","WTLC302",0
-"ENGLISH 101Y","Fall 2025",26370,"Leslie Tejada",3.5,"MW","10:30 AM-11:55 AM","WTLC302",0
-"DEN AST 012","Fall 2025",26789,"Rocio Garcia",3,"",,"WONLINE",0
-"DEN AST 019","Fall 2025",26792,"Aaron Benitez",1,"",,"WONLINE",0
-"ART 101","Fall 2025",27988,"Doug Harvey",3,"",,"WONLINE",0
-"MATH 260L","Fall 2025",28018,"Jeremy Jankans",0.5,"MW","02:55 PM-04:00 PM","WONLINELVE",1
-"CINEMA 003","Fall 2025",27809,"Matthew Harrison",3,"",,"WONLINE",0
-"ESLCVCS 015CE","Fall 2025",27205,"Gabriel Olivas",0,"MW","01:00 PM-02:50 PM","WONLINELVE",1
-"CH DEV 007","Fall 2025",28322,"Monica Juarez",3,"",,"WONLINE",0
-"BSICSKL 044CE","Fall 2025",27502,"Ebony Hallman",0,"TuR","09:35 AM-10:50 AM","WCIBLIBRY",1
-"VOC ED 088CE","Fall 2025",27601,"Chase Selby",0,"Fr","10:00 AM-11:50 AM","WONLINELVE",1
-"BSICSKL 023CE","Fall 2025",27920,"Maritza Medina",0,"Tu","09:20 PM-10:30 PM","WONLINELVE",1
-"PSYCH 342","Fall 2025",27560,"Carrie Canales",3,"",,"WONLINE",0
-"ANATOMY 001","Fall 2025",27215,"Patricia Zuk",4,"",,"WONLINE",0
-"COOP ED 095","Fall 2025",27241,"WLAC STAFF",0.5,"",,"WONLINELVE",0
-"COOP ED 095","Fall 2025",27239,"Damian Lomeli",0.5,"",,"WONLINELVE",0
-"VOC ED 406CE","Fall 2025",27692,"Jose Mendez",0,"",,"WMSA108",1
-"ESL NC 006CE","Fall 2025",26553,"Izabela Gavukchyan",0,"TuR","08:30 AM-10:50 AM","WONLINELVE",1
-"BSICSKL 023CE","Fall 2025",26163,"Ricardo Hooper",0,"TuR","06:00 PM-08:30 PM","WONLINELVE",0
-"BSICSKL 034CE","Fall 2025",26165,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINELVE",1
-"FLM PRD 300","Fall 2025",26482,"Imhotep Coleman",1,"M","03:15 PM-05:20 PM","WTLC403",0
-"AFRO AM 019","Fall 2025",26453,"Christian Green",3,"TuR","01:15 PM-02:40 PM","WGC320",0
-"VOC ED 441CE","Fall 2025",27177,"Alejandra Salcedo Rodriguez",0,"TuR","06:00 PM-07:30 PM","WONLINELVE",1
-"COUNSEL 040","Fall 2025",28278,"Iliana Limas",3,"MW","08:55 AM-10:20 AM","WTLC302",0
-"PHYSIOL 001","Fall 2025",26669,"Michelle Priest",4,"",,"WONLINE",1
-"FLM PRD 140B","Fall 2025",28178,"Charles Mcintyre",3,"TuR","07:20 AM-09:40 AM","WWTSN101A",0
-"KIN MAJ 126","Fall 2025",28345,"Victor Pulido",3,"MW","10:30 AM-11:55 AM","WPECN13",0
-"BSICSKL 034CE","Fall 2025",26585,"Alfa Lopez",0,"MW","06:00 PM-08:35 PM","WONLINELVE",1
-"ESL NC 060CE","Fall 2025",27194,"Julie Vad",0,"TuR","06:00 PM-09:10 PM","WONLINELVE",1
-"ESL NC 221CE","Fall 2025",27188,"Nubia Sell",0,"TuR","09:00 AM-10:30 AM","WONLINELVE",1
-"ESL NC 006CE","Fall 2025",27185,"Mireya Nava",0,"MTuW","01:00 PM-02:50 PM","WONLINELVE",1
-"VOC ED 097CE","Fall 2025",26552,"Lisa Glionna",0,"",,"WONLINE",1
-"FLM PRD 101C","Fall 2025",26490,"Gary Dagg",3,"",,"WONLINE",
-"GEOLOGY 001","Fall 2025",26893,"Beraki Woldehaimanot",3,"TuR","11:00 AM-12:25 PM","WMGNLIA",1
-"PHILOS 008","Fall 2025",28253,"Rick Mayock",3,"",,"WONLINE",0
-"FLM PRD 126","Fall 2025",26879,"Rina Klanfer",4,"TuR","10:00 AM-12:00 PM","WATA218",0
-"CHEM 060","Fall 2025",26649,"Zachary Gvildys",5,"MW","01:40 PM-03:05 PM","WMSA003",1
-"DEN AST 009","Fall 2025",27729,"Raquel Medina",2,"W","11:10 AM-01:15 PM","WONLINELVE",0
-"ALD HTH 900","Fall 2025",27813,"Martin Turner",0.5,"",,"WWORKSITE",0
-"VOC ED 222CE","Fall 2025",27206,"Emily Cobar",0,"W","02:30 PM-04:00 PM","WONLINELVE",1
-"MUSIC 111","Fall 2025",28168,"Christian Coulter",3,"",,"WONLINE",0
-"ANATOMY 001","Fall 2025",28339,"Bryon Curletto",4,"",,"WONLINE",0
-"BSICSKL 034CE","Fall 2025",26161,"Latanza Price",0,"MW","09:00 AM-12:20 PM","WONLINELVE",1
-"VOC ED 404CE","Fall 2025",26529,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 320CE","Fall 2025",26528,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"CINEMA 107","Fall 2025",28128,"Jennifer Penton",3,"",,"WONLINE",0
-"ESL NC 024CE","Fall 2025",26555,"Jenell Rae",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",1
-"BSICSKL 034CE","Fall 2025",26743,"Bonnie Perez",0,"Fr","08:00 PM-09:50 PM","WONLINELVE",1
-"BSICSKL 034CE","Fall 2025",26738,"Bonnie Perez",0,"Fr","06:00 PM-07:50 PM","WONLINELVE",1
-"ADDICST 084","Fall 2025",26416,"Carrie Canales",4,"M","05:00 PM-06:25 PM","WONLINELVE",1
-"ENGLISH 101Y","Fall 2025",26930,"Ryan Sandowicz",3.5,"TuR","01:15 PM-02:40 PM","WTLC401",0
-"ENGLISH 101Y","Fall 2025",27480,"Jennifer Ortiz",3.5,"",,"WONLINE",0
-"VOC ED 124CE","Fall 2025",27505,"George Cortez",0,"Fr","10:00 AM-12:50 PM","WONLINELVE",1
-"VOC ED 123CE","Fall 2025",27506,"George Cortez",0,"Fr","10:00 AM-12:50 PM","WONLINELVE",1
-"ART 300","Fall 2025",26623,"Gary Willoughby",3,"TuR","11:00 AM-12:30 PM","WMGNLIA",0
-"BSICSKL 034CE","Fall 2025",27311,"Alfa Lopez",0,"S","09:00 AM-12:50 PM","WONLINELVE",1
-"COMM C1000","Fall 2025",26938,"Zeneida Parente Alves Neta",3,"TuRFr","12:50 PM-01:55 PM","WVPARKPAC",1
-"AFRO AM 019","Fall 2025",27862,"Konysha Wade",3,"",,"WONLINE",0
-"ALD HTH 021","Fall 2025",26788,"Aaron Benitez",0.5,"",,"WMSA012",0
-"ART 501","Fall 2025",26637,"Gary Willoughby",3,"W","07:45 PM-09:50 PM","WONLINELVE",0
-"CHICANO 047","Fall 2025",27520,"Yadira Ceballos-Tellechea",3,"TuR","10:30 AM-11:55 AM","WGC340",0
-"ESL NC 023CE","Fall 2025",26554,"Lisa Glionna",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",0
-"FLM PRD 101C","Fall 2025",26488,"Charles Mcintyre",3,"",,"WONLINE",0
-"CS 112","Fall 2025",27801,"Kaleab Gorfu",3,"",,"WONLINE",0
-"DEN AST 017","Fall 2025",26791,"Aaron Benitez",3,"",,"WONLINE",0
-"AVIATEK 355","Fall 2025",26492,"Alex Tavakkoli",3,"MW","07:30 AM-09:40 AM","WATA214",0
-"AVIATEK 020","Fall 2025",26506,"Rudolfo Triviso",2,"MTuWR","07:05 PM-10:20 PM","WATB120",0
-"ESL NC 062CE","Fall 2025",26588,"Lisa Saperston",0,"MW","06:00 PM-08:25 PM","WONLINE",1
-"VOC ED 411CE","Fall 2025",26619,"Domenica Matheson",0,"S","09:00 AM-11:30 AM","WONLINELVE",1
-"VOC ED 408CE","Fall 2025",26617,"Paloma Tlaxca",0,"Fr","09:00 AM-11:20 AM","WONLINELVE",1
-"BSICSKL 027CE","Fall 2025",26647,"Joshua Figueroa",0,"TuR","09:00 AM-11:50 AM","WPECN11",1
-"DEN AST 007","Fall 2025",28287,"Annette Ledezma",1,"Tu","03:30 PM-04:20 PM","WMSA105",0
-"BIOLOGY 003","Fall 2025",28022,"Bernice Filerman",4,"",,"WONLINE",0
-"DEN AST 013","Fall 2025",27792,"Aaron Benitez",2,"M","05:00 PM-07:20 PM","WONLINELVE",0
-"ENGL C1001","Fall 2025",27836,"Jeanene Ames",3,"",,"WONLINE",0
-"MATH 275","Fall 2025",25661,"Patricia Arriola",3,"MW","10:30 AM-11:55 AM","WONLINELVE",0
-"DEN AST 018","Fall 2025",22806,"Wendy Alvarez",2,"Fr","08:00 AM-10:05 AM","WMSA103",0
-"DEN AST 004","Fall 2025",22810,"Aaron Benitez",2,"",,"WMSA103",0
-"DEN AST 015","Fall 2025",22814,"Rocio Garcia",2,"",,"WONLINE",0
-"DEN AST 912","Fall 2025",22816,"Rocio Garcia",1.5,"",,"WWORKSITE",0
-"VOC ED 096CE","Fall 2025",22818,"Lisa Glionna",0,"",,"WONLINE",1
-"VOC ED 097CE","Fall 2025",22819,"Lisa Glionna",0,"",,"WONLINE",1
-"PHYSIOL 001","Fall 2025",23600,"Bryon Curletto",4,"",,"WONLINE",0
-"BUS 001","Fall 2025",23603,"Terri McCaskill",3,"",,"WONLINE",1
-"ACCTG 001","Fall 2025",23604,"Lorenzo Ybarra",5,"",,"WONLINE",0
-"MGMT 001","Fall 2025",23606,"Gustavo Demoner",3,"",,"WONLINE",1
-"ALD HTH 033","Fall 2025",23614,"Raquel Matosic",3,"",,"WONLINE",0
-"CH DEV 002","Fall 2025",24020,"Vicky Nesia",3,"",,"WONLINE",0
-"ECON 001","Fall 2025",24021,"Luo Yilan",3,"",,"WONLINE",1
-"BUS 001","Fall 2025",24502,"Sherice Bellamy",3,"",,"WCULVHS",1
-"HISTORY 044","Fall 2025",24895,"David Smith",3,"",,"WVENICEHS",0
-"PSYCH 002","Fall 2025",25973,"Aurthur Camplone",3,"TuR","10:30 AM-11:55 AM","WGC310",1
-"COMM 170","Fall 2025",26137,"Linda Alexander",3,"",,"WONLINE",1
-"A S L 001","Fall 2025",26037,"Angela Elenes",4,"TuWR","08:30 AM-09:45 AM","WGARDENA",0
-"STAT C1000","Fall 2025",22840,"Jeremy Jankans",4,"TuR","08:15 AM-10:20 AM","WMSA202",0
-"ESL NC 007CE","Fall 2025",22849,"Nadia Aguilar",0,"MW","06:00 PM-07:50 PM","WONLINELVE",1
-"ESL NC 008CE","Fall 2025",22850,"Kim Long Noonan",0,"MW","09:00 AM-11:50 AM","WONLINELVE",1
-"ALD HTH 021","Fall 2025",23243,"Nezy Pullukalayil",0.5,"",,"WMSA012",0
-"CH DEV 172","Fall 2025",22064,"Dolores Gallegos",1,"",,"WONLINE",1
-"PHYSICS 039","Fall 2025",22065,"Seiji Takemae",5,"",,"WONLINE",0
-"MATH 215","Fall 2025",22067,"Beyene Bayssa",3,"MW","03:15 PM-04:40 PM","WONLINELVE",0
-"ENGL C1001","Fall 2025",23259,"Katherine LaTourrette",3,"",,"WONLINE",0
-"ART 101","Fall 2025",23260,"Alice Taylor",3,"",,"WONLINE",0
-"VOC ED 105CE","Fall 2025",26699,"Elvis Carias",0,"S","09:00 AM-12:20 PM","WTLC404",1
-"CH DEV 007","Fall 2025",25695,"Katy Kelley",3,"TuR","09:00 AM-12:20 PM","WONLINELVE",0
-"ENGLISH 215","Fall 2025",21694,"Katherine LaTourrette",3,"",,"WONLINE",0
-"PHILOS 020","Fall 2025",21696,"Vanessa Schulz",3,"TuR","11:00 AM-12:25 PM","WLAPDARTC",1
-"MATH 236","Fall 2025",24978,"Vidya Swaminathan",5,"",,"WONLINE",0
-"FLM PRD 106","Fall 2025",22488,"Laura Guichard",3,"R","06:00 PM-08:15 PM","WONLINELVE",0
-"ENGLISH 204","Fall 2025",25925,"Stella Setka",3,"",,"WONLINE",1
-"FLM PRD 103A","Fall 2025",21707,"David Cannon",3,"TuR","01:30 PM-03:40 PM","WWTSN109S",0
-"FLM PRD 103A","Fall 2025",21707,"Gary Dagg",3,"TuR","01:30 PM-03:40 PM","WWTSN109S",0
-"FLM PRD 201","Fall 2025",21710,"Jennifer Penton",3,"TuR","05:30 PM-06:20 PM","WTLC405",0
-"FLM PRD 201","Fall 2025",21710,"Jeanette King",3,"TuR","05:30 PM-06:20 PM","WTLC405",0
-"FLM PRD 101","Fall 2025",21712,"Jennifer Penton",3,"MW","08:35 AM-09:40 AM","WTLC301",0
-"FLM PRD 101","Fall 2025",21712,"Imhotep Coleman",3,"MW","08:35 AM-09:40 AM","WTLC301",0
-"FLM PRD 101","Fall 2025",21714,"Jennifer Penton",3,"MW","01:00 PM-02:05 PM","WTLC301",0
-"FLM PRD 101","Fall 2025",21714,"Imhotep Coleman",3,"MW","01:00 PM-02:05 PM","WTLC301",0
-"FLM PRD 101","Fall 2025",21714,"Jeanette King",3,"MW","01:00 PM-02:05 PM","WTLC301",0
-"CIS 230","Fall 2025",22107,"Marcus Butler",3,"",,"WONLINE",1
-"BSICSKL 074CE","Fall 2025",22911,"Annette Ledezma",0,"Tu","07:00 PM-08:30 PM","WONLINELVE",1
-"BSICSKL 070CE","Fall 2025",22912,"Cortez Johnson",0,"MTuWR","09:00 AM-10:25 AM","WGC140",1
-"VOC ED 097CE","Fall 2025",22913,"Cortez Johnson",0,"TuR","10:35 AM-11:50 AM","WGC150",1
-"PSYCH 079","Fall 2025",25974,"Marlene Garza",3,"Tu","08:55 AM-10:20 AM","WONLINELVE",1
-"BSICSKL 027CE","Fall 2025",22128,"Gilbert Richards",0,"MTuWR","09:00 AM-10:30 AM","WMSA105",1
-"BSICSKL 078CE","Fall 2025",22130,"Gilbert Richards",0,"MTuWR","09:00 AM-10:20 AM","WMSA105",1
-"VOC ED 097CE","Fall 2025",22132,"Gilbert Richards",0,"Fr","09:00 AM-10:30 AM","WMSA105",1
-"EET 123","Fall 2025",24966,"Parvaneh Ghaforyfard",2,"",,"WONLINE",1
-"ESL NC 009CE","Fall 2025",22939,"Krishana Hodgson-DeSilva",0,"TuR","06:00 PM-08:15 PM","WONLINELVE",1
-"ENGL C1000","Fall 2025",23739,"Stella Setka",3,"MW","12:05 PM-01:30 PM","WGC250",0
-"PALEGAL 045","Fall 2025",22171,"Bianca Alcala-Ruiz",3,"R","06:45 PM-09:55 PM","WONLINELVE",0
-"PALEGAL 035","Fall 2025",22172,"Bianca Alcala-Ruiz",3,"R","06:45 PM-09:55 PM","WONLINELVE",0
-"PALEGAL 051","Fall 2025",22173,"Bianca Alcala-Ruiz",3,"M","06:45 PM-08:20 PM","WONLINELVE",0
-"DEN HY 314","Fall 2025",22552,"Amanda De La Vega",2,"M","01:35 PM-03:40 PM","WMSA006",0
-"ESL NC 007CE","Fall 2025",22567,"Adrianne Villalvazo",0,"TuR","09:00 AM-11:50 AM","WONLINELVE",1
-"DEN HY 452","Fall 2025",22968,"Carmen Dones",2,"M","08:00 AM-08:50 AM","WMSA111",1
-"PHILOS 001","Fall 2025",23355,"Rick Mayock",3,"",,"WONLINE",0
-"FLM PRD 121","Fall 2025",26793,"Alan Koplin",3,"TuR","09:55 AM-12:00 PM","WATA228",0
-"ADDICST 030","Fall 2025",21387,"Carrie Canales",3,"",,"WONLINE",0
-"MATH 246","Fall 2025",21779,"Timothy Russell",4,"TuR","07:05 PM-09:35 PM","WONLINELVE",1
-"AVIATEK 016","Fall 2025",24859,"Kasbar Mirkhanian",2,"MW","10:15 AM-01:30 PM","WATB209",0
-"BSICSKL 075CE","Fall 2025",22587,"Lisa Glionna",0,"MTuWR","09:00 AM-10:05 AM","WGC410",1
-"BSICSKL 089CE","Fall 2025",22590,"Lisa Glionna",0,"MW","11:00 AM-12:35 PM","WGC410",1
-"BSICSKL 077CE","Fall 2025",22591,"Lisa Glionna",0,"TuR","11:00 AM-12:15 PM","WGC410",1
-"BSICSKL 073CE","Fall 2025",22592,"Ricardo Hooper",0,"MW","09:00 AM-10:20 AM","WTLC403",1
-"ENGL C1000","Fall 2025",22986,"Leslie Tejada",3,"TuR","10:30 AM-11:55 AM","WTLC403",1
-"COMM C1000","Fall 2025",22998,"Brielle Erike",3,"MW","01:15 PM-02:40 PM","WGC310",1
-"COMM C1000","Fall 2025",22999,"Kaci Sewell",3,"",,"WONLINE",1
-"PSYC C1000","Fall 2025",24912,"Carrie Canales",3,"MW","12:20 PM-01:45 PM","WWISHACAD",1
-"COUNSEL 020","Fall 2025",21813,"Alma Narez Acosta",3,"",,"WONLINE",0
-"MARKET 001","Fall 2025",21814,"Kevin Dungey",3,"",,"WONLINE",0
-"ACAD PR 016CE","Fall 2025",21818,"Juliana Howe",0,"MW","12:35 PM-02:00 PM","WLAPDARTC",1
-"ACAD PR 015CE","Fall 2025",21821,"Juliana Howe",0,"MW","12:35 PM-02:00 PM","WLAPDARTC",1
-"BSICSKL 023CE","Fall 2025",21822,"Darien Battle",0,"MW","12:10 PM-01:00 PM","WLAPDARTC",1
-"VOC ED 288CE","Fall 2025",23017,"Nancy Alexander",0,"MW","09:00 AM-09:50 AM","WTLC403",1
-"VOC ED 419CE","Fall 2025",23021,"Cortez Johnson",0,"TuR","09:00 AM-09:50 AM","WGC140",1
-"AVIATEK 010","Fall 2025",25654,"Ronald Vasquez",2,"MTuWR","07:05 PM-10:20 PM","WATB103",0
-"CINEMA 107","Fall 2025",21846,"Paul Calderon",3,"",,"WONLINE",0
-"MUSIC 111","Fall 2025",21850,"Kurt Festinger",3,"",,"WONLINE",0
-"BSICSKL 005CE","Fall 2025",22229,"Lisa Glionna",0,"MTuWR","10:15 AM-12:10 PM","WGC410",1
-"BSICSKL 009CE","Fall 2025",22230,"Lisa Glionna",0,"MTuWR","09:00 AM-10:25 AM","WGC410",1
-"BSICSKL 044CE","Fall 2025",22231,"Lisa Glionna",0,"MTuWR","10:35 AM-12:10 PM","WGC410",1
-"BSICSKL 027CE","Fall 2025",22233,"Lisa Glionna",0,"MTuWR","09:00 AM-10:25 AM","WGC410",1
-"VOC ED 122CE","Fall 2025",22234,"Lisa Glionna",0,"MW","09:00 AM-10:50 AM","WGC410",1
-"VOC ED 822CE","Fall 2025",22235,"Lisa Glionna",0,"TuR","09:00 AM-10:50 AM","WGC410",1
-"FLM PRD 120","Fall 2025",22248,"Ryan Creasy",4,"TuR","08:40 AM-12:00 PM","WATA228",0
-"DEN HY 303","Fall 2025",22629,"Rachel Hipolite",1,"M","08:00 AM-10:20 AM","WTLC305",0
-"ALD HTH 021","Fall 2025",22634,"Aaron Benitez",0.5,"",,"WMSA012",0
-"BSICSKL 076CE","Fall 2025",23026,"Ana Ramirez Mejia",0,"TuR","10:00 AM-11:50 AM","WGC140",1
-"VOC ED 417CE","Fall 2025",23027,"Cortez Johnson",0,"MW","10:35 AM-11:50 AM","WGC140",1
-"DEN AST 015L","Fall 2025",23035,"Wendy Alvarez",1.5,"MR","04:30 PM-09:40 PM","WMSA103",0
-"DEN AST 015L","Fall 2025",23035,"Sandra Benavente",1.5,"MR","04:30 PM-09:40 PM","WMSA103",0
-"DEN AST 015L","Fall 2025",23035,"Jose Mendez",1.5,"MR","04:30 PM-09:40 PM","WMSA103",0
-"BSICSKL 101CE","Fall 2025",27504,"Ebony Hallman",0,"TuR","09:35 AM-10:50 AM","WCIBLIBRY",0
-"ALD HTH 021","Fall 2025",22673,"Benoy Pullukalayil",0.5,"",,"WMSA012",0
-"ALD HTH 021","Fall 2025",22673,"Nezy Pullukalayil",0.5,"",,"WMSA012",0
-"ALD HTH 021","Fall 2025",22674,"Benoy Pullukalayil",0.5,"",,"WMSA012",0
-"ALD HTH 021","Fall 2025",22674,"Nezy Pullukalayil",0.5,"",,"WMSA012",0
-"COMM 121","Fall 2025",23456,"Linda Alexander",3,"",,"WONLINE",1
-"BSICSKL 116CE","Fall 2025",22676,"Ricardo Hooper",0,"MW","09:00 AM-10:15 AM","WGC420",1
-"BSICSKL 101CE","Fall 2025",22677,"Ricardo Hooper",0,"TuR","09:00 AM-10:15 AM","WTLC405",1
-"BSICSKL 103CE","Fall 2025",22678,"Sara Garcia",0,"MTuWR","10:35 AM-12:15 PM","WGC420",1
-"BSICSKL 117CE","Fall 2025",22679,"Ricardo Hooper",0,"TuR","09:00 AM-10:15 AM","WGC420",1
-"BSICSKL 105CE","Fall 2025",22680,"Ricardo Hooper",0,"MW","08:45 AM-10:15 AM","WGC420",1
-"BSICSKL 112CE","Fall 2025",22682,"Sara Garcia",0,"MW","10:35 AM-11:50 AM","WGC420",1
-"BSICSKL 113CE","Fall 2025",22683,"Sara Garcia",0,"TuR","10:35 AM-11:50 AM","WGC420",1
-"BSICSKL 079CE","Fall 2025",22684,"Ricardo Hooper",0,"MTuWR","08:45 AM-10:15 AM","WGC420",1
-"BSICSKL 072CE","Fall 2025",22685,"Sara Garcia",0,"MTuWR","10:30 AM-12:00 PM","WGC420",1
-"DEN HY 400","Fall 2025",23084,"Carlos Sermeno",1,"Tu","10:50 AM-11:55 AM","WMSA003",0
-"PHYSIOL 001","Fall 2025",23480,"Michelle Priest",4,"",,"WONLINE",1
-"A S L 002","Fall 2025",23489,"Viviana Ortiz",4,"",,"WONLINE",0
-"SPANISH 010","Fall 2025",23492,"Ana Figueroa",3,"",,"WONLINE",1
-"SPANISH 010","Fall 2025",23492,"Ana Figueroa",3,"",,"WONLINE",1
-"HUMAN 031","Fall 2025",23880,"Anne Winter",3,"",,"WONLINE",0
-"STAT C1000E","Fall 2025",26032,"Safaa Dabagh",4,"MW","10:35 AM-12:00 PM","WLAPDARTC",1
-"BIOTECH 002","Fall 2025",21922,"Kareen Martin",4,"",,"WONLINE",1
-"ENV SCI 024","Fall 2025",22321,"Dominic Merkle",3,"",,"WONLINE",1
-"CHICANO 002","Fall 2025",27200,"Felipe Lopez",3,"",,"WONLINE",0
-"CH DEV 001","Fall 2025",23507,"Marini Smith",3,"",,"WONLINE",0
-"ANTHRO 104","Fall 2025",23516,"Mary Hardy",3,"",,"WONLINE",1
-"FINANCE 002","Fall 2025",21531,"Darron Elrington",3,"",,"WONLINE",0
-"CH DEV 002","Fall 2025",21536,"Edilma Serna",3,"",,"WONLINE",0
-"FLM PRD 110A","Fall 2025",21937,"Kevin Considine",4,"TuR","08:30 AM-11:50 AM","WWTSN110S",0
-"FLM PRD 110B","Fall 2025",21939,"Kevin Considine",3,"TuR","09:45 AM-11:50 AM","WWTSN111S",0
-"ANATOMY 001","Fall 2025",21941,"Jason Librande",4,"",,"WONLINE",0
-"DEN AST 009","Fall 2025",22743,"Raquel Medina",2,"W","03:30 PM-05:35 PM","WONLINELVE",0
-"DEN AST 003","Fall 2025",22746,"Marsha Center",1,"W","05:40 PM-06:45 PM","WONLINELVE",0
-"PHILOS 028","Fall 2025",23141,"Rick Mayock",3,"",,"WONLINE",0
-"AVIATEK 005","Fall 2025",21969,"Carlos Urias",4,"MTuWR","06:35 AM-08:45 AM","WATB201",0
-"AVIATEK 006","Fall 2025",21970,"Carlos Urias",2,"MTuWR","08:55 AM-12:15 PM","WATA102",0
-"AVIATEK 019","Fall 2025",21971,"Edmond Guzman",4,"MTuWR","06:35 AM-08:45 AM","WATB203",0
-"MICRO 020","Fall 2025",23571,"Laurimar Escudero",4,"MW","12:05 PM-01:35 PM","WMSA211",0
-"AFRO AM 004","Fall 2025",23951,"Neffetiti Austin",3,"",,"WONLINE",0
-"CH DEV 010","Fall 2025",23953,"Marlene Shepherd",3,"",,"WONLINE",0
-"PSYC C1000","Fall 2025",23956,"Payal Jain",3,"",,"WONLINE",1
-"PSYCH 041","Fall 2025",23957,"Payal Jain",3,"",,"WONLINE",1
-"ANATOMY 001","Fall 2025",23960,"Phuong Ngo-Hazelett",4,"TuR","08:55 AM-10:20 AM","WMSA212",0
-"CH DEV 002","Fall 2025",24933,"Ruth Monroe",3,"",,"WONLINE",0
-"ART 117","Fall 2025",21590,"Brian Olson",3,"",,"WONLINE",0
-"AVIATEK 018","Fall 2025",21982,"Courtney Thompson",2,"MTuWR","07:05 PM-10:25 PM","WATB209",0
-"MARKET 021","Fall 2025",22000,"Charles Bray",3,"",,"WONLINE",0
-"VOC ED 096CE","Fall 2025",22787,"Gilbert Richards",0,"Fr","09:00 AM-10:30 AM","WMSA105",1
-"ESL NC 008CE","Fall 2025",22788,"Paloma Tlaxca",0,"TuR","06:00 PM-08:35 PM","WONLINELVE",1
-"DEN AST 901","Fall 2025",22792,"Aaron Benitez",0.5,"",,"WWORKSITE",0
-"ANATOMY 001","Fall 2025",23182,"Rasheeda Hawk",4,"",,"WONLINE",0
-"AFRO AM 004","Fall 2025",23585,"Christian Green",3,"",,"WONLINE",0
-"ART 102","Fall 2025",25582,"Noushin Lavasani",3,"",,"WONLINE",1
-"ART 102","Fall 2025",25583,"Kevin Huotari",3,"",,"WONLINE",0
-"SOC 001","Fall 2025",26521,"Stephanie White",3,"WFr","10:55 AM-12:20 PM","WCRENSHAW",0
-"ENGLISH 206","Fall 2025",25928,"Stella Setka",3,"",,"WONLINE",1
-"AVIATEK 001","Fall 2025",24869,"Kasbar Mirkhanian",4,"MTuWR","06:35 AM-08:45 AM","WATA201",0
-"AVIATEK 002","Fall 2025",24870,"Kasbar Mirkhanian",2,"MTuWR","08:55 AM-12:15 PM","WATA110",0
-"FLM PRD 115A","Fall 2025",26484,"Gary Dagg",4,"MW","07:20 AM-10:40 AM","WATA228",0
-"AVIATEK 019","Fall 2025",26505,"Rudolfo Triviso",4,"MTuWR","04:45 PM-06:50 PM","WATB203",0
-"BUS 015","Fall 2025",26467,"Gustavo Demoner",3,"",,"WONLINE",0
-"DEN AST 013","Fall 2025",26790,"Rocio Garcia",2,"",,"WONLINE",0
-"BSICSKL 027CE","Fall 2025",26646,"Joshua Figueroa",0,"MW","09:00 AM-11:30 AM","WPECN11",1
-"CIS 194","Fall 2025",26068,"Lianghsiung Wang",3,"",,"WONLINE",1
-"BUS 001","Fall 2025",24880,"Laura Manyweather",3,"MW","01:00 PM-02:25 PM","WLACES",0
-"BUS 005","Fall 2025",24877,"Gjenaii Givhan",3,"",,"WHAMILTON",0
-"BUS 001","Fall 2025",24888,"Jan Vanderpool",3,"",,"WPALISADE",0
-"MARKET 001","Fall 2025",24611,"Kevin Dungey",3,"",,"WCULVHS",0
-"ART 202","Fall 2025",24685,"Doug Harvey",3,"R","03:45 PM-05:50 PM","WCULVHS",1
-"VOC ED 104CE","Fall 2025",26701,"Elvis Carias",0,"S","09:00 AM-12:20 PM","WTLC404",1
-"COMM C1000","Fall 2025",24608,"Francis Smith",3,"",,"WCULVHS",1
-"REAL ES 011","Fall 2025",25542,"Lethonia Howell",3,"",,"WONLINE",0
-"MATH 260","Fall 2025",24872,"Jamie Jenson",5,"TuR","08:55 AM-11:25 AM","WMSA104",0
-"MATH 261","Fall 2025",24873,"Thomas Harjuno",5,"TuR","07:20 PM-09:50 PM","WONLINELVE",0
-"AVIATEK 011","Fall 2025",25646,"Rudolfo Triviso",4,"MTuWR","04:45 PM-06:55 PM","WATA201",0
-"AVIATEK 012","Fall 2025",25647,"Rudolfo Triviso",2,"MTuWR","06:55 PM-10:15 PM","WATA110",0
-"AVIATEK 012","Fall 2025",25647,"Rudolfo Triviso",2,"MTuWR","06:55 PM-10:15 PM","WATA110",0
-"AVIATEK 011","Fall 2025",24862,"Clint Morice",4,"MTuWR","02:00 PM-04:05 PM","WATA201",0
-"AVIATEK 012","Fall 2025",24863,"Clint Morice",2,"MTuWR","04:15 PM-07:30 PM","WATA110",0
-"AVIATEK 015","Fall 2025",24858,"Kasbar Mirkhanian",4,"MTuWR","08:00 AM-10:05 AM","WATB207",0
-"AVIATEK 019","Fall 2025",24860,"Edwin Gamez",4,"MTuWR","02:00 PM-04:05 PM","WATB203",0
-"HEALTH 011","Fall 2025",24914,"Brian Pfiffner",3,"",,"WUNIVHIGH",0
-"MATH 236","Fall 2025",25660,"Zachary Brown",5,"TuR","08:55 AM-11:25 AM","WMSA109",0
-"A S L 001","Fall 2025",25530,"Jared Perez-Debusk",4,"MW","10:05 AM-11:20 AM","WHAMILTON",0
-"THEATER 100","Fall 2025",25609,"Adam Mondschein",3,"MW","01:15 PM-02:40 PM","WGC140",0
-"ART 103","Fall 2025",24494,"Justin Cole",3,"",,"WCULVHS",0
-"HLTHOCC 052","Fall 2025",24487,"WLAC STAFF",4,"WFr","08:30 AM-09:55 AM","WSTEMACAD",0
-"HEALTH 011","Fall 2025",24913,"Howard Fisher",3,"",,"WVENICEHS",0
-"AVIATEK 010","Fall 2025",25643,"Edgar Ajas Aguilar",2,"MTuWR","04:20 PM-07:40 PM","WATB120",0
-"CH DEV 001","Fall 2025",26089,"Kenyatta Bakeer",3,"TuR","09:30 AM-10:20 AM","WCULVHS",0
-"CINEMA 006","Fall 2025",26063,"Justin Thau",3,"RFr","12:30 PM-02:00 PM","WGARDENA",0
-"CH DEV 001","Fall 2025",24483,"Sean Taitt",3,"WFr","12:00 PM-01:25 PM","WHOLLYHS",0
-"A S L 001","Fall 2025",24499,"Viviana Ortiz",4,"",,"WCULVHS",0
-"PSYC C1000","Fall 2025",24652,"Payal Jain",3,"",,"WUNIVHIGH",1
-"CH DEV 007","Fall 2025",24614,"Sean Taitt",3,"WFr","02:05 PM-03:30 PM","WHOLLYHS",0
-"MIT 220","Fall 2025",24964,"Parvaneh Ghaforyfard",3,"",,"WONLINE",1
-"HEALTH 011","Fall 2025",24643,"Rosalinda Larios",3,"",,"WWESTCHST",0
-"CIS 213","Fall 2025",25977,"Anna Yeh Chiang",3,"",,"WONLINE",0
-"MATH 261L","Fall 2025",24974,"Manushak Movsisyan",1,"MW","12:05 PM-01:10 PM","WMSA102",1
-"AVIATEK 365","Fall 2025",26125,"Alex Tavakkoli",2,"TuR","07:30 AM-09:40 AM","WATA210",0
-"ENV SCI 024","Fall 2025",25690,"Dominic Merkle",3,"TuR","10:30 AM-11:55 AM","WMSA307",1
-"REAL ES 001","Fall 2025",25965,"Mark Rose",3,"MW","10:05 AM-11:20 AM","WHAMILTON",0
-"AVIATEK 360","Fall 2025",25780,"Alex Tavakkoli",3,"TuR","07:30 AM-09:35 AM","WATA102",0
-"CHEM 212","Fall 2025",25688,"Mesfin Alemayehu",5,"",,"WONLINE",0
-"PHILOS 020","Fall 2025",24777,"Rick Mayock",3,"TuR","01:15 PM-02:40 PM","WGC250",0
-"AVIATEK 014","Fall 2025",26139,"WLAC STAFF",2,"MTuWR","04:20 PM-07:40 PM","WATB103",0
-"AVIATEK 013","Fall 2025",26138,"WLAC STAFF",4,"MTuWR","02:00 PM-04:10 PM","WATB201",0
-"CH DEV 001","Fall 2025",24482,"Sean Taitt",3,"WFr","10:15 AM-11:40 AM","WHOLLYHS",0
-"GEOLOGY 006","Fall 2025",24783,"Beraki Woldehaimanot",1,"",,"WONLINE",1
-"CH DEV 007","Fall 2025",24935,"Bonnie Perez",3,"M","06:00 PM-09:10 PM","WONLINELVE",1
-"CH DEV 010","Fall 2025",24936,"Monica Juarez",3,"",,"WONLINE",0
-"CH DEV 011","Fall 2025",24932,"Bonnie Perez",3,"Tu","06:00 PM-09:10 PM","WONLINELVE",1
-"ART 708","Fall 2025",18301,"Douglas Blechner",3,"M","06:00 PM-07:05 PM","WFA105",0
-"SOC 001","Fall 2025",21225,"Tiffany Lanoix",3,"TuR","01:15 PM-02:40 PM","WGC310",1
-"SOC 031","Fall 2025",21228,"Victor Corona",3,"",,"WONLINE",1
-"HISTORY 012","Fall 2025",18534,"J Olivas",3,"",,"WONLINE",0
-"GEOG 015","Fall 2025",18555,"Dominic Merkle",2,"",,"WONLINE",0
-"VOC ED 400CE","Fall 2025",15645,"Cynthia Chambers",0,"",,"WONLINE",1
-"VOC ED 403CE","Fall 2025",15646,"Sandra Chie",0,"",,"WONLINE",1
-"SOC 001","Fall 2025",16836,"Victor Corona",3,"MW","10:30 AM-11:55 AM","WTLC303",1
-"DEN HY 354","Fall 2025",16837,"Joy Ogami Avila",3,"M","10:30 AM-12:30 PM","WTLC305",0
-"DEN HY 415","Fall 2025",16839,"Amanda De La Vega",3,"Tu","08:30 AM-10:35 AM","WMSA103",0
-"DEN HY 304","Fall 2025",16841,"Mariah Bonner",2,"W","08:00 AM-10:05 AM","WMSA006",0
-"ART 202","Fall 2025",16849,"Joel Kyack",3,"M","05:30 PM-07:35 PM","WFA106",0
-"ART 101","Fall 2025",17234,"Michael Arata",3,"",,"WONLINE",1
-"ART 103","Fall 2025",17235,"Joel Kyack",3,"",,"WONLINE",1
-"PHYSIOL 001","Fall 2025",17250,"Bryon Curletto",4,"",,"WONLINE",0
-"PHYSIOL 001","Fall 2025",17253,"Sean Gandomi",4,"",,"WONLINE",0
-"BIOLOGY 003","Fall 2025",17679,"Begona De Velasco",4,"Fr","08:55 AM-12:05 PM","WMSA309",0
-"BIOLOGY 003","Fall 2025",17681,"Kareen Martin",4,"",,"WONLINE",0
-"POLS C1000","Fall 2025",19893,"Christopher Lee",3,"",,"WONLINE",1
-"ANATOMY 001","Fall 2025",19894,"Tara Gandomi",4,"",,"WONLINE",0
-"MICRO 020","Fall 2025",19896,"Laurimar Escudero",4,"",,"WONLINE",0
-"PHYSIOL 001","Fall 2025",19898,"Bryon Curletto",4,"MW","08:55 AM-10:20 AM","WMSA211",0
-"ENGL C1000","Fall 2025",19901,"Clare Norris-Bell",3,"TuR","10:30 AM-11:55 AM","WTLC401",1
-"ENGL C1000","Fall 2025",19901,"Clare Norris-Bell",3,"TuR","10:30 AM-11:55 AM","WTLC401",1
-"AFRO AM 004","Fall 2025",21295,"Christian Green",3,"",,"WONLINE",0
-"KIN ATH 506","Fall 2025",18557,"Daniel Fitzpatrick",3,"",,"WFIELD",0
-"PHILOS 020","Fall 2025",18565,"John Provost",3,"",,"WONLINE",0
-"GAD 101","Fall 2025",25705,"Kaitlin Bonfiglio",3,"M","01:40 PM-03:45 PM","WTLC405",0
-"DEN AST 006","Fall 2025",19759,"Aaron Benitez",2,"Tu","01:15 PM-03:20 PM","WONLINELVE",0
-"HEALTH 011","Fall 2025",19768,"La' Nette Dillard",3,"MW","10:30 AM-11:55 AM","WGC350",0
-"BUS 001","Fall 2025",15664,"Todd Matosic",3,"",,"WONLINE",0
-"CINEMA 003","Fall 2025",17279,"Kendrick Jordan",3,"W","01:40 PM-04:50 PM","WGC160",1
-"ART 101","Fall 2025",17280,"Michael Arata",3,"",,"WONLINE",0
-"ART 101","Fall 2025",17281,"Michael Arata",3,"R","01:15 PM-04:25 PM","WGC160",0
-"ART 103","Fall 2025",17282,"Lucy Blake",3,"",,"WONLINE",0
-"BIOLOGY 003","Fall 2025",17683,"WLAC STAFF",4,"TuR","08:55 AM-10:20 AM","WMSA309",0
-"BIOLOGY 003","Fall 2025",17685,"Vered Mirmovitch",4,"MW","08:55 AM-10:20 AM","WMSA309",0
-"BUS 046","Fall 2025",19906,"Todd Matosic",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",19919,"Susan Herdzina",3,"Tu","06:45 PM-08:55 PM","WGC230",1
-"ENGL C1000","Fall 2025",20064,"Mark Wallach",3,"MW","09:00 AM-10:25 AM","WLAPDARTC",0
-"SOC 001","Fall 2025",18582,"Victor Corona",3,"",,"WONLINE",1
-"ASTRON 001","Fall 2025",18994,"Elizabeth Bell",3,"",,"WONLINE",1
-"MGMT 013","Fall 2025",18995,"Sherice Bellamy",3,"",,"WONLINE",1
-"CHICANO 047","Fall 2025",19793,"Sandra Ruiz",3,"",,"WONLINE",0
-"CHICANO 002","Fall 2025",19794,"Sandra Ruiz",3,"W","10:30 AM-11:55 AM","WGC230",0
-"FLM PRD 100","Fall 2025",19795,"Imhotep Coleman",3,"TuR","08:45 AM-11:55 AM","WTLC301",0
-"ECON 010","Fall 2025",16507,"Meric Keskinel",3,"",,"WONLINE",1
-"DEN HY 311","Fall 2025",16893,"Rachel Hipolite",2,"",,"WMSA111",0
-"DEN HY 311","Fall 2025",16893,"Donna Smith",2,"",,"WMSA111",0
-"DEN HY 311","Fall 2025",16893,"Mariesa Abad",2,"",,"WMSA111",0
-"DEN HY 311","Fall 2025",16893,"Rachel Hipolite",2,"",,"WMSA111",0
-"DEN HY 311","Fall 2025",16893,"Arvinder Malik",2,"",,"WMSA111",0
-"DEN AST 005","Fall 2025",16896,"Raquel Medina",5,"W","08:30 AM-10:35 AM","WONLINELVE",0
-"ART 103","Fall 2025",17283,"Lucy Blake",3,"",,"WONLINE",0
-"ASTRON 005","Fall 2025",20090,"Elizabeth Bell",1,"",,"WONLINE",1
-"STAT C1000","Fall 2025",25662,"Lelisa Dera",4,"MW","01:15 PM-03:20 PM","WMSA109",0
-"FLM PRD 140A","Fall 2025",19825,"Charles Mcintyre",4,"MW","07:20 AM-10:30 AM","WATA210",0
-"ECON 002","Fall 2025",15728,"Meric Keskinel",3,"",,"WONLINE",1
-"NRS-HCA 056","Fall 2025",16931,"Belinda Johnson-Adkins",1,"",,"WONLINE",0
-"CH DEV 022","Fall 2025",16932,"Dolores Gallegos",4,"Tu","04:30 PM-06:35 PM","WGC110",0
-"ASTRON 005","Fall 2025",17326,"Elizabeth Bell",1,"",,"WONLINE",1
-"AVIATEK 003","Fall 2025",20505,"Carlos Urias",4,"MTuWR","06:35 AM-08:40 AM","WATB203",0
-"AVIATEK 004","Fall 2025",20506,"Carlos Urias",2,"MTuWR","08:50 AM-12:05 PM","WATB203",0
-"AVIATEK 013","Fall 2025",20507,"Edmond Guzman",4,"MTuWR","06:35 AM-08:40 AM","WATB209",0
-"AVIATEK 014","Fall 2025",20508,"Edmond Guzman",2,"MTuWR","08:50 AM-12:05 PM","WATB103",0
-"AVIATEK 007","Fall 2025",24864,"Edgar Ajas Aguilar",4,"MTuWR","02:00 PM-04:05 PM","WATA214",0
-"AVIATEK 008","Fall 2025",24865,"Edgar Ajas Aguilar",2,"MTuWR","04:15 PM-07:30 PM","WATA103",0
-"AVIATEK 009","Fall 2025",24866,"Ronald Vasquez",4,"MTuWR","04:45 PM-06:50 PM","WATB207",0
-"AVIATEK 005","Fall 2025",20517,"Monica Reyes",4,"MTuWR","04:45 PM-06:50 PM","WATB201",0
-"AVIATEK 006","Fall 2025",20518,"Monica Reyes",2,"MTuWR","07:05 PM-10:20 PM","WATB201",0
-"AVIATEK 019","Fall 2025",20519,"Edwin Gamez",4,"MTuWR","02:00 PM-04:05 PM","WATB203",0
-"CS 216","Fall 2025",21355,"Parvaneh Ghaforyfard",3,"",,"WONLINE",0
-"CIS 227","Fall 2025",21357,"Marcus Butler",3,"",,"WONLINE",0
-"CIS 105","Fall 2025",21359,"Manish Patel",3,"",,"WONLINE",0
-"EARTH 002","Fall 2025",18651,"Mussie Okbamichael",1,"",,"WONLINE",1
-"EARTH 001","Fall 2025",19042,"Mussie Okbamichael",3,"",,"WONLINE",1
-"DEN HY 305","Fall 2025",19047,"Whitney Scott",3,"W","07:20 AM-08:25 AM","WTLC304",0
-"DEN HY 450","Fall 2025",19049,"Natalie Ferrigno",1,"W","01:45 PM-02:50 PM","WMSA105",0
-"DEN HY 451","Fall 2025",19050,"Joan Grace Beleno Sanchez",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Cynthia Chambers",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Natalie Ferrigno",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Natalie Ferrigno",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Donna Lawrence",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Idalia Velasco",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Ursula Turley",5,"",,"WCLINIC",0
-"DEN HY 451","Fall 2025",19050,"Idalia Velasco",5,"",,"WCLINIC",0
-"DEN HY 489","Fall 2025",19051,"Idalia Velasco",1,"M","09:15 AM-10:20 AM","WMSA111",0
-"MATH 262","Fall 2025",19453,"Thomas Harjuno",5,"MW","07:20 PM-09:50 PM","WONLINELVE",0
-"CHEM 101","Fall 2025",19836,"Jesus Iniguez",5,"MW","01:40 PM-03:05 PM","WMSA005",0
-"HISTORY 012","Fall 2025",15746,"J Olivas",3,"",,"WONLINE",1
-"KIN 250","Fall 2025",15753,"Christol McDonald",1,"Fr","09:35 AM-11:40 AM","WPECN14",0
-"SPANISH 001","Fall 2025",17340,"April Mizuki",5,"",,"WONLINE",1
-"CHICANO 047","Fall 2025",17341,"Sandra Ruiz",3,"W","08:55 AM-10:20 AM","WGC230",0
-"CH DEV 002","Fall 2025",25698,"Evelyn Gomez",3,"TuR","09:00 AM-12:10 PM","WONLINELVE",0
-"MATH 260","Fall 2025",21234,"Jeremy Jankans",5,"MW","12:05 PM-02:35 PM","WONLINELVE",0
-"MATH 230","Fall 2025",19458,"Carrie Huang",3,"Fr","08:55 AM-12:05 PM","WONLINELVE",0
-"CAOT 114","Fall 2025",19461,"Patricia Morris",2,"",,"WONLINE",0
-"ENGLISH 101Y","Fall 2025",19871,"Timothy Welch",3.5,"MW","10:30 AM-11:55 AM","WGC130",0
-"AFRO AM 005","Fall 2025",15759,"Christian Green",3,"",,"WONLINE",0
-"PHRMCTK 032","Fall 2025",16972,"Pamela Moore",4.5,"M","08:30 AM-11:00 AM","WONLINELVE",0
-"HISTORY 011","Fall 2025",17371,"J Olivas",3,"TuR","10:30 AM-11:55 AM","WGC470",0
-"POLS C1000","Fall 2025",17380,"Christopher Lee",3,"W","12:05 PM-01:30 PM","WGC340",1
-"HEALTH 011","Fall 2025",17381,"Jitendra Kuckreja",3,"",,"WONLINE",0
-"ADM JUS 006","Fall 2025",17782,"George Yan",3,"",,"WONLINE",0
-"BUS 001","Fall 2025",17787,"William Vega",3,"M","11:10 AM-12:35 PM","WTLC304",1
-"CHEM 101","Fall 2025",17788,"Neil Quebbemann",5,"",,"WONLINE",0
-"MGMT 001","Fall 2025",17790,"Kevin Smith",3,"",,"WONLINE",0
-"HUMAN 030","Fall 2025",20015,"John Provost",3,"",,"WONLINE",0
-"KIN ATH 556","Fall 2025",20169,"Anthony Jones",1,"TuR","10:30 AM-11:55 AM","WGYM",0
-"KIN MAJ 100","Fall 2025",20176,"Christol McDonald",3,"TuR","10:30 AM-11:55 AM","WPEC113",0
-"THEATER 100","Fall 2025",20575,"Adam Mondschein",3,"MW","10:35 AM-12:00 PM","WLAPDARTC",0
-"BIOLOGY 006","Fall 2025",21259,"Michelle Priest",5,"",,"WONLINE",1
-"CHEM 212","Fall 2025",21272,"Sharmishtha Bandyopadhyaya",5,"",,"WONLINE",1
-"ART 709","Fall 2025",19103,"Michael Arata",3,"M","08:55 AM-09:45 AM","WFA105",0
-"ART 710","Fall 2025",19105,"Michael Arata",3,"M","08:55 AM-09:45 AM","WFA105",0
-"ART 206","Fall 2025",19489,"Michael Arata",3,"R","05:30 PM-07:35 PM","WFA301",0
-"HOSPT 325","Fall 2025",19503,"Sam Sahrai",3,"",,"WONLINE",0
-"KIN 229","Fall 2025",15808,"Ricardo Hooper",1,"TuR","10:30 AM-11:35 AM","WFIELD",0
-"CS 101","Fall 2025",16204,"Kaleab Gorfu",3,"TuR","10:30 AM-11:55 AM","WTLC402",1
-"SOC 002","Fall 2025",16591,"Peter Aguilera",3,"",,"WONLINE",1
-"POLS C1000","Fall 2025",16596,"Christopher Lee",3,"",,"WONLINE",1
-"HLTHOCC 056","Fall 2025",17002,"Yervant Boghos",4,"R","04:30 PM-07:00 PM","WONLINE",0
-"HLTHOCC 057","Fall 2025",17006,"Yervant Boghos",3.5,"R","07:15 PM-09:20 PM","WONLINE",0
-"HEALTH 011","Fall 2025",17382,"Howard Fisher",3,"",,"WONLINE",0
-"CINEMA 003","Fall 2025",18058,"Evan Charnov",3,"",,"WONLINE",1
-"CIS 112","Fall 2025",18065,"Anna Yeh Chiang",3,"",,"WONLINE",0
-"CS 116","Fall 2025",18067,"Ashok Patil",3,"M","05:25 PM-07:30 PM","WTLC401",0
-"DEN HY 300","Fall 2025",18328,"Rachel Hipolite",3,"R","08:30 AM-11:50 AM","WMSA111",0
-"ALD HTH 057","Fall 2025",19511,"Yervant Boghos",1,"",,"WONLINE",0
-"PHYSICS 038","Fall 2025",19514,"Mesfin Taye",5,"",,"WONLINE",0
-"MICRO 020","Fall 2025",19517,"Laurimar Escudero",4,"",,"WONLINE",0
-"HISTORY 040","Fall 2025",19522,"J Olivas",3,"",,"WONLINE",0
-"HEALTH 011","Fall 2025",15427,"Jitendra Kuckreja",3,"",,"WONLINE",0
-"HISTORY 011","Fall 2025",17024,"David Smith",3,"",,"WONLINE",0
-"ENGL C1001","Fall 2025",17425,"Katherine LaTourrette",3,"MW","10:30 AM-11:55 AM","WGC150",1
-"CHEM 066","Fall 2025",17426,"Elisa Atti",5,"TuR","01:15 PM-02:40 PM","WMSA302",0
-"CH DEV 046","Fall 2025",17428,"Marini Smith",3,"",,"WONLINE",0
-"HEALTH 011","Fall 2025",18089,"La' Nette Dillard",3,"TuR","10:30 AM-11:55 AM","WGC320",0
-"CHEM 211","Fall 2025",18106,"Jesus Iniguez",5,"TuR","01:15 PM-02:40 PM","WMSA003",0
-"ADM JUS 001","Fall 2025",21012,"Seth Fogel",3,"TuR","09:00 AM-10:25 AM","WLAPDARTC",0
-"ADM JUS 067","Fall 2025",21013,"Ronald Williams",3,"MW","09:00 AM-10:25 AM","WLAPDARTC",0
-"PSYC C1000","Fall 2025",21014,"Robert Irvin",3,"TuR","09:00 AM-10:25 AM","WLAPDARTC",1
-"DEN HY 327","Fall 2025",18343,"Lisa Kamibayashi",3,"R","08:00 AM-09:25 AM","WTLC304",0
-"DEN HY 352","Fall 2025",18345,"Idalia Velasco",2,"M","10:30 AM-12:35 PM","WMSA006",0
-"REAL ES 009","Fall 2025",18744,"Chantal Grayson",3,"",,"WONLINE",0
-"ECON 002","Fall 2025",15836,"Meric Keskinel",3,"",,"WONLINE",1
-"SOC 001","Fall 2025",15837,"Olga Hernandez",3,"",,"WONLINE",1
-"ANTHRO 111","Fall 2025",16258,"Sashur Henninger",1,"",,"WONLINE",0
-"HLTHOCC 058","Fall 2025",17041,"Yervant Boghos",2,"",,"WONLINE",0
-"GEOLOGY 002","Fall 2025",17436,"Beraki Woldehaimanot",3,"",,"WONLINE",0
-"GEOLOGY 007","Fall 2025",17437,"Beraki Woldehaimanot",1,"",,"WONLINE",0
-"MATH 230","Fall 2025",17441,"Ariel Mazzarelli",3,"TuR","08:55 AM-10:20 AM","WMSA102",1
-"PSYCH 091","Fall 2025",17449,"WLAC STAFF",4,"MW","08:55 AM-10:20 AM","WGC430",1
-"PSYCH 091","Fall 2025",17449,"Aurthur Camplone",4,"MW","08:55 AM-10:20 AM","WGC430",1
-"DEN HY 306","Fall 2025",18108,"Natalie Ferrigno",2,"W","09:00 AM-11:10 AM","WMSA103",0
-"ALD HTH 102","Fall 2025",18119,"Adrian Casas",3,"",,"WONLINE",0
-"NRS-HCA 399A","Fall 2025",20230,"Barbara Hickman",6,"TuR","06:30 PM-09:35 PM","WONLINE",0
-"NRS-HCA 399B","Fall 2025",20246,"Sherry Kidd",2,"TuR","06:30 PM-09:50 PM","WMSA005",0
-"DEN HY 355","Fall 2025",18364,"Rachel Hipolite",3,"W","01:30 PM-04:40 PM","WMSA103",0
-"DEN HY 312","Fall 2025",18375,"Mariah Bonner",2,"Tu","11:20 AM-12:10 PM","WMSA202",0
-"HEALTH 011","Fall 2025",18765,"Victor Pulido",3,"",,"WONLINE",0
-"ART 101","Fall 2025",18770,"Kevin Huotari",3,"",,"WONLINE",1
-"ADM JUS 002","Fall 2025",15859,"Corey Flournoy-Williams",3,"",,"WONLINE",0
-"ANTHRO 111","Fall 2025",16259,"Marina Cunin",1,"",,"WONLINE",0
-"PALEGAL 010","Fall 2025",17064,"Francine Zexter",3,"W","06:45 PM-09:35 PM","WONLINELVE",0
-"ART 201","Fall 2025",17471,"Joel Kyack",3,"TuR","01:40 PM-02:30 PM","WFA106",0
-"ART 202","Fall 2025",17473,"Joel Kyack",3,"TuR","01:40 PM-02:30 PM","WFA106",0
-"MATH 241","Fall 2025",18139,"Brian Carty",4,"TuR","07:05 PM-09:35 PM","WONLINELVE",0
-"BIOLOGY 007","Fall 2025",18156,"Vered Mirmovitch",5,"TuR","01:15 PM-02:40 PM","WMSA203",0
-"KIN ATH 508","Fall 2025",20262,"Eric Scott",3,"MWR","04:00 PM-06:05 PM","WFIELD",0
-"ENGLISH 420","Fall 2025",15903,"WLAC STAFF",3,"",,"WONLINE",1
-"ARABIC 001","Fall 2025",16297,"Albert Johns",5,"",,"WONLINE",0
-"POLS C1000","Fall 2025",16299,"Christopher Lee",3,"",,"WONLINE",1
-"PSYC C1000","Fall 2025",16300,"Nataly Castro",3,"W","07:05 PM-10:15 PM","WONLINELVE",1
-"PSYC C1000","Fall 2025",16302,"Tara Tarian",3,"MW","08:55 AM-10:20 AM","WONLINELVE",1
-"DEN HY 401","Fall 2025",17085,"Joan Grace Beleno Sanchez",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Whitney Scott",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"David Nguyen",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Donna Lawrence",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Sandy Levy",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Ursula Turley",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Natalie Ferrigno",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Joy Ogami Avila",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Mariesa Abad",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Megha Sata",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Lila Zarrinnam Ehrlich",4,"",,"WCLINIC",0
-"DEN HY 401","Fall 2025",17085,"Hoosik Najarian",4,"",,"WCLINIC",0
-"AFRO AM 004","Fall 2025",15925,"Michelle Bell-Blossom",3,"",,"WONLINE",0
-"ALD HTH 103","Fall 2025",16312,"Adrian Casas",3,"",,"WONLINE",0
-"HEALTH 011","Fall 2025",16710,"Brian Pfiffner",3,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",16729,"Jeanene Ames",3,"MW","08:55 AM-10:20 AM","WGC240",1
-"DEN HY 308","Fall 2025",17130,"Carlos Sermeno",2,"R","10:00 AM-12:05 PM","WTLC304",0
-"DEN HY 351","Fall 2025",17131,"Mariah Bonner",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Amanda De La Vega",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Megha Sata",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Joy Ogami Avila",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Sandra Chie",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Mariah Bonner",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Smruti Patel",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Rachel Hipolite",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Amanda De La Vega",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Maria Ha",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Joy Ogami Avila",3,"",,"WMSB119",0
-"DEN HY 351","Fall 2025",17131,"Carlos Sermeno",3,"",,"WMSB119",0
-"ANATOMY 001","Fall 2025",17132,"Julie Kanjanapangka",4,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",18182,"Nuala Lincke",3,"MW","10:30 AM-11:55 AM","WTLC401",1
-"PSYC C1000","Fall 2025",18191,"Shantel Thornton",3,"TuR","10:30 AM-11:55 AM","WGC330",1
-"ART 204","Fall 2025",18203,"Michael Arata",3,"R","05:30 PM-07:35 PM","WFA301",0
-"SPANISH 001","Fall 2025",20314,"Yunsook Kim",5,"",,"WONLINE",1
-"MATH 263","Fall 2025",20316,"Thomas Harjuno",5,"MW","08:55 AM-11:25 AM","WONLINELVE",0
-"COOP ED 395","Fall 2025",18443,"Raquel Michel-Jackson",3,"",,"WWORKSITE",1
-"COOP ED 195","Fall 2025",18445,"Andrea Rodriguez-Blanco",1,"",,"WWORKSITE",1
-"ENG GEN 131","Fall 2025",19633,"Edward Gao",3,"",,"WONLINE",0
-"ESL NC 006CE","Fall 2025",19644,"Adrianne Villalvazo",0,"MWFr","09:00 AM-11:50 AM","WONLINELVE",1
-"ESL NC 006CE","Fall 2025",19645,"Leila Shabani",0,"MW","06:00 PM-08:35 PM","WONLINELVE",1
-"ESL NC 009CE","Fall 2025",19646,"Paloma Tlaxca",0,"MTuW","09:00 AM-11:50 AM","WONLINELVE",1
-"ESL NC 063CE","Fall 2025",19647,"Lisa Saperston",0,"S","09:00 AM-12:25 PM","WONLINE",1
-"ESL NC 023CE","Fall 2025",19650,"Lisa Glionna",0,"TuR","01:00 PM-02:50 PM","WONLINELVE",1
-"MGMT 002","Fall 2025",15945,"Todd Matosic",3,"",,"WONLINE",0
-"ACCTG 001","Fall 2025",15946,"Charles Daniel",5,"",,"WONLINE",0
-"CIS 104","Fall 2025",15947,"Manish Patel",3,"",,"WONLINE",0
-"ENGLISH 101Y","Fall 2025",15950,"Timothy Welch",3.5,"",,"WONLINE",1
-"ACCTG 001","Fall 2025",16348,"Gerald Ludwig",5,"",,"WONLINE",0
-"BUS 005","Fall 2025",16349,"Todd Matosic",3,"",,"WONLINE",1
-"COMM C1000","Fall 2025",16743,"Kevin Coffee",3,"MW","10:30 AM-11:55 AM","WGC240",1
-"BIOLOGY 006","Fall 2025",17134,"Patricia Zuk",5,"M","08:55 AM-12:15 PM","WMSA303",1
-"CHEM 060","Fall 2025",17136,"Jesus Iniguez",5,"MW","08:55 AM-10:20 AM","WMSA003",1
-"CHEM 102","Fall 2025",18220,"Neil Quebbemann",5,"",,"WONLINE",0
-"HLTHOCC 061","Fall 2025",20349,"Terry Esparza",3,"M","06:00 PM-07:25 PM","WONLINELVE",0
-"HLTHOCC 052","Fall 2025",20350,"Terry Esparza",4,"S","09:00 AM-10:50 AM","WMSA006",0
-"CINEMA 003","Fall 2025",18861,"Ishmael Elmi",3,"",,"WONLINE",0
-"EDUC 211","Fall 2025",18866,"Marini Smith",3,"",,"WONLINE",0
-"BUS 038","Fall 2025",19664,"Gustavo Demoner",3,"",,"WONLINE",1
-"CHICANO 002","Fall 2025",20359,"Sandra Ruiz",3,"",,"WONLINE",0
-"CHICANO 002","Fall 2025",20359,"Sandra Ruiz",3,"",,"WONLINE",0
-"AVIATEK 009","Fall 2025",25642,"Edgar Ajas Aguilar",4,"MTuWR","02:00 PM-04:10 PM","WATB201",0
-"CS 119","Fall 2025",20369,"Kaleab Gorfu",3,"",,"WONLINE",0
-"AVIATEK 018","Fall 2025",25645,"Martin Nee",2,"MTuWR","04:20 PM-07:40 PM","WATB201",0
-"REAL ES 001","Fall 2025",18504,"Joanna Ratkovich",3,"",,"WONLINE",0
-"FLM PRD 901","Fall 2025",25699,"Jennifer Penton",0.5,"",,"WWORKSITE",0
-"FLM PRD 901","Fall 2025",25700,"Jennifer Penton",0.5,"",,"WWORKSITE",0
-"FLM PRD 200","Fall 2025",25703,"Jennifer Penton",3,"",,"WONLINE",0
-"FLM PRD 100","Fall 2025",19688,"Evan Charnov",3,"MW","05:50 PM-08:10 PM","WONLINE",0
-"CHICANO 002","Fall 2025",19693,"Yadira Ceballos-Tellechea",3,"TuR","08:55 AM-10:20 AM","WGC340",0
-"CIS 110","Fall 2025",15606,"Bill Williams",3,"",,"WONLINE",0
-"CH DEV 030","Fall 2025",15988,"Monica Juarez",3,"",,"WONLINE",0
-"KIN ATH 557","Fall 2025",16793,"Roger Hill",1,"TuR","03:25 PM-04:50 PM","WBASEBALL",0
-"KIN ATH 553","Fall 2025",16795,"WLAC STAFF",1,"MTuW","03:00 PM-03:50 PM","WFIELD",0
-"KIN ATH 504","Fall 2025",16797,"Anthony Jones",3,"MTuWRFr","03:15 PM-05:20 PM","WGYM",0
-"KIN ATH 504","Fall 2025",16797,"Anthony Jones",3,"MTuWRFr","03:15 PM-05:20 PM","WGYM",0
-"KIN ATH 516","Fall 2025",16798,"John Anselmo",3,"MTuWRFr","05:10 PM-07:15 PM","WGYM",0
-"KIN ATH 511","Fall 2025",16799,"WLAC STAFF",3,"MTuWRFr","01:30 PM-03:35 PM","WFIELD",0
-"BIOTECH 001","Fall 2025",18262,"Kareen Martin",3,"",,"WONLINE",1
-"KIN 251","Fall 2025",20381,"Jennifer Henderson",1,"Fr","08:55 AM-11:05 AM","WPECSA",0
-"HISTORY 002","Fall 2025",18531,"Jonathan Kolkey",3,"",,"WONLINE",0
-"KIN 251","Fall 2025",19727,"Jamie Hammond",1,"S","08:15 AM-10:20 AM","WPECSA",0
-"DEN HY 388","Fall 2025",19728,"Amanda De La Vega",1,"M","03:50 PM-04:55 PM","WMSA111",0
-"CS 213","Fall 2025",15610,"Ashok Patil",3,"Tu","05:25 PM-07:30 PM","WONLINELVE",0
-"GEOLOGY 001","Fall 2025",15626,"Beraki Woldehaimanot",3,"",,"WONLINE",1
-"KIN MAJ 100","Fall 2025",15627,"Ricardo Hooper",3,"",,"WONLINE",0
-"SPANISH 003","Fall 2025",16808,"Elena Aviles",5,"",,"WONLINE",1
-"ART 708","Fall 2025",16815,"Michael Arata",3,"M","08:55 AM-09:45 AM","WFA105",0
-"ENGL C1000","Fall 2025",16825,"Luis Cordova",3,"TuR","10:30 AM-11:55 AM","WGC240",0
-"CIS 212","Fall 2025",16826,"Francisco Monzon",3,"",,"WONLINE",0
-"ART 709","Fall 2025",16828,"Douglas Blechner",3,"M","06:00 PM-07:05 PM","WFA105",0
-"ART 710","Fall 2025",16830,"Douglas Blechner",3,"M","06:00 PM-07:05 PM","WFA105",0
-"ART 711","Fall 2025",16832,"Douglas Blechner",3,"M","06:00 PM-07:05 PM","WFA105",0
-"PHYSICS 007","Fall 2025",24786,"Kemal Yassin",4,"",,"WONLINE",0
-"ENGL C1000","Fall 2025",13184,"Luis Cordova",3,"TuR","01:15 PM-02:40 PM","WGC240",0
-"BSICSKL 023CE","Fall 2025",26164,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINELVE",1
-"ALD HTH 052","Fall 2025",27570,"Alex Rodrigues",8.5,"TuR","09:30 AM-01:15 PM","WMSA005",0
-"VOC ED 440CE","Fall 2025",27180,"Alejandra Salcedo Rodriguez",0,"TuR","06:00 PM-07:15 PM","WONLINELVE",1
-"ESL NC 050CE","Fall 2025",27193,"Lisa Glionna",0,"TuR","06:00 PM-09:10 PM","WONLINELVE",1
-"ALD HTH 021","Fall 2025",27865,"WLAC STAFF",0.5,"",,"WMSA006",0
-"NRS-HCA 399A","Fall 2025",27312,"Lorene Brame",6,"MW","05:30 PM-08:00 PM","WONLINELVE",0
-"VOC ED 405CE","Fall 2025",26531,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"VOC ED 440CE","Fall 2025",27179,"Sabrina Ruiz",0,"S","10:00 AM-12:50 PM","WONLINELVE",1
-"VOC ED 441CE","Fall 2025",27176,"Sabrina Ruiz",0,"S","10:00 AM-12:50 PM","WONLINELVE",1
-"COOP ED 195","Fall 2025",28047,"Elizabeth Pajevski",1,"",,"WWORKSITE",0
-"COOP ED 195","Fall 2025",28047,"Damian Lomeli",1,"",,"WWORKSITE",0
-"COOP ED 195","Fall 2025",28047,"Mary Rivera",1,"",,"WWORKSITE",0
-"COOP ED 195","Fall 2025",28047,"George Cortez",1,"",,"WWORKSITE",0
-"ALD HTH 033","Fall 2025",26403,"Rosalinda Larios",3,"W","12:35 PM-02:05 PM","WDORSEY",0
-"CH DEV 034","Fall 2025",24937,"Marini Smith",3,"R","01:05 PM-04:15 PM","WGC110",0
-"CH DEV 172","Fall 2025",23635,"Dolores Gallegos",1,"",,"WONLINE",1
-"ESL NC 018CE","Fall 2025",22921,"Jenell Rae",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",1
-"AVIATEK 020","Fall 2025",24861,"Edwin Gamez",2,"MTuWR","04:15 PM-07:30 PM","WATB120",0
-"BSICSKL 077CE","Fall 2025",22129,"Gilbert Richards",0,"MTuWR","09:00 AM-10:30 AM","WMSA105",1
-"VOC ED 290CE","Fall 2025",22232,"Lisa Glionna",0,"MTuWR","10:35 AM-11:50 AM","WMSA108",1
-"DEN HY 389","Fall 2025",23060,"Joy Ogami Avila",1,"W","01:45 PM-02:50 PM","WMSA006",0
-"BSICSKL 027CE","Fall 2025",22713,"Lily Mozafari",0,"",,"WONLINE",1
-"AVIATEK 020","Fall 2025",21972,"Edmond Guzman",2,"MTuWR","08:55 AM-12:15 PM","WATB120",0
-"SOC 001","Fall 2025",23952,"Chanel Green",3,"",,"WONLINE",0
-"AVIATEK 017","Fall 2025",21981,"Courtney Thompson",4,"MTuWR","04:45 PM-06:55 PM","WATB207",0
-"ACCTG 002","Fall 2025",23979,"Charles Daniel",5,"",,"WONLINE",0
-"CIS 229","Fall 2025",24840,"Squire Kami",3,"",,"WONLINE",1
-"CH DEV 001","Fall 2025",25658,"Danielle McLellan-Bujnak",3,"MW","10:05 AM-11:20 AM","WHAMILTON",0
-"ART 201","Fall 2025",24834,"David DiMichele",3,"",,"WWISHACAD",0
-"HEALTH 011","Fall 2025",24910,"Kirk Olescyski",3,"TuFr","10:00 AM-11:25 AM","WWISHACAD",0
-"CINEMA 001","Fall 2025",26061,"Justin Thau",3,"RFr","10:20 AM-11:45 AM","WGARDENA",0
-"ADM JUS 001","Fall 2025",26124,"Corey Flournoy-Williams",3,"W","09:45 AM-10:45 AM","WVENICEHS",0
-"CH DEV 001","Fall 2025",26088,"Kenyatta Bakeer",3,"TuR","10:55 AM-11:45 AM","WCULVHS",0
-"DEN HY 406","Fall 2025",16838,"Natalie Ferrigno",1,"W","12:30 PM-01:35 PM","WMSA006",0
-"HEALTH 011","Fall 2025",20445,"Kirk Olescyski",3,"",,"WONLINE",0
-"HOSPT 135","Fall 2025",20072,"Lawrence Stafford",3,"MW","01:15 PM-02:40 PM","WONLINELVE",0
-"BSICSKL 005CE","Fall 2025",19787,"Iliana Limas",0,"",,"WHLRCFLR1",1
-"BSICSKL 005CE","Fall 2025",19787,"Roberto Perez",0,"",,"WHLRCFLR1",1
-"CS 136","Fall 2025",21353,"Ashok Patil",3,"",,"WONLINE",0
-"ADM JUS 004","Fall 2025",16914,"Corey Flournoy-Williams",3,"",,"WONLINE",0
-"MATH 246","Fall 2025",19970,"Jilbert Gharamanians",4,"MW","12:05 PM-02:10 PM","WMSA104",0
-"HEALTH 011","Fall 2025",18653,"Setareh Torabian Esfahani",3,"",,"WONLINE",0
-"ADM JUS 014","Fall 2025",17783,"George Yan",3,"",,"WONLINE",0
-"PHYSICS 037","Fall 2025",17796,"Elizabeth Bell",5,"MW","12:05 PM-02:10 PM","WMSA403",0
-"ART 205","Fall 2025",19485,"Michael Arata",3,"R","05:30 PM-07:35 PM","WFA301",0
-"MATH 241","Fall 2025",20200,"Juliana Howe",4,"MW","03:45 PM-05:50 PM","WONLINELVE",0
-"ART 711","Fall 2025",19107,"Michael Arata",3,"M","08:55 AM-09:45 AM","WFA105",0
-"ADM JUS 039","Fall 2025",19623,"George Yan",3,"",,"WONLINE",0
-"BSICSKL 034CE","Fall 2025",20305,"Ricardo Hooper",0,"MW","06:00 PM-08:35 PM","WONLINELVE",1
-"PSYCH 074","Fall 2025",16745,"Aurthur Camplone",3,"TuR","08:55 AM-10:20 AM","WGC310",1
-"ALD HTH 033","Fall 2025",20352,"Juan Castillo",3,"W","06:00 PM-07:20 PM","WONLINELVE",0
-"AVIATEK 017","Fall 2025",25644,"Martin Nee",4,"MTuWR","02:00 PM-04:10 PM","WATB207",0
-"REAL ES 003","Fall 2025",10457,"Nicole Webster",3,"",,"WONLINE",0
-"VOC ED 402CE","Fall 2025",26530,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
-"ESL NC 048CE","Fall 2025",27189,"Tatevik Hovhannisyan",0,"MW","01:00 PM-01:50 PM","WONLINELVE",1
-"VOC ED 129CE","Fall 2025",26557,"Andrea Rodriguez-Blanco",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",1
-"ESL NC 049CE","Fall 2025",27191,"Tatevik Hovhannisyan",0,"MW","01:00 PM-02:35 PM","WONLINELVE",1
-"ALD HTH 033","Fall 2025",26659,"Christine Tannious",3,"MWFr","10:55 AM-11:45 AM","WUNIVHIGH",0
-"HLTHOCC 062","Fall 2025",27793,"Christine Tannious",2,"Tu","05:30 PM-06:35 PM","WONLINELVE",0
-"VOC ED 440CE","Fall 2025",27178,"Alejandra Salcedo Rodriguez",0,"S","10:00 AM-12:50 PM","WBLDNGSKLS",1
-"VOC ED 128CE","Fall 2025",26556,"Andrea Rodriguez-Blanco",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",1
-"COOP ED 095","Fall 2025",28016,"Rocio Garcia",0.5,"",,"WONLINELVE",0
-"COOP ED 095","Fall 2025",28016,"Damian Lomeli",0.5,"",,"WONLINELVE",0
-"MATH 261L","Fall 2025",22079,"Tanshee Cheng",1,"TuR","04:30 PM-05:40 PM","WONLINELVE",1
-"MATH 236L","Fall 2025",23323,"Vidya Swaminathan",0.5,"MW","12:30 PM-01:35 PM","WONLINELVE",1
-"DEN AST 001","Fall 2025",22742,"Rocio Garcia",2,"Tu","08:55 AM-11:00 AM","WONLINELVE",0
-"ART 201","Fall 2025",16847,"Joel Kyack",3,"M","05:30 PM-07:35 PM","WFA106",0
-"LIB SCI 101","Fall 2025",19520,"Judy Chow",1,"",,"WONLINE",1
-"HEALTH 011","Fall 2025",14127,"Jennifer Henderson",3,"",,"WONLINE",0
-"COOP ED 095","Fall 2025",28214,"WLAC STAFF",0.5,"",,"WONLINELVE",0
-"ALD HTH 033","Fall 2025",26660,"Cara Batson",3,"MWFr","11:55 AM-12:45 PM","WUNIVHIGH",0
-"DEN AST 001","Fall 2025",22809,"Aaron Benitez",2,"",,"WMSA103",0
-"DEN AST 007","Fall 2025",22811,"Rocio Garcia",1,"",,"WONLINE",0
-"COOP ED 195","Fall 2025",23469,"Susana Rengifo",1,"",,"WWORKSITE",1
-"FLM PRD 115B","Fall 2025",26486,"Gary Dagg",3,"MW","07:20 AM-09:25 AM","WATA228",0
-"VOC ED 103CE","Fall 2025",26700,"Elvis Carias",0,"S","09:00 AM-12:20 PM","WTLC404",1
-"AVIATEK 020","Fall 2025",20520,"Edwin Gamez",2,"MTuWR","04:15 PM-07:30 PM","WATB120",0
-"ESL NC 061CE","Fall 2025",19648,"Natalie Peterkin",0,"MW","06:00 PM-08:35 PM","WONLINELVE",1
-"ALD HTH 052","Fall 2025",28262,"Alex Rodrigues",8.5,"TuWR","08:00 AM-01:25 PM","WMSA111",0
-"BSICSKL 005CE","Fall 2025",27963,"Stefani Aguallo",0,"",,"WONLINE",1
-"HLTHOCC 052","Fall 2025",24489,"WLAC STAFF",4,"WFr","10:10 AM-11:35 AM","WSTEMACAD",0
-"ESL NC 110CE","Fall 2025",28274,"Domenica Matheson",0,"TuR","09:00 AM-12:35 PM","WONLINELVE",1
-"VOC ED 441CE","Fall 2025",27174,"Alejandra Salcedo Rodriguez",0,"S","10:00 AM-12:50 PM","WBLDNGSKLS",1
-"ART 203","Fall 2025",19480,"Joel Kyack",3,"M","05:30 PM-07:35 PM","WFA106",0
-"MARKET 021","Fall 2025",21816,"Charles Bray",3,"MW","05:30 PM-08:40 PM","WONLINELVE",0
+"GEOG 015",,12456,"Dominic Merkle",2,"",,"WONLINE",0
+"ESLCVCS 012CE",,12508,"Lisa Saperston",0,"Fr","09:00 AM-11:35 AM","WONLINE",1
+"ESL NC 023CE",,12559,"Lisa Saperston",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"ESL NC 009CE",,12553,"Natalie Peterkin",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"ESL NC 019CE",,12554,"Gabriel Olivas",0,"MTuW","01:00 PM-02:50 PM","WONLINE",1
+"BUS 031",,12163,"Todd Matosic",3,"",,"WONLINE",0
+"VOC ED 129CE",,12557,"Elvis Carias",0,"S","10:35 AM-12:40 PM","WCE226",1
+"VOC ED 128CE",,12556,"Elvis Carias",0,"S","08:55 AM-10:25 AM","WCE226",1
+"PSYCH 002",,12256,"Amy Baldwin",3,"",,"WONLINE",0
+"BSICSKL 027CE",,12490,"Lily Mozafari",0,"",,"WONLINE",1
+"BIOLOGY 408",,12307,"Patricia Zuk",3,"R","01:00 PM-03:05 PM","WMSA307",0
+"CH DEV 011",,12478,"Marini Smith",3,"Tu","09:00 AM-12:15 PM","WONLINE",0
+"COMM 151",,12538,"Anthony Cuomo",3,"",,"WONLINE",1
+"PSYCH 041",,12359,"Payal Jain",3,"",,"WONLINE",0
+"ENGLISH 239",,12215,"Stella Setka",3,"",,"WONLINE",0
+"HEALTH 011",,12512,"Brian Pfiffner",3,"",,"WONLINE",0
+"ESL NC 062CE",,12507,"Lisa Saperston",0,"MW","09:00 AM-12:20 PM","WONLINE",1
+"GEOG 001",,12387,"Dominic Merkle",3,"",,"WONLINE",0
+"VOC ED 084CE",,12548,"Cortez Johnson",0,"MTuWR","09:00 AM-10:25 AM","WGC130",1
+"VOC ED 063CE",,12547,"Sara Garcia",0,"MTuWR","10:35 AM-12:10 PM","WGC130",1
+"ESL NC 024CE",,12506,"Jenell Rae",0,"TuR","09:00 AM-11:50 AM","WONLINE",1
+"VOC ED 320CE",,12440,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
+"ESL NC 009CE",,12530,"Domenica Matheson",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
+"SPANISH 002",,12733,"Elena Aviles",5,"",,"WONLINE",1
+"ENGLISH 102",,12214,"Stella Setka",3,"TuR","10:00 AM-12:10 PM","WGC250",0
+"GEOLOGY 001",,12389,"Beraki Woldehaimanot",3,"",,"WONLINE",0
+"ANATOMY 001",,12725,"Tara Gandomi",4,"",,"WONLINE",0
+"BSICSKL 023CE",,12468,"Bonnie Perez",0,"Fr","06:00 PM-09:20 PM","WONLINE",1
+"PHYSICS 006",,12727,"Evgeny Zakharov",4,"",,"WONLINE",1
+"KIN 251",,12723,"Carol Mcdowell",1,"",,"WONLINE",0
+"ALD HTH 033",,12513,"Yervant Boghos",3,"",,"WONLINE",0
+"ESL NC 018CE",,12503,"Kim Long Noonan",0,"Fr","09:00 AM-12:35 PM","WONLINE",1
+"PSYC C1000",,12671,"Carrie Canales",3,"",,"WONLINE",0
+"CINEMA 003",,12237,"Jennifer Penton",3,"MTuWR","08:00 AM-10:30 AM","WLAPDARTC",0
+"BUS 001",,10378,"Gustavo Demoner",3,"",,"WONLINE",1
+"BUS 005",,10382,"Gustavo Demoner",3,"",,"WONLINE",1
+"ECON 001",,10113,"Meric Keskinel",3,"",,"WONLINE",0
+"ADM JUS 001",,10116,"George Yan",3,"",,"WONLINE",0
+"CHICANO 002",,11637,"Sandra Ruiz",3,"",,"WONLINE",0
+"CHICANO 002",,11638,"Richard Santillan",3,"MTuWR","11:10 AM-02:00 PM","WLAPDARTC",0
+"BIOLOGY 003",,11639,"Michelle Priest",4,"",,"WONLINE",0
+"CHEM 051",,11641,"Neil Quebbemann",5,"",,"WONLINE",0
+"ECON 002",,10157,"Meric Keskinel",3,"",,"WONLINE",0
+"PHYSIOL 001",,11644,"Sean Gandomi",4,"",,"WONLINE",0
+"PHYSICS 007",,11646,"Kemal Yassin",4,"",,"WONLINE",0
+"PALEGAL 020",,11823,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
+"ALD HTH 033",,10167,"Yervant Boghos",3,"",,"WONLINE",0
+"HEALTH 011",,11650,"Jennifer Henderson",3,"MTuWR","11:10 AM-01:40 PM","WLAPDARTC",0
+"ASTRON 001",,11651,"Kemal Yassin",3,"MTuWR","08:00 AM-10:35 AM","WLAPDARTC",0
+"HISTORY 012",,11657,"J Olivas",3,"",,"WONLINE",0
+"KIN 251",,11659,"Carol Mcdowell",1,"",,"WONLINE",1
+"BIOLOGY 006",,11661,"Kareen Martin",5,"",,"WONLINE",0
+"ESL NC 008CE",,11978,"Paloma Tlaxca",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"ART 102",,10179,"Doug Harvey",3,"",,"WONLINE",0
+"COMM C1000",,10728,"Linda Alexander",3,"",,"WONLINE",1
+"ENGL C1000",,10734,"Jennifer Ortiz",3,"",,"WONLINE",0
+"DEN HY 410",,11225,"Rachel Hipolite",1,"R","09:00 AM-12:20 PM","WMSA006",0
+"BSICSKL 034CE",,11669,"Ricardo Hooper",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"ART 103",,10190,"Michael Arata",3,"",,"WONLINE",0
+"POL SCI 001",,10514,"Christopher Lee",3,"",,"WONLINE",1
+"DEN HY 097",,11238,"Joy Ogami Avila",1,"",,"WMSB119",0
+"DEN HY 097",,11238,"Idalia Velasco",1,"",,"WMSB119",0
+"FLM PRD 100",,11686,"Imhotep Coleman",3,"MTuWR","10:05 AM-12:40 PM","WTLC303",0
+"ESL NC 006CE",,12011,"Maryam Haghighi Fashi",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"ANTHRO 102",,10535,"Aimee Preziosi",3,"",,"WONLINE",1
+"ANTHRO 322",,10536,"Aimee Preziosi",3,"",,"WONLINE",0
+"CH DEV 010",,10537,"Dolores Gallegos",3,"",,"WONLINE",0
+"ENGL C1001",,10542,"Holly Bailey Hofmann",3,"",,"WONLINE",1
+"SPANISH 002",,10763,"Marcela Redoles",5,"",,"WONLINE",1
+"VOC ED 400CE",,10904,"Cynthia Chambers",0,"",,"WONLINE",1
+"VOC ED 403CE",,10905,"Sandra Chie",0,"",,"WONLINE",1
+"ESL NC 015CE",,11837,"Lisa Saperston",0,"TuR","09:00 AM-12:35 PM","WONLINE",1
+"ESL NC 008CE",,11838,"Nubia Sell",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
+"ESL NC 007CE",,11839,"Paloma Tlaxca",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
+"ESL NC 023CE",,11847,"Adrianne Villalvazo",0,"MW","09:00 AM-11:50 AM","WONLINE",1
+"DEN HY 397",,10547,"Natalie Ferrigno",1,"",,"WMSB119",0
+"DEN HY 397",,10547,"Lila Zarrinnam Ehrlich",1,"",,"WMSB119",0
+"SPANISH 001",,10549,"Ana Figueroa",5,"",,"WONLINE",1
+"PSYC C1000",,10551,"Payal Jain",3,"",,"WONLINE",1
+"CS 101",,10770,"Parvaneh Ghaforyfard",3,"",,"WONLINE",1
+"CIS 101",,10771,"Manish Patel",3,"",,"WONLINE",1
+"CIS 101",,10771,"Manish Patel",3,"",,"WONLINE",1
+"ART 101",,10914,"Michael Arata",3,"",,"WONLINE",0
+"AFRO AM 004",,10919,"Christian Green",3,"",,"WONLINE",0
+"KIN ATH 554",,11124,"Daniel Fitzpatrick",1,"MTuWR","03:15 PM-05:45 PM","WFIELD",0
+"KIN ATH 552",,11128,"Anthony Jones",1,"MTuWR","03:10 PM-05:40 PM","WGYM",0
+"PSYCH 014",,10426,"Carrie Canales",3,"",,"WONLINE",0
+"ANATOMY 001",,10930,"Jason Librande",4,"",,"WONLINE",0
+"PHYSICS 006",,10934,"Mesfin Taye",4,"",,"WONLINE",0
+"PHYSIOL 001",,10936,"Bryon Curletto",4,"",,"WONLINE",0
+"KIN ATH 552",,11129,"Roger Hill",1,"MTuWR","02:30 PM-05:00 PM","WBASEBALL",0
+"KIN ATH 552",,11130,"Veintwain Herron",1,"MTuWR","12:45 PM-03:15 PM","WPECN14",0
+"ALD HTH 056",,11131,"Christine Tannious",1,"",,"WONLINE",0
+"ALD HTH 057",,11132,"Christine Tannious",1,"",,"WONLINE",0
+"MICRO 020",,11141,"Laurimar Escudero",4,"",,"WONLINE",0
+"PHILOS 001",,10254,"Rick Mayock",3,"",,"WONLINE",0
+"HEALTH 011",,10258,"Melinda Smith",3,"",,"WONLINE",0
+"ENGL C1000",,10446,"Jennifer Ortiz",3,"",,"WONLINE",1
+"MATH 215",,11733,"Matthew Robertson",3,"TuR","05:30 PM-08:40 PM","WONLINE",0
+"ENGL C1000",,10449,"Jeanene Ames",3,"",,"WONLINE",1
+"ENGL C1000",,10450,"Leslie Tejada",3,"",,"WONLINE",0
+"ENGL C1001",,10465,"Jeanene Ames",3,"",,"WONLINE",1
+"STAT C1000",,10961,"Manushak Movsisyan",4,"MW","09:00 AM-01:25 PM","WONLINE",1
+"FLM PRD 200",,10968,"Jennifer Penton",3,"",,"WONLINE",0
+"VOC ED 407CE",,11899,"Annette Ledezma",0,"",,"WONLINE",1
+"ANTHRO 101",,10594,"Sashur Henninger",3,"",,"WONLINE",1
+"ANTHRO 111",,10977,"Sashur Henninger",1,"",,"WONLINE",1
+"PALEGAL 010",,11169,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
+"BSICSKL 023CE",,11909,"Alfa Lopez",0,"MW","06:00 PM-08:35 PM","WONLINE",1
+"HLTHOCC 060",,11920,"Juan Castillo",3,"Tu","06:00 PM-07:30 PM","WONLINE",0
+"ACCTG 001",,10056,"Charles Daniel",5,"",,"WONLINE",0
+"ACCTG 002",,10063,"Lorenzo Ybarra",5,"",,"WONLINE",0
+"MATH 230",,11193,"Carrie Huang",3,"MW","05:30 PM-08:50 PM","WONLINE",1
+"ALD HTH 021",,11570,"Benoy Pullukalayil",0.5,"",,"WSC106",0
+"ALD HTH 021",,11570,"Nezy Pullukalayil",0.5,"",,"WSC106",0
+"BSICSKL 023CE",,11939,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINE",1
+"DEN AST 010",,12064,"Raquel Medina",3,"M","08:30 AM-12:45 PM","WONLINE",0
+"COMM C1000",,10325,"Linda Alexander",3,"",,"WONLINE",1
+"COMM C1000",,10327,"Anthony Cuomo",3,"",,"WONLINE",1
+"SOC 001",,10333,"Tiffany Lanoix",3,"",,"WONLINE",0
+"SOC 001",,10334,"Tiffany Lanoix",3,"",,"WONLINE",0
+"ENGL C1001",,10466,"Leslie Tejada",3,"",,"WONLINE",0
+"HUMAN 030",,10619,"Anne Winter",3,"",,"WONLINE",0
+"STAT C1000",,11002,"Thomas Harjuno",4,"TuR","05:25 PM-09:50 PM","WONLINE",1
+"POL SCI 001",,10347,"Christopher Lee",3,"",,"WONLINE",1
+"POL SCI 001",,10349,"Michael Graham",3,"",,"WONLINE",1
+"HISTORY 011",,10361,"J Olivas",3,"",,"WONLINE",0
+"BUS 001",,12829,"DeAnna Gossett",3,"",,"WONLINE",0
+"CHICANO 002",,12688,"Sandra Ruiz",3,"",,"WONLINE",0
+"ENGL C1000",,12833,"Holly Bailey Hofmann",3,"",,"WONLINE",1
+"COMM C1000",,12834,"Francis Smith",3,"",,"WONLINE",1
+"VOC ED 122CE",,12441,"Angelica Key",0,"Fr","12:55 PM-02:10 PM","WPHOENIX",1
+"VOC ED 128CE",,12664,"Lisa Glionna",0,"MTuWR","09:00 AM-10:25 AM","WTLC401",1
+"ART 101",,12640,"Doug Harvey",3,"",,"WONLINE",0
+"FLM PRD 300",,12841,"David Cannon",1,"W","01:00 PM-04:20 PM","WTLC401",0
+"ART 103",,12792,"Brian Olson",3,"",,"WONLINE",0
+"CHICANO 002",,12839,"Sandra Ruiz",3,"",,"WONLINE",0
+"CHEM 102",,12628,"Jesus Iniguez",5,"",,"WONLINE",0
+"ESL NC 006CE",,12783,"Krishana Hodgson-DeSilva",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
+"FLM PRD 300",,12617,"Imhotep Coleman",1,"TuR","02:00 PM-03:30 PM","WTLC401",0
+"BUS 032",,12613,"DeAnna Gossett",3,"",,"WONLINE",0
+"NRS-HCA 399B",,12610,"Sherry Kidd",2,"MW","04:00 PM-05:30 PM","WONLINE",0
+"CHEM 066",,12750,"Elisa Atti",5,"",,"WONLINE",0
+"HUMAN 030",,12781,"Anne Winter",3,"",,"WONLINE",0
+"VOC ED 129CE",,12656,"Lisa Glionna",0,"MTuWR","10:35 AM-12:10 PM","WTLC401",1
+"VOC ED 406CE",,12694,"Amanda De La Vega",0,"",,"WMSA111",1
+"ECON 001",,12844,"Kofi Yankey",3,"",,"WONLINE",0
+"AFRO AM 004",,12843,"Christian Green",3,"",,"WONLINE",0
+"ALD HTH 049CO",,12558,"Kevin Huben",4,"FrSSu","08:00 AM-06:30 PM","WUCLA",0
+"VOC ED 407CE",,12561,"Lisa Kamibayashi",0,"",,"WMSA109",1
+"VOC ED 407CE",,12561,"Carla Gendel",0,"",,"WMSA109",1
+"CHICANO 002",,12649,"Laura Gomez",3,"",,"WONLINE",0
+"ALD HTH 043CO",,12757,"Kevin Huben",4,"MTuWRFr","08:00 AM-12:50 PM","WUCLA",0
+"BSICSKL 105CE",,12642,"Kevin Dungey",0,"M","08:25 AM-09:30 AM","WANMOLEAD",1
+"SPANISH 001",,12793,"Yunsook Kim",5,"",,"WONLINE",0
+"PHRMCTK 912",,12594,"Christine Tannious",2.5,"",,"WWORKSITE",0
+"KIN ATH 552",,12570,"Eric Scott",1,"MTuWR","02:00 PM-04:25 PM","WFIELD",0
+"REAL ES 007",,12614,"Arnita Porter",3,"",,"WONLINE",0
+"BSICSKL 065CE",,12690,"Ebony Hallman",0,"Tu","09:35 AM-10:50 AM","WCIBLIBRY",1
+"BSICSKL 066CE",,12692,"Ebony Hallman",0,"R","09:35 AM-10:50 AM","WCIBLIBRY",1
+"VOC ED 402CE",,12698,"Paloma Tlaxca",0,"Fr","09:00 AM-12:05 PM","WONLINE",1
+"VOC ED 405CE",,12700,"Paloma Tlaxca",0,"S","09:00 AM-12:05 PM","WONLINE",1
+"ALD HTH 053",,12822,"Kevin Huben",3.5,"MTuWRFr","08:00 AM-11:30 PM","WUCLA",0
+"COOP ED 195",,12799,"Elizabeth Pajevski",1,"",,"WWORKSITE",0
+"REAL ES 009",,12819,"Chantal Grayson",3,"",,"WONLINE",0
+"BSICSKL 023CE",,12618,"Erol Cilengir",0,"W","05:30 PM-07:00 PM","WONLINE",1
+"NRS-HCA 056",,12609,"Belinda Johnson-Adkins",1,"",,"WMSA009",0
+"BSICSKL 034CE",,12502,"Ricardo Hooper",0,"TuR","09:00 AM-12:20 PM","WONLINE",1
+"ESL NC 061CE",,12555,"Nadia Aguilar",0,"TuWR","06:00 PM-08:35 PM","WONLINE",1
+"BSICSKL 005CE",,10906,"Roberto Perez",0,"",,"WHLRCFLR1",1
+"BSICSKL 005CE",,10906,"Iliana Limas",0,"",,"WHLRCFLR1",1
+"ESL NC 063CE",,11841,"Leila Shabani",0,"S","09:00 AM-12:35 PM","WONLINE",1
+"CH DEV 001",,10085,"Dolores Gallegos",3,"",,"WONLINE",0
+"BSICSKL 079CE",,12602,"Sabrina Ruiz",0,"",,"WONLINE",1
+"BSICSKL 044CE",,12487,"Lisa Glionna",0,"Fr","09:35 AM-11:10 AM","WONLINE",1
+"BSICSKL 104CE",,11937,"Gilbert Richards",0,"MTuWR","09:00 AM-09:50 AM","WCE222",1
+"KIN ATH 554",,11603,"Daniel Fitzpatrick",1,"MTuWRFr","12:45 PM-02:50 PM","WFIELD",0
+"REAL ES 001",,10101,"Chantal Grayson",3,"",,"WONLINE",0
+"COOP ED 195",,12858,"Allison Tom Miura",1,"",,"WWORKSITE",1
+"COOP ED 195",,12863,"Andrea Rodriguez-Blanco",1,"",,"WWORKSITE",0
+"COOP ED 195",,12862,"Raquel Michel-Jackson",1,"",,"WWORKSITE",0
+"COOP ED 195",,12859,"Jenna Nieva",1,"",,"WWORKSITE",0
+"BSICSKL 034CE",,12501,"Ricardo Hooper",0,"MW","09:00 AM-12:20 PM","WONLINE",1
