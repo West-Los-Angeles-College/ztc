@@ -1,71 +1,31 @@
 "COURSE","TERM","SECTION","INSTRUCTOR","UNITS","DAYS","TIME","LOCATION","OER"
-"GEOG 015","Winter 2025",12456,"Dominic Merkle",2,"",,"WONLINE",0
 "ESLCVCS 012CE","Winter 2025",12508,"Lisa Saperston",0,"Fr","09:00 AM-11:35 AM","WONLINE",1
 "ESL NC 023CE","Winter 2025",12559,"Lisa Saperston",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
 "ESL NC 009CE","Winter 2025",12553,"Natalie Peterkin",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
 "ESL NC 019CE","Winter 2025",12554,"Gabriel Olivas",0,"MTuW","01:00 PM-02:50 PM","WONLINE",1
-"BUS 031","Winter 2025",12163,"Todd Matosic",3,"",,"WONLINE",0
 "VOC ED 129CE","Winter 2025",12557,"Elvis Carias",0,"S","10:35 AM-12:40 PM","WCE226",1
 "VOC ED 128CE","Winter 2025",12556,"Elvis Carias",0,"S","08:55 AM-10:25 AM","WCE226",1
-"PSYCH 002","Winter 2025",12256,"Amy Baldwin",3,"",,"WONLINE",0
 "BSICSKL 027CE","Winter 2025",12490,"Lily Mozafari",0,"",,"WONLINE",1
-"BIOLOGY 408","Winter 2025",12307,"Patricia Zuk",3,"R","01:00 PM-03:05 PM","WMSA307",0
-"CH DEV 011","Winter 2025",12478,"Marini Smith",3,"Tu","09:00 AM-12:15 PM","WONLINE",0
 "COMM 151","Winter 2025",12538,"Anthony Cuomo",3,"",,"WONLINE",1
-"PSYCH 041","Winter 2025",12359,"Payal Jain",3,"",,"WONLINE",0
-"ENGLISH 239","Winter 2025",12215,"Stella Setka",3,"",,"WONLINE",0
-"HEALTH 011","Winter 2025",12512,"Brian Pfiffner",3,"",,"WONLINE",0
 "ESL NC 062CE","Winter 2025",12507,"Lisa Saperston",0,"MW","09:00 AM-12:20 PM","WONLINE",1
-"GEOG 001","Winter 2025",12387,"Dominic Merkle",3,"",,"WONLINE",0
 "VOC ED 084CE","Winter 2025",12548,"Cortez Johnson",0,"MTuWR","09:00 AM-10:25 AM","WGC130",1
 "VOC ED 063CE","Winter 2025",12547,"Sara Garcia",0,"MTuWR","10:35 AM-12:10 PM","WGC130",1
 "ESL NC 024CE","Winter 2025",12506,"Jenell Rae",0,"TuR","09:00 AM-11:50 AM","WONLINE",1
 "VOC ED 320CE","Winter 2025",12440,"Emad Guirguis",0,"MTuWR","12:55 PM-02:10 PM","WPHOENIX",1
 "ESL NC 009CE","Winter 2025",12530,"Domenica Matheson",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
 "SPANISH 002","Winter 2025",12733,"Elena Aviles",5,"",,"WONLINE",1
-"ENGLISH 102","Winter 2025",12214,"Stella Setka",3,"TuR","10:00 AM-12:10 PM","WGC250",0
-"GEOLOGY 001","Winter 2025",12389,"Beraki Woldehaimanot",3,"",,"WONLINE",0
-"ANATOMY 001","Winter 2025",12725,"Tara Gandomi",4,"",,"WONLINE",0
 "BSICSKL 023CE","Winter 2025",12468,"Bonnie Perez",0,"Fr","06:00 PM-09:20 PM","WONLINE",1
 "PHYSICS 006","Winter 2025",12727,"Evgeny Zakharov",4,"",,"WONLINE",1
-"KIN 251","Winter 2025",12723,"Carol Mcdowell",1,"",,"WONLINE",0
-"ALD HTH 033","Winter 2025",12513,"Yervant Boghos",3,"",,"WONLINE",0
 "ESL NC 018CE","Winter 2025",12503,"Kim Long Noonan",0,"Fr","09:00 AM-12:35 PM","WONLINE",1
-"PSYC C1000","Winter 2025",12671,"Carrie Canales",3,"",,"WONLINE",0
-"CINEMA 003","Winter 2025",12237,"Jennifer Penton",3,"MTuWR","08:00 AM-10:30 AM","WLAPDARTC",0
 "BUS 001","Winter 2025",10378,"Gustavo Demoner",3,"",,"WONLINE",1
 "BUS 005","Winter 2025",10382,"Gustavo Demoner",3,"",,"WONLINE",1
-"ECON 001","Winter 2025",10113,"Meric Keskinel",3,"",,"WONLINE",0
-"ADM JUS 001","Winter 2025",10116,"George Yan",3,"",,"WONLINE",0
-"CHICANO 002","Winter 2025",11637,"Sandra Ruiz",3,"",,"WONLINE",0
-"CHICANO 002","Winter 2025",11638,"Richard Santillan",3,"MTuWR","11:10 AM-02:00 PM","WLAPDARTC",0
-"BIOLOGY 003","Winter 2025",11639,"Michelle Priest",4,"",,"WONLINE",0
-"CHEM 051","Winter 2025",11641,"Neil Quebbemann",5,"",,"WONLINE",0
-"ECON 002","Winter 2025",10157,"Meric Keskinel",3,"",,"WONLINE",0
-"PHYSIOL 001","Winter 2025",11644,"Sean Gandomi",4,"",,"WONLINE",0
-"PHYSICS 007","Winter 2025",11646,"Kemal Yassin",4,"",,"WONLINE",0
-"PALEGAL 020","Winter 2025",11823,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
-"ALD HTH 033","Winter 2025",10167,"Yervant Boghos",3,"",,"WONLINE",0
-"HEALTH 011","Winter 2025",11650,"Jennifer Henderson",3,"MTuWR","11:10 AM-01:40 PM","WLAPDARTC",0
-"ASTRON 001","Winter 2025",11651,"Kemal Yassin",3,"MTuWR","08:00 AM-10:35 AM","WLAPDARTC",0
-"HISTORY 012","Winter 2025",11657,"J Olivas",3,"",,"WONLINE",0
 "KIN 251","Winter 2025",11659,"Carol Mcdowell",1,"",,"WONLINE",1
-"BIOLOGY 006","Winter 2025",11661,"Kareen Martin",5,"",,"WONLINE",0
 "ESL NC 008CE","Winter 2025",11978,"Paloma Tlaxca",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
-"ART 102","Winter 2025",10179,"Doug Harvey",3,"",,"WONLINE",0
 "COMM C1000","Winter 2025",10728,"Linda Alexander",3,"",,"WONLINE",1
-"ENGL C1000","Winter 2025",10734,"Jennifer Ortiz",3,"",,"WONLINE",0
-"DEN HY 410","Winter 2025",11225,"Rachel Hipolite",1,"R","09:00 AM-12:20 PM","WMSA006",0
 "BSICSKL 034CE","Winter 2025",11669,"Ricardo Hooper",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
-"ART 103","Winter 2025",10190,"Michael Arata",3,"",,"WONLINE",0
 "POL SCI 001","Winter 2025",10514,"Christopher Lee",3,"",,"WONLINE",1
-"DEN HY 097","Winter 2025",11238,"Joy Ogami Avila",1,"",,"WMSB119",0
-"DEN HY 097","Winter 2025",11238,"Idalia Velasco",1,"",,"WMSB119",0
-"FLM PRD 100","Winter 2025",11686,"Imhotep Coleman",3,"MTuWR","10:05 AM-12:40 PM","WTLC303",0
 "ESL NC 006CE","Winter 2025",12011,"Maryam Haghighi Fashi",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
 "ANTHRO 102","Winter 2025",10535,"Aimee Preziosi",3,"",,"WONLINE",1
-"ANTHRO 322","Winter 2025",10536,"Aimee Preziosi",3,"",,"WONLINE",0
-"CH DEV 010","Winter 2025",10537,"Dolores Gallegos",3,"",,"WONLINE",0
 "ENGL C1001","Winter 2025",10542,"Holly Bailey Hofmann",3,"",,"WONLINE",1
 "SPANISH 002","Winter 2025",10763,"Marcela Redoles",5,"",,"WONLINE",1
 "VOC ED 400CE","Winter 2025",10904,"Cynthia Chambers",0,"",,"WONLINE",1
@@ -74,111 +34,48 @@
 "ESL NC 008CE","Winter 2025",11838,"Nubia Sell",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
 "ESL NC 007CE","Winter 2025",11839,"Paloma Tlaxca",0,"MTuWR","09:00 AM-11:50 AM","WONLINE",1
 "ESL NC 023CE","Winter 2025",11847,"Adrianne Villalvazo",0,"MW","09:00 AM-11:50 AM","WONLINE",1
-"DEN HY 397","Winter 2025",10547,"Natalie Ferrigno",1,"",,"WMSB119",0
-"DEN HY 397","Winter 2025",10547,"Lila Zarrinnam Ehrlich",1,"",,"WMSB119",0
 "SPANISH 001","Winter 2025",10549,"Ana Figueroa",5,"",,"WONLINE",1
 "PSYC C1000","Winter 2025",10551,"Payal Jain",3,"",,"WONLINE",1
 "CS 101","Winter 2025",10770,"Parvaneh Ghaforyfard",3,"",,"WONLINE",1
 "CIS 101","Winter 2025",10771,"Manish Patel",3,"",,"WONLINE",1
 "CIS 101","Winter 2025",10771,"Manish Patel",3,"",,"WONLINE",1
-"ART 101","Winter 2025",10914,"Michael Arata",3,"",,"WONLINE",0
-"AFRO AM 004","Winter 2025",10919,"Christian Green",3,"",,"WONLINE",0
-"KIN ATH 554","Winter 2025",11124,"Daniel Fitzpatrick",1,"MTuWR","03:15 PM-05:45 PM","WFIELD",0
-"KIN ATH 552","Winter 2025",11128,"Anthony Jones",1,"MTuWR","03:10 PM-05:40 PM","WGYM",0
-"PSYCH 014","Winter 2025",10426,"Carrie Canales",3,"",,"WONLINE",0
-"ANATOMY 001","Winter 2025",10930,"Jason Librande",4,"",,"WONLINE",0
-"PHYSICS 006","Winter 2025",10934,"Mesfin Taye",4,"",,"WONLINE",0
-"PHYSIOL 001","Winter 2025",10936,"Bryon Curletto",4,"",,"WONLINE",0
-"KIN ATH 552","Winter 2025",11129,"Roger Hill",1,"MTuWR","02:30 PM-05:00 PM","WBASEBALL",0
-"KIN ATH 552","Winter 2025",11130,"Veintwain Herron",1,"MTuWR","12:45 PM-03:15 PM","WPECN14",0
-"ALD HTH 056","Winter 2025",11131,"Christine Tannious",1,"",,"WONLINE",0
-"ALD HTH 057","Winter 2025",11132,"Christine Tannious",1,"",,"WONLINE",0
-"MICRO 020","Winter 2025",11141,"Laurimar Escudero",4,"",,"WONLINE",0
-"PHILOS 001","Winter 2025",10254,"Rick Mayock",3,"",,"WONLINE",0
-"HEALTH 011","Winter 2025",10258,"Melinda Smith",3,"",,"WONLINE",0
 "ENGL C1000","Winter 2025",10446,"Jennifer Ortiz",3,"",,"WONLINE",1
-"MATH 215","Winter 2025",11733,"Matthew Robertson",3,"TuR","05:30 PM-08:40 PM","WONLINE",0
 "ENGL C1000","Winter 2025",10449,"Jeanene Ames",3,"",,"WONLINE",1
-"ENGL C1000","Winter 2025",10450,"Leslie Tejada",3,"",,"WONLINE",0
 "ENGL C1001","Winter 2025",10465,"Jeanene Ames",3,"",,"WONLINE",1
 "STAT C1000","Winter 2025",10961,"Manushak Movsisyan",4,"MW","09:00 AM-01:25 PM","WONLINE",1
-"FLM PRD 200","Winter 2025",10968,"Jennifer Penton",3,"",,"WONLINE",0
 "VOC ED 407CE","Winter 2025",11899,"Annette Ledezma",0,"",,"WONLINE",1
 "ANTHRO 101","Winter 2025",10594,"Sashur Henninger",3,"",,"WONLINE",1
 "ANTHRO 111","Winter 2025",10977,"Sashur Henninger",1,"",,"WONLINE",1
-"PALEGAL 010","Winter 2025",11169,"Nikoo Nikki Jacobson",3,"",,"WONLINE",0
 "BSICSKL 023CE","Winter 2025",11909,"Alfa Lopez",0,"MW","06:00 PM-08:35 PM","WONLINE",1
-"HLTHOCC 060","Winter 2025",11920,"Juan Castillo",3,"Tu","06:00 PM-07:30 PM","WONLINE",0
-"ACCTG 001","Winter 2025",10056,"Charles Daniel",5,"",,"WONLINE",0
-"ACCTG 002","Winter 2025",10063,"Lorenzo Ybarra",5,"",,"WONLINE",0
 "MATH 230","Winter 2025",11193,"Carrie Huang",3,"MW","05:30 PM-08:50 PM","WONLINE",1
-"ALD HTH 021","Winter 2025",11570,"Benoy Pullukalayil",0.5,"",,"WSC106",0
-"ALD HTH 021","Winter 2025",11570,"Nezy Pullukalayil",0.5,"",,"WSC106",0
 "BSICSKL 023CE","Winter 2025",11939,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINE",1
-"DEN AST 010","Winter 2025",12064,"Raquel Medina",3,"M","08:30 AM-12:45 PM","WONLINE",0
 "COMM C1000","Winter 2025",10325,"Linda Alexander",3,"",,"WONLINE",1
 "COMM C1000","Winter 2025",10327,"Anthony Cuomo",3,"",,"WONLINE",1
-"SOC 001","Winter 2025",10333,"Tiffany Lanoix",3,"",,"WONLINE",0
-"SOC 001","Winter 2025",10334,"Tiffany Lanoix",3,"",,"WONLINE",0
-"ENGL C1001","Winter 2025",10466,"Leslie Tejada",3,"",,"WONLINE",0
-"HUMAN 030","Winter 2025",10619,"Anne Winter",3,"",,"WONLINE",0
 "STAT C1000","Winter 2025",11002,"Thomas Harjuno",4,"TuR","05:25 PM-09:50 PM","WONLINE",1
 "POL SCI 001","Winter 2025",10347,"Christopher Lee",3,"",,"WONLINE",1
 "POL SCI 001","Winter 2025",10349,"Michael Graham",3,"",,"WONLINE",1
-"HISTORY 011","Winter 2025",10361,"J Olivas",3,"",,"WONLINE",0
-"BUS 001","Winter 2025",12829,"DeAnna Gossett",3,"",,"WONLINE",0
-"CHICANO 002","Winter 2025",12688,"Sandra Ruiz",3,"",,"WONLINE",0
 "ENGL C1000","Winter 2025",12833,"Holly Bailey Hofmann",3,"",,"WONLINE",1
 "COMM C1000","Winter 2025",12834,"Francis Smith",3,"",,"WONLINE",1
 "VOC ED 122CE","Winter 2025",12441,"Angelica Key",0,"Fr","12:55 PM-02:10 PM","WPHOENIX",1
 "VOC ED 128CE","Winter 2025",12664,"Lisa Glionna",0,"MTuWR","09:00 AM-10:25 AM","WTLC401",1
-"ART 101","Winter 2025",12640,"Doug Harvey",3,"",,"WONLINE",0
-"FLM PRD 300","Winter 2025",12841,"David Cannon",1,"W","01:00 PM-04:20 PM","WTLC401",0
-"ART 103","Winter 2025",12792,"Brian Olson",3,"",,"WONLINE",0
-"CHICANO 002","Winter 2025",12839,"Sandra Ruiz",3,"",,"WONLINE",0
-"CHEM 102","Winter 2025",12628,"Jesus Iniguez",5,"",,"WONLINE",0
 "ESL NC 006CE","Winter 2025",12783,"Krishana Hodgson-DeSilva",0,"MTuWR","06:00 PM-08:35 PM","WONLINE",1
-"FLM PRD 300","Winter 2025",12617,"Imhotep Coleman",1,"TuR","02:00 PM-03:30 PM","WTLC401",0
-"BUS 032","Winter 2025",12613,"DeAnna Gossett",3,"",,"WONLINE",0
-"NRS-HCA 399B","Winter 2025",12610,"Sherry Kidd",2,"MW","04:00 PM-05:30 PM","WONLINE",0
-"CHEM 066","Winter 2025",12750,"Elisa Atti",5,"",,"WONLINE",0
-"HUMAN 030","Winter 2025",12781,"Anne Winter",3,"",,"WONLINE",0
 "VOC ED 129CE","Winter 2025",12656,"Lisa Glionna",0,"MTuWR","10:35 AM-12:10 PM","WTLC401",1
 "VOC ED 406CE","Winter 2025",12694,"Amanda De La Vega",0,"",,"WMSA111",1
-"ECON 001","Winter 2025",12844,"Kofi Yankey",3,"",,"WONLINE",0
-"AFRO AM 004","Winter 2025",12843,"Christian Green",3,"",,"WONLINE",0
-"ALD HTH 049CO","Winter 2025",12558,"Kevin Huben",4,"FrSSu","08:00 AM-06:30 PM","WUCLA",0
 "VOC ED 407CE","Winter 2025",12561,"Lisa Kamibayashi",0,"",,"WMSA109",1
 "VOC ED 407CE","Winter 2025",12561,"Carla Gendel",0,"",,"WMSA109",1
-"CHICANO 002","Winter 2025",12649,"Laura Gomez",3,"",,"WONLINE",0
-"ALD HTH 043CO","Winter 2025",12757,"Kevin Huben",4,"MTuWRFr","08:00 AM-12:50 PM","WUCLA",0
 "BSICSKL 105CE","Winter 2025",12642,"Kevin Dungey",0,"M","08:25 AM-09:30 AM","WANMOLEAD",1
-"SPANISH 001","Winter 2025",12793,"Yunsook Kim",5,"",,"WONLINE",0
-"PHRMCTK 912","Winter 2025",12594,"Christine Tannious",2.5,"",,"WWORKSITE",0
-"KIN ATH 552","Winter 2025",12570,"Eric Scott",1,"MTuWR","02:00 PM-04:25 PM","WFIELD",0
-"REAL ES 007","Winter 2025",12614,"Arnita Porter",3,"",,"WONLINE",0
 "BSICSKL 065CE","Winter 2025",12690,"Ebony Hallman",0,"Tu","09:35 AM-10:50 AM","WCIBLIBRY",1
 "BSICSKL 066CE","Winter 2025",12692,"Ebony Hallman",0,"R","09:35 AM-10:50 AM","WCIBLIBRY",1
 "VOC ED 402CE","Winter 2025",12698,"Paloma Tlaxca",0,"Fr","09:00 AM-12:05 PM","WONLINE",1
 "VOC ED 405CE","Winter 2025",12700,"Paloma Tlaxca",0,"S","09:00 AM-12:05 PM","WONLINE",1
-"ALD HTH 053","Winter 2025",12822,"Kevin Huben",3.5,"MTuWRFr","08:00 AM-11:30 PM","WUCLA",0
-"COOP ED 195","Winter 2025",12799,"Elizabeth Pajevski",1,"",,"WWORKSITE",0
-"REAL ES 009","Winter 2025",12819,"Chantal Grayson",3,"",,"WONLINE",0
 "BSICSKL 023CE","Winter 2025",12618,"Erol Cilengir",0,"W","05:30 PM-07:00 PM","WONLINE",1
-"NRS-HCA 056","Winter 2025",12609,"Belinda Johnson-Adkins",1,"",,"WMSA009",0
 "BSICSKL 034CE","Winter 2025",12502,"Ricardo Hooper",0,"TuR","09:00 AM-12:20 PM","WONLINE",1
 "ESL NC 061CE","Winter 2025",12555,"Nadia Aguilar",0,"TuWR","06:00 PM-08:35 PM","WONLINE",1
 "BSICSKL 005CE","Winter 2025",10906,"Roberto Perez",0,"",,"WHLRCFLR1",1
 "BSICSKL 005CE","Winter 2025",10906,"Iliana Limas",0,"",,"WHLRCFLR1",1
 "ESL NC 063CE","Winter 2025",11841,"Leila Shabani",0,"S","09:00 AM-12:35 PM","WONLINE",1
-"CH DEV 001","Winter 2025",10085,"Dolores Gallegos",3,"",,"WONLINE",0
 "BSICSKL 079CE","Winter 2025",12602,"Sabrina Ruiz",0,"",,"WONLINE",1
 "BSICSKL 044CE","Winter 2025",12487,"Lisa Glionna",0,"Fr","09:35 AM-11:10 AM","WONLINE",1
 "BSICSKL 104CE","Winter 2025",11937,"Gilbert Richards",0,"MTuWR","09:00 AM-09:50 AM","WCE222",1
-"KIN ATH 554","Winter 2025",11603,"Daniel Fitzpatrick",1,"MTuWRFr","12:45 PM-02:50 PM","WFIELD",0
-"REAL ES 001","Winter 2025",10101,"Chantal Grayson",3,"",,"WONLINE",0
 "COOP ED 195","Winter 2025",12858,"Allison Tom Miura",1,"",,"WWORKSITE",1
-"COOP ED 195","Winter 2025",12863,"Andrea Rodriguez-Blanco",1,"",,"WWORKSITE",0
-"COOP ED 195","Winter 2025",12862,"Raquel Michel-Jackson",1,"",,"WWORKSITE",0
-"COOP ED 195","Winter 2025",12859,"Jenna Nieva",1,"",,"WWORKSITE",0
 "BSICSKL 034CE","Winter 2025",12501,"Ricardo Hooper",0,"MW","09:00 AM-12:20 PM","WONLINE",1
