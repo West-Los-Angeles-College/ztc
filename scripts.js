@@ -47,7 +47,7 @@
     const thead = table.tHead || table.createTHead(); thead.innerHTML = '';
     const trh = document.createElement('tr');
     headers.forEach(h=>{ const th=document.createElement('th'); th.textContent=h; trh.appendChild(th); });
-    const thAdd = document.createElement('th'); thAdd.textContent = 'Add'; trh.appendChild(thAdd); thead.appendChild(trh);
+    const thAdd = document.createElement('th'); thAdd.textContent = 'Add to Plan'; trh.appendChild(thAdd); thead.appendChild(trh);
     tbody.innerHTML='';
     for(const row of rows){
       const obj = rowToObject(headers, row);
@@ -56,7 +56,7 @@
       const tdBtn=document.createElement('td');
       const btn=document.createElement('button'); btn.type='button';
       const wasAdded = inCart(obj.Course, obj.Section);
-      btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
+      btn.textContent = wasAdded ? 'Added to Plan' : 'Added to Plan'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
         addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
@@ -78,13 +78,13 @@
     const headCells = $$('#courseTable thead th').map(th=>th.textContent.trim());
     const headers = headCells.length ? headCells : ['Course','Term','Section','Instructor','Units','Days','Time','Location'];
     const theadRow = $('#courseTable thead tr');
-    if (theadRow && (headCells[headCells.length-1] !== 'Add')){ const th = document.createElement('th'); th.textContent='Add'; theadRow.appendChild(th); }
+    if (theadRow && (headCells[headCells.length-1] !== 'Add to Plan')){ const th = document.createElement('th'); th.textContent='Add to Plan'; theadRow.appendChild(th); }
     $$('#courseTable tbody tr').forEach(tr=>{
       const cells = Array.from(tr.querySelectorAll('td')).map(td=>td.textContent.trim());
       const obj = rowToObject(headers, cells);
       const tdBtn = document.createElement('td'); const btn = document.createElement('button'); btn.type='button';
       const wasAdded = inCart(obj.Course, obj.Section);
-      btn.textContent = wasAdded ? 'Added' : 'Add'; btn.disabled = wasAdded;
+      btn.textContent = wasAdded ? 'Added to Plan' : 'Add to Plan'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
         addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
