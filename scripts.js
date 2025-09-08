@@ -84,7 +84,7 @@
       const obj = rowToObject(headers, cells);
       const tdBtn = document.createElement('td'); const btn = document.createElement('button'); btn.type='button';
       const wasAdded = inCart(obj.Course, obj.Section);
-      btn.textContent = wasAdded ? 'Added to Plan' : 'Add to Plan'; btn.disabled = wasAdded;
+      btn.textContent = wasAdded ? 'Added' : 'Add to Plan'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
         addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
         btn.textContent='Added'; btn.disabled=true;
