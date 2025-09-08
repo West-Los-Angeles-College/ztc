@@ -59,7 +59,7 @@
       btn.textContent = wasAdded ? 'Add to Plan' : 'Added'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
         addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
-        btn.textContent='Add to Plan'; btn.disabled=true;
+        btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn); tbody.appendChild(tr);
     }
@@ -87,7 +87,7 @@
       btn.textContent = wasAdded ? 'Add to Plan' : 'Added'; btn.disabled = wasAdded;
       btn.addEventListener('click', ()=>{
         addToCart({ course: obj.Course||'', term: obj.Term||'',section: obj.Section||'', instructor: obj.Instructor||'', units: obj.Units||'', days: obj.Days||'', time: obj.Time||'', location: obj.Location||'' });
-        btn.textContent='Add to Plan'; btn.disabled=true;
+        btn.textContent='Added'; btn.disabled=true;
       });
       tdBtn.appendChild(btn); tr.appendChild(tdBtn);
     });
