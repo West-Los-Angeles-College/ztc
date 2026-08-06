@@ -38,6 +38,8 @@
 "ENGL C1000","Summer 2026",11757,"Jeanene Ames",3,"",,"WONLINE",1
 "ECON 002","Summer 2026",11762,"Meric Keskinel",3,"",,"WONLINE",1
 "BSICSKL 044CE","Summer 2026",12004,"Jessica Lee",0,"MTuWR","11:00 AM-12:25 PM","WLAPDARTC",1
+"BSICSKL 044CE","Summer 2026",12004,"Darien Battle",0,"MTuWR","11:00 AM-12:25 PM","WLAPDARTC",1
+"BSICSKL 044CE","Summer 2026",12004,"Keith McElhannon",0,"MTuWR","11:00 AM-12:25 PM","WLAPDARTC",1
 "BSICSKL 005CE","Summer 2026",12081,"Iliana Limas",0,"",,"WHLRCFLR1",1
 "BSICSKL 005CE","Summer 2026",12081,"Roberto Perez",0,"",,"WHLRCFLR1",1
 "BSICSKL 075CE","Summer 2026",12082,"Iliana Limas",0,"",,"WHLRCFLR1",1
@@ -264,7 +266,7 @@
 "ENGL C1000","Fall 2026",12893,"Syreeta Lyons Burns",3,"",,"WONLINE",1
 "ENGL C1001","Fall 2026",12960,"Holly Bailey Hofmann",3,"MW","12:05 PM-01:30 PM","WGC150",1
 "ENGL C1001","Fall 2026",12961,"Jeanene Ames",3,"",,"WONLINE",1
-"ENGL C1001","Fall 2026",12962,"Holly Bailey Hofmann",3,"",,"WONLINE",1
+"ENGL C1001","Fall 2026",12962,"Jennifer Ortiz",3,"",,"WONLINE",1
 "ENGL C1001","Fall 2026",12963,"Timothy Welch",3,"",,"WONLINE",1
 "ENV SCI 001","Fall 2026",12989,"Dominic Merkle",3,"",,"WONLINE",1
 "BUS 001","Fall 2026",13201,"Sherice Bellamy",3,"",,"WONLINE",1
@@ -432,7 +434,7 @@
 "MATH 260L","Fall 2026",23202,"Jamie Jenson",1,"MW","11:30 AM-12:35 PM","WMSA104",1
 "BSICSKL 075CE","Fall 2026",23288,"Carla Gendel",0,"",,"WMSA005",1
 "COOP ED 195","Fall 2026",23361,"Araceli Alvarez-Nunez",,"",,"WWORKSITE",1
-"ESL NC 006CE","Fall 2026",23591,"Diana Casillas",0,"TuR","06:00 PM-08:50 PM","WONLINELVE",1
+"ESL NC 006CE","Fall 2026",23591,"Mireya Nava",0,"TuR","06:00 PM-08:50 PM","WONLINELVE",1
 "COOP ED 195","Fall 2026",23739,"Carlos Perales",,"",,"WWORKSITE",1
 "COMM C1000","Fall 2026",23781,"Linda Alexander",3,"",,"WONLINE",1
 "COMM C1000","Fall 2026",23826,"Francis Smith",3,"",,"WONLINE",1
@@ -442,8 +444,6 @@
 "MATH 230","Fall 2026",24614,"Beyene Bayssa",3,"MW","05:30 PM-06:55 PM","WONLINELVE",1
 "COMM C1000","Fall 2026",24651,"Zeneida Parente Alves Neta",3,"",,"WPALISADE",1
 "SOC 001","Fall 2026",24652,"Olga Hernandez",3,"",,"WPALISADE",1
-"CH DEV 002","Fall 2026",24798,"Angela Hawkins",3,"",,"WCULVHS",1
-"CH DEV 002","Fall 2026",24798,"Angela Hawkins",3,"TuR","10:55 AM-11:45 AM","WCULVHS",1
 "FINANCE 001","Fall 2026",25420,"Darron Elrington",3,"",,"WONLINE",1
 "MUSIC 101","Fall 2026",25606,"Eric Wang",3,"",,"WONLINE",1
 "COMM C1000","Fall 2026",25613,"Zeneida Parente Alves Neta",3,"MW","08:55 AM-10:20 AM","WGC320",1
@@ -466,8 +466,6 @@
 "ESL NC 024CE","Fall 2026",26052,"Young Cho",0,"TuR","01:00 PM-03:30 PM","WONLINELVE",1
 "ESL NC 110CE","Fall 2026",26053,"WLAC STAFF",0,"MTuWR","09:00 AM-11:50 AM","WTLC301",1
 "COOP ED 095","Fall 2026",26059,"Jenna Nieva",0.5,"",,"WONLINELVE",1
-"BSICSKL 034CE","Fall 2026",26062,"Ricardo Hooper",0,"MW","06:00 PM-09:20 PM","WONLINELVE",1
-"BSICSKL 023CE","Fall 2026",26064,"Ricardo Hooper",0,"MW","06:00 PM-08:50 PM","WONLINELVE",1
 "BSICSKL 075CE","Fall 2026",26113,"Ricardo Hooper",0,"MW","08:30 AM-10:00 AM","WANMOINGL",1
 "BUS 032","Fall 2026",26148,"Terri McCaskill",3,"MW","10:00 AM-11:25 AM","WWISHACAD",1
 "VOC ED 088CE","Fall 2026",26191,"Chase Selby",0,"",,"WONLINE",1
@@ -489,7 +487,7 @@
 "COOP ED 095","Fall 2026",26690,"Damian Lomeli",0.5,"",,"WONLINELVE",1
 "COOP ED 095","Fall 2026",26691,"Kimberly Soria-Guzman",0.5,"",,"WONLINELVE",1
 "COOP ED 095","Fall 2026",26692,"Carlos Perales",0.5,"",,"WWORKSITE",1
-"COOP ED 195","Fall 2026",26693,"Carlos Perales",,"",,"WWORKSITE",1
+"COOP ED 195","Fall 2026",26693,"Raquel Michel-Jackson",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",26726,"Raquel Michel-Jackson",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",26730,"Elizabeth Pajevski",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",26732,"WLAC STAFF",,"",,"WWORKSITE",1
@@ -506,7 +504,7 @@
 "VOC ED 294CE","Fall 2026",27229,"Nancy Alexander",,"MTuWR","11:00 AM-12:05 PM","WTLC403",1
 "BSICSKL 112CE","Fall 2026",27230,"Ricardo Hooper",0,"MW","11:00 AM-12:15 PM","WGC320",1
 "BSICSKL 113CE","Fall 2026",27231,"WLAC STAFF",0,"TuR","11:00 AM-12:15 PM","WGC230",1
-"BSICSKL 077CE","Fall 2026",27244,"Maryanne Galindo",0,"MTuWR","11:00 AM-12:10 PM","WGC130",1
+"BSICSKL 077CE","Fall 2026",27244,"WLAC STAFF",0,"MTuWR","11:00 AM-12:10 PM","WGC160",1
 "BSICSKL 089CE","Fall 2026",27245,"Andrea Rodriguez-Blanco",0,"MTuWR","09:00 AM-10:50 AM","WGC160",1
 "VOC ED 440CE","Fall 2026",27246,"Lisa Glionna",0,"TuR","01:00 PM-02:30 PM","WGC410",1
 "VOC ED 441CE","Fall 2026",27247,"WLAC STAFF",0,"TuR","01:00 PM-02:30 PM","WGC410",1
@@ -515,11 +513,11 @@
 "BSICSKL 116CE","Fall 2026",27284,"Ricardo Hooper",0,"MW","11:00 AM-11:50 AM","WGC470",1
 "BSICSKL 117CE","Fall 2026",27285,"Cortez Johnson",0,"TuR","11:00 AM-11:50 AM","WGC160",1
 "VOC ED 417CE","Fall 2026",27286,"WLAC STAFF",0,"MW","09:00 AM-10:30 AM","WGC420",1
-"VOC ED 419CE","Fall 2026",27287,"WLAC STAFF",0,"TuR","09:00 AM-10:30 AM","WGC410",1
+"VOC ED 419CE","Fall 2026",27287,"WLAC STAFF",0,"TuR","09:00 AM-10:30 AM","WGC230",1
 "ESL NC 009CE","Fall 2026",27288,"Lisa Glionna",0,"MTuWR","11:00 AM-12:20 PM","WGC420",1
 "ESL NC 009CE","Fall 2026",27288,"Lisa Glionna",0,"MTuWR","01:00 PM-02:20 PM","WGC420",1
 "VOC ED 103CE","Fall 2026",27289,"Andrea Rodriguez-Blanco",0,"MTuWR","09:00 AM-10:50 AM","WTLC405",1
-"BSICSKL 102CE","Fall 2026",27290,"WLAC STAFF",0,"MTuWR","01:00 PM-02:35 PM","WGC350",1
+"BSICSKL 102CE","Fall 2026",27290,"Nancy Alexander",0,"MTuWR","01:00 PM-02:35 PM","WGC350",1
 "VOC ED 415CE","Fall 2026",27293,"Lisa Glionna",0,"MW","01:00 PM-02:35 PM","WGC330",1
 "VOC ED 418CE","Fall 2026",27295,"Cortez Johnson",0,"TuR","01:00 PM-02:35 PM","WGC420",1
 "VOC ED 290CE","Fall 2026",27301,"Nancy Alexander",,"TuR","09:00 AM-10:10 AM","WTLC401",1
@@ -534,7 +532,7 @@
 "COOP ED 195","Fall 2026",27347,"Raquel Michel-Jackson",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27358,"Susana Rengifo",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27360,"Susana Rengifo",,"",,"WWORKSITE",1
-"COOP ED 195","Fall 2026",27361,"WLAC STAFF",,"",,"WWORKSITE",1
+"COOP ED 195","Fall 2026",27361,"George Cortez",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27363,"Jaspreet Kaur",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27367,"WLAC STAFF",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27369,"Jaspreet Kaur",,"",,"WWORKSITE",1
@@ -553,5 +551,19 @@
 "VOC ED 084CE","Fall 2026",27539,"WLAC STAFF",0,"M","04:00 PM-06:10 PM","WARCCOALTN",1
 "VOC ED 063CE","Fall 2026",27540,"WLAC STAFF",0,"W","04:00 PM-06:10 PM","WARCCOALTN",1
 "VOC ED 084CE","Fall 2026",27541,"Maryanne Galindo",0,"TuR","06:00 PM-08:50 PM","WONLINELVE",1
+"COOP ED 095","Fall 2026",27594,"WLAC STAFF",0.5,"",,"WONLINELVE",1
 "COOP ED 095","Fall 2026",27595,"WLAC STAFF",0.5,"",,"WONLINELVE",1
-"BSICSKL 065CE","Fall 2026",27637,"WLAC STAFF",0,"",,"WROOMTBA",1
+"COOP ED 095","Fall 2026",27596,"WLAC STAFF",0.5,"",,"WONLINELVE",1
+"COOP ED 295","Fall 2026",27598,"WLAC STAFF",,"",,"WWORKSITE",1
+"COOP ED 295","Fall 2026",27599,"WLAC STAFF",,"",,"WWORKSITE",1
+"BSICSKL 065CE","Fall 2026",27637,"Ricardo Hooper",0,"",,"WROOMTBA",1
+"BSICSKL 117CE","Fall 2026",27646,"Kimberly Soria-Guzman",0,"",,"WROOMTBA",1
+"BSICSKL 117CE","Fall 2026",27647,"Kimberly Soria-Guzman",0,"",,"WROOMTBA",1
+"CH DEV 001","Fall 2026",27664,"Angela Hawkins",3,"",,"WCULVHS",1
+"CH DEV 001","Fall 2026",27664,"Angela Hawkins",3,"TuR","10:55 AM-11:45 AM","WCULVHS",1
+"VOC ED 473CE","Fall 2026",27691,"Sherry Kidd",0,"TuR","06:30 PM-09:50 PM","WROOMTBA",1
+"BSICSKL 116CE","Fall 2026",27704,"Damian Lomeli",0,"W","11:00 AM-01:50 PM","WONLINELVE",1
+"BSICSKL 116CE","Fall 2026",27704,"Damian Lomeli",0,"",,"WONLINE",1
+"BSICSKL 116CE","Fall 2026",27705,"Damian Lomeli",0,"W","11:00 AM-01:50 PM","WONLINELVE",1
+"BSICSKL 116CE","Fall 2026",27705,"Damian Lomeli",0,"",,"WONLINE",1
+"VOC ED 419CE","Fall 2026",27708,"Ricardo Hooper",0,"TuR","08:50 AM-10:20 AM","WGC230",1
