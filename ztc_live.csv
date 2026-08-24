@@ -243,6 +243,7 @@
 "VOC ED 320CE","Summer 2026",15638,"Aaron Benitez",0,"MTuW","01:05 PM-01:55 PM","WCMPKLPTRK",1
 "COOP ED 095","Summer 2026",15652,"Allison Tom Miura",0.5,"",,"WWORKSITE",1
 "COMM C1000","Summer 2026",15654,"Zeneida Parente Alves Neta",3,"",,"WONLINE",1
+"COOP ED 095","Summer 2026",15740,"Jaspreet Kaur",0.5,"",,"WWORKSITE",1
 "ANTHRO 101","Fall 2026",10797,"Aimee Preziosi",3,"",,"WONLINE",1
 "ANTHRO 101","Fall 2026",10799,"Aimee Preziosi",3,"",,"WONLINE",1
 "ANTHRO 101","Fall 2026",10821,"Aimee Preziosi",3,"",,"WONLINE",1
@@ -303,6 +304,7 @@
 "ENGLISH 101Y","Fall 2026",15304,"Timothy Welch",,"",,"WONLINE",1
 "PSYC C1000","Fall 2026",15590,"Victor Lopez",3,"W","06:45 PM-09:55 PM","WONLINELVE",1
 "PSYC C1000","Fall 2026",15591,"Tara Tarian",3,"MW","08:55 AM-10:20 AM","WONLINELVE",1
+"BUS 005","Fall 2026",15636,"Gustavo Demoner",3,"",,"WONLINE",1
 "ECON 010","Fall 2026",15781,"Meric Keskinel",3,"",,"WONLINE",1
 "SOC 002","Fall 2026",15842,"Chanel Green",3,"",,"WONLINE",1
 "ENGL C1000","Fall 2026",15959,"David Diaz",3,"MW","08:55 AM-10:20 AM","WGC250",1
@@ -334,7 +336,7 @@
 "BIOLOGY 003","Fall 2026",16764,"Michelle Priest",,"Tu","01:15 PM-04:25 PM","WMSA309",1
 "BIOLOGY 003","Fall 2026",16765,"Michelle Priest",4,"TuR","08:55 AM-10:20 AM","WMSA309",1
 "BIOLOGY 003","Fall 2026",16766,"Michelle Priest",,"TuR","10:30 AM-11:55 AM","WMSA309",1
-"PSYC C1000","Fall 2026",17194,"WLAC STAFF",3,"TuR","10:30 AM-11:55 AM","WGC330",1
+"PSYC C1000","Fall 2026",17194,"Aurthur Camplone",3,"TuR","10:30 AM-11:55 AM","WGC330",1
 "BIOTECH 001","Fall 2026",17253,"Kareen Martin",3,"",,"WONLINE",1
 "COOP ED 395","Fall 2026",17387,"Jenna Nieva",,"",,"WWORKSITE",1
 "COOP ED 295","Fall 2026",17597,"Carlos Perales",,"",,"WWORKSITE",1
@@ -348,6 +350,7 @@
 "ESL NC 009CE","Fall 2026",18327,"Nadia Aguilar",0,"MTuW","09:00 AM-11:50 AM","WONLINELVE",1
 "ESL NC 063CE","Fall 2026",18328,"Lisa Saperston",0,"S","09:00 AM-12:25 PM","WONLINELVE",1
 "ESL NC 023CE","Fall 2026",18329,"Gabriel Olivas",0,"TuR","01:00 PM-03:30 PM","WONLINELVE",1
+"BUS 038","Fall 2026",18340,"Gustavo Demoner",3,"",,"WONLINE",1
 "CHICANO 002","Fall 2026",18364,"Yadira Ceballos-Tellechea",3,"TuR","08:55 AM-10:20 AM","WGC340",1
 "POLS C1000","Fall 2026",18517,"Christopher Lee",3,"",,"WONLINE",1
 "ENGL C1000","Fall 2026",18525,"Clare Norris-Bell",3,"R","10:30 AM-11:55 AM","WGC240",1
@@ -386,6 +389,7 @@
 "COMM 121","Fall 2026",20160,"Linda Alexander",3,"",,"WONLINE",1
 "SPANISH 010","Fall 2026",20173,"Ana Figueroa",3,"",,"WONLINE",1
 "ANTHRO 104","Fall 2026",20187,"Mary Hardy",3,"",,"WONLINE",1
+"BUS 001","Fall 2026",20219,"Gustavo Demoner",3,"",,"WONLINE",1
 "HUMAN 031","Fall 2026",20291,"Anne Winter",3,"",,"WONLINE",1
 "PSYC C1000","Fall 2026",20303,"Payal Jain",3,"",,"WONLINE",1
 "PSYCH 041","Fall 2026",20304,"Payal Jain",3,"",,"WONLINE",1
@@ -399,7 +403,6 @@
 "ARTH C1200","Fall 2026",21390,"Noushin Lavasani",3,"",,"WONLINE",1
 "MATH 275","Fall 2026",21438,"Patricia Arriola",3,"TuR","05:30 PM-06:55 PM","WONLINELVE",1
 "ENV SCI 024","Fall 2026",21456,"Dominic Merkle",3,"TuR","10:30 AM-11:55 AM","WMSA203",1
-"PSYCH 002","Fall 2026",21661,"Aurthur Camplone",3,"TuR","10:30 AM-11:55 AM","WGC310",1
 "PSYCH 079","Fall 2026",21662,"Marlene Garza",3,"Tu","08:55 AM-10:20 AM","WONLINELVE",1
 "PSYCH 079","Fall 2026",21662,"Marlene Garza",3,"",,"WONLINE",1
 "CIS 194","Fall 2026",21732,"Lianghsiung Wang",3,"",,"WONLINE",1
@@ -408,6 +411,8 @@
 "BSICSKL 023CE","Fall 2026",21796,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINELVE",1
 "BSICSKL 034CE","Fall 2026",21797,"Valeria Diaz Venegas",0,"TuR","06:00 PM-08:35 PM","WONLINELVE",1
 "EARTH 001","Fall 2026",21817,"Jennifer Cole",3,"",,"WONLINE",1
+"ADDICST 084","Fall 2026",22011,"Carrie Canales",4,"M","05:00 PM-06:25 PM","WONLINELVE",1
+"ADDICST 084","Fall 2026",22012,"Carrie Canales",,"",,"WWORKSITE",1
 "BSICSKL 023CE","Fall 2026",22110,"Alfa Lopez",0,"MW","06:00 PM-08:35 PM","WONLINELVE",1
 "ESL NC 006CE","Fall 2026",22123,"Izabela Gavukchyan",0,"TuR","08:30 AM-10:50 AM","WONLINELVE",1
 "ESL NC 024CE","Fall 2026",22125,"Lisa Glionna",0,"Fr","09:00 AM-12:35 PM","WONLINELVE",1
@@ -459,6 +464,7 @@
 "PSYC C1000","Fall 2026",24654,"Payal Jain",3,"",,"WUNIVHIGH",1
 "PSYC C1000","Fall 2026",24729,"Ruth Colato",3,"",,"WONLINE",1
 "FINANCE 001","Fall 2026",25420,"Darron Elrington",3,"",,"WONLINE",1
+"MGMT 031","Fall 2026",25441,"Gustavo Demoner",3,"",,"WONLINE",1
 "MUSIC 101","Fall 2026",25606,"Eric Wang",3,"",,"WONLINE",1
 "COMM C1000","Fall 2026",25613,"Zeneida Parente Alves Neta",3,"MW","08:55 AM-10:20 AM","WGC320",1
 "BIOTECH 003","Fall 2026",25690,"Maisha Rahman",4,"",,"WONLINE",1
