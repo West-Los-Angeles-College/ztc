@@ -501,13 +501,13 @@
 "ENGLISH 410","Fall 2026",26531,"Stella Setka",3,"TuR","10:30 AM-11:55 AM","WTLC403",1
 "ENGLISH 410","Fall 2026",26531,"Stella Setka",3,"",,"WONLINE",1
 "BSICSKL 023CE","Fall 2026",26577,"Valeria Diaz Venegas",0,"S","08:00 AM-09:50 AM","WONLINELVE",1
-"COOP ED 095","Fall 2026",26685,"Jaspreet Kaur",0.5,"",,"WONLINELVE",1
+"COOP ED 095","Fall 2026",26685,"Elizabeth Pajevski",0.5,"WFr","08:30 AM-09:20 AM","WONLINELVE",1
 "COOP ED 095","Fall 2026",26686,"WLAC STAFF",0.5,"",,"WONLINELVE",1
-"COOP ED 095","Fall 2026",26687,"Araceli Alvarez-Nunez",0.5,"",,"WONLINELVE",1
+"COOP ED 095","Fall 2026",26687,"Araceli Alvarez-Nunez",0.5,"MTu","08:30 AM-09:20 AM","WONLINELVE",1
 "COOP ED 095","Fall 2026",26688,"WLAC STAFF",0.5,"",,"WONLINELVE",1
-"COOP ED 095","Fall 2026",26689,"Elizabeth Pajevski",0.5,"",,"WONLINELVE",1
+"COOP ED 095","Fall 2026",26689,"Elizabeth Pajevski",0.5,"MTu","08:30 AM-09:20 AM","WONLINELVE",1
 "COOP ED 095","Fall 2026",26690,"Damian Lomeli",0.5,"",,"WONLINELVE",1
-"COOP ED 095","Fall 2026",26691,"Kimberly Soria-Guzman",0.5,"",,"WONLINELVE",1
+"COOP ED 095","Fall 2026",26691,"Kimberly Soria-Guzman",0.5,"MTu","08:30 AM-09:20 AM","WONLINELVE",1
 "COOP ED 195","Fall 2026",26693,"Raquel Michel-Jackson",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",26726,,,,,,1
 "COOP ED 195","Fall 2026",26730,"Elizabeth Pajevski",,"",,"WWORKSITE",1
@@ -548,7 +548,6 @@
 "ESLCVCS 012CE","Fall 2026",27308,"WLAC STAFF",0,"Fr","09:00 AM-11:20 AM","WONLINELVE",1
 "ESLCVCS 015CE","Fall 2026",27309,"Leila Shabani",0,"S","09:00 AM-12:35 PM","WONLINELVE",1
 "COOP ED 195","Fall 2026",27347,,,,,,1
-"COOP ED 195","Fall 2026",27361,"WLAC STAFF",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27363,"Jaspreet Kaur",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27367,"WLAC STAFF",,"",,"WWORKSITE",1
 "COOP ED 195","Fall 2026",27369,,,,,,1
@@ -567,7 +566,7 @@
 "VOC ED 084CE","Fall 2026",27541,"Maryanne Galindo",0,"TuR","06:00 PM-08:50 PM","WONLINELVE",1
 "COOP ED 095","Fall 2026",27594,"WLAC STAFF",0.5,"",,"WONLINELVE",1
 "COOP ED 095","Fall 2026",27595,"WLAC STAFF",0.5,"",,"WONLINELVE",1
-"COOP ED 095","Fall 2026",27596,"WLAC STAFF",0.5,"",,"WONLINELVE",1
+"COOP ED 095","Fall 2026",27596,"Damian Lomeli",0.5,"WFr","08:30 AM-09:20 AM","WONLINELVE",1
 "COOP ED 295","Fall 2026",27598,"George Cortez",,"",,"WWORKSITE",1
 "COOP ED 295","Fall 2026",27599,"Susana Rengifo",,"",,"WWORKSITE",1
 "BSICSKL 065CE","Fall 2026",27637,"Ricardo Hooper",0,"",,"WONLINE",1
@@ -635,3 +634,10 @@
 "BSICSKL 023CE","Fall 2026",28084,"Joshua Figueroa",0,"MTuWR","09:00 AM-11:50 AM","WPECN11",1
 "VOC ED 222CE","Fall 2026",28090,"Emily Cobar",0,"R","02:30 PM-04:00 PM","WONLINELVE",1
 "VOC ED 222CE","Fall 2026",28091,"Emily Cobar",,"",,"WONLINE",1
+"VOC ED 223CE","Fall 2026",28092,"Emily Cobar",0,"S","09:00 AM-12:50 PM","WBALLONA",1
+"VOC ED 223CE","Fall 2026",28092,"Emily Cobar",0,"S","09:00 AM-12:50 PM","WBALDHILL",1
+"VOC ED 223CE","Fall 2026",28092,"Emily Cobar",0,"S","09:00 AM-12:50 PM","WNHMLA",1
+"VOC ED 223CE","Fall 2026",28092,"Emily Cobar",0,"",,"WONLINE",1
+"DEN AST 007","Fall 2026",28125,"Rocio Garcia",1,"",,"WONLINE",1
+"DEN AST 007","Fall 2026",28126,"Rocio Garcia",,"",,"WMSB119",1
+"MATH 236L","Fall 2026",28218,"Vidya Swaminathan",0.5,"MW","12:30 PM-01:35 PM","WONLINELVE",1
