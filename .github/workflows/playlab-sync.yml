@@ -1,5 +1,31 @@
+name: Push Repo Data to Playlab
+
+on:
+  push:
+    branches:
+      - main  # Automatically triggers whenever changes hit your main branch
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v4  # Downloads your repository files into the script environment
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
     - name: Execute Playlab Sync Script
       env:
-        PLAYLAB_API_KEY: ${{ secrets.PLAYLAB_API_KEY }}
-        PLAYLAB_PROJECT_ID: ${{ secrets.PLAYLAB_PROJECT_ID }}
+        PLAYLAB_API_KEY: ${{ secrets.PLAYLAB_API_KEY }}      # Securely pulls key from repository secrets
+        PLAYLAB_PROJECT_ID: ${{ secrets.PLAYLAB_PROJECT_ID }}  # Securely pulls ID from repository secrets
       run: python sync_to_playlab.py
+
