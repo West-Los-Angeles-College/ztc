@@ -1,0 +1,5 @@
+    - name: Execute Playlab Sync Script
+      env:
+        PLAYLAB_API_KEY: ${{ secrets.PLAYLAB_API_KEY }}
+        PLAYLAB_PROJECT_ID: ${{ secrets.PLAYLAB_PROJECT_ID }}
+      run: python sync_to_playlab.py
